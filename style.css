@@ -1,0 +1,113 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: century;
+  box-sizing: border-box;
+}
+
+header{
+  background-image:url(images/pexels-photo-533975.jpeg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  min-height:100px ;
+}
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 30px;
+  margin-right: 40px;
+  font-size: 17px;
+}
+
+ul li{
+  display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+}
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+  transition: 0.2s ease;
+}
+
+ul li.active a{
+ background-color: #fff;
+  color: #000;
+}
+
+.logo img{
+  float: left;
+  width: 120px;
+  height:auto ;
+  border-radius: 4px;
+}
+
+.main{
+  max-width: 1200px;
+  margin: auto;
+}
+
+.title{
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.title h1{
+  color: #0c0666;
+  font-size: 70px;
+}
+
+.button{
+  position: absolute;
+  top: 56%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn{
+  border: 1px solid #fff;
+  padding: 5px 20px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+.btn:hover{
+  transition: 0.2s ease;
+  background-color: #fff;
+  color: #000;
+}
+.sub-menu{
+  display: none;
+  top: 6%;
+  position: relative;
+  z-index: 200;
+}
+.sub-menu ul{
+  position: absolute;
+}
+.main ul li:hover .sub-menu{
+  display: block;
+  position: absolute;
+  background-color: rgb(0, 45, 117);
+  margin-top: 12px;
+  margin-left: -8px;
+}
+.main ul li:hover .sub-menu ul{
+  display: block;
+  margin: 6px;
+}
+.main ul li:hover .sub-menu ul li{
+  width: 75px;
+  padding: 5px;
+  border-bottom: 1px #fff;
+  background: transparent;
+  transition: 0.4s ease;
+  text-align: left;
+  border-radius: 1px;
+}
