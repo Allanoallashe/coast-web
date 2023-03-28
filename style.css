@@ -4,13 +4,13 @@
   font-family: century;
   box-sizing: border-box;
 }
-
-header{
+body{
   background-image:url(images/pexels-photo-533975.jpeg);
-  height: 100vh;
   background-size: cover;
-  background-position: center;
-  min-height:100px ;
+  background-repeat: no-repeat;
+}
+header{
+  height: 100px;
 }
 ul{
   list-style-type: none;
@@ -22,8 +22,9 @@ ul li{
   display: inline-block;
 }
 ul li a{
+  font-weight: bold;
   text-decoration: none;
-  color: #fff;
+  color: #060152;
   padding: 5px 20px;
   border: 1px solid transparent;
 }
@@ -35,7 +36,7 @@ ul li a:hover{
 
 ul li.active a{
  background-color: #fff;
-  color: #000;
+  color:  #060152;
 }
 
 
@@ -83,24 +84,126 @@ ul li.active a{
   background-color: #fff;
   color: #000;
 }
-.main ul {
-  position: relative;
-}
 .sub-menu{
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 60px;
-  right: 200px;
-  opacity: 0;
-}
-.sub-menu ul{
+  height: 240px;
+  background-color: #060152;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  position: absolute;
+  top: 60px;
+  right: -50px;
+  opacity: 0;
+  width: 200px;
 }
+.sub-menu ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .sub-menu ul li{
-  margin-top: 10px;
+  margin-top: 11px;
+}
+.sub-menu ul li a{
+  color: white;
+}
+.sub-menu ul li a:hover{
+  color: #000;
+  transition: 0.2s ease;
+}
+
+.locations{
+  margin-right: 20px;
+  position: relative;
+}
+
+#drop-down{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#drop-down a{
+  height: 32px;
+  width: 100px;
+  text-decoration: none;
+  color: white;
+  padding: 3px;
+  margin-top: 3px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #0c0666;
+}
+
+#drop-down a:hover{
+  background-color: white;
+  color: black; 
+  transition: 0.2s ease;
+}
+
+#close i{
+  display: none;
+  color: #0c0666;
+  cursor: pointer;
+  font-size: 25px;
+}
+.home{
+  display: none;
+}
+
+
+
+
+
+
+
+/* media query */
+
+@media only screen and (max-width:1089px) {
+      
+      .main .list-one li:first-child{
+        display: none;
+      }
+      .main{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 50px;
+      }
+      #close i:first-child{
+        display: contents;
+      }
+      #close i:last-child{
+        margin-left: -25px;
+      }
+      .main .list-one{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #050052;
+        height: 280px;
+        width: 600px;
+        margin-top: -500px;
+      }
+      .main .list-one li{
+        text-align: center;
+        margin-top: 10px;
+        width: 80%;
+        background-color: #003382;
+      }
+      .main .list-one li a:hover{
+        color: #000;
+        transition: 0.2s ease;
+      }
+      .main .list-one li a{
+        color: #fff;
+      }
+      
+      .home{
+        display: contents;
+      }
 }
 
