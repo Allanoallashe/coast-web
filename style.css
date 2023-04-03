@@ -8,7 +8,7 @@ body{
   background-image:url(images/pexels-photo-533975.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: rgb(250, 124, 34);
+  background-color: #eb9950;
 }
 header{
   height: 100px;
@@ -163,7 +163,7 @@ ul li.active a{
 
 .register{
   position: absolute;
-  top: 65%;
+  top: 66%;
   left: 50%;
   width: 900px;
   transform: translate(-50%,-50%);
@@ -178,7 +178,7 @@ ul li.active a{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 700px;
+  width: 600px;
   padding: 16px;
   border-radius: 5px;
   color: #fff;
