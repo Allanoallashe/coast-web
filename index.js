@@ -7,17 +7,20 @@ const Browse = document.getElementById('browse');
 
 dropDown.addEventListener('click', () => {
   
-  if (subMenu.style.opacity =='1') {
-    subMenu.style.opacity = '0';
+  if (subMenu.style.marginTop =='-500px') {
+    subMenu.style.marginTop = '0';
+    subMenu.style.transition = 'all 0.3s ease';
   }
   else {
-    subMenu.style.opacity = '1';
+    subMenu.style.marginTop = '-500px';
+    subMenu.style.transition = 'all 0.3s ease';
   }
 
 })
 
 Browse.addEventListener('click', () => {
-  subMenu.style.opacity='0';
+  subMenu.style.marginTop = '-500px';
+  subMenu.style.transition = 'all 0.3s ease';
 })
 
 
@@ -31,14 +34,16 @@ menu.addEventListener('click', () => {
 
     close.style.display = 'contents';
     menu.style.display = 'none';
-    list.style.marginTop='0';
+  list.style.marginTop = '0';
+  document.getElementById('list').style.transition = 'all 0.6s ease';
 })
 
 close.addEventListener('click', () => {
 
     close.style.display = 'none';
     menu.style.display='contents';
-    list.style.marginTop='-500px';
+  list.style.marginTop = '-500px';
+  document.getElementById('list').style.transition = 'all 0.6s ease';
 })
 
 
