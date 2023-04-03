@@ -1,13 +1,14 @@
 *{
   margin: 0px;
   padding: 0px;
-  font-family: century;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   box-sizing: border-box;
 }
 body{
   background-image:url(images/pexels-photo-533975.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: rgb(250, 124, 34);
 }
 header{
   height: 100px;
@@ -52,11 +53,12 @@ ul li.active a{
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  z-index: 10000;
 }
 
 .title{
   position: absolute;
-  top: 47%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -67,22 +69,25 @@ ul li.active a{
 
 .button{
   position: absolute;
-  top: 56%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
+  white-space: nowrap;
 }
 
 .btn{
-  border: 1px solid #fff;
+  border: 1px solid #0c0666;
   padding: 5px 20px;
-  color: #fff;
+  color: #0c0666;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 19px;
+  font-weight: bold;
+  margin-right: 5px;
 }
 .btn:hover{
   transition: 0.2s ease;
   background-color: #fff;
-  color: #000;
+  color: #0c0666;
 }
 .sub-menu{
   height: 240px;
@@ -97,6 +102,7 @@ ul li.active a{
   opacity: 0;
   width: 200px;
 }
+
 .sub-menu ul{
   display: flex;
   flex-direction: column;
@@ -124,6 +130,7 @@ ul li.active a{
   display: flex;
   align-items: center;
   justify-content: center;
+  white-space: nowrap;
 }
 #drop-down a{
   height: 32px;
@@ -152,6 +159,40 @@ ul li.active a{
 .home{
   display: none;
 }
+
+
+.register{
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  width: 900px;
+  transform: translate(-50%,-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.reg-container{
+  background-color: #080255;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  padding: 16px;
+  border-radius: 5px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -187,6 +228,7 @@ ul li.active a{
         height: 280px;
         width: 600px;
         margin-top: -500px;
+        z-index: 500;
       }
       .main .list-one li{
         text-align: center;

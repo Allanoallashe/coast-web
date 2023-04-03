@@ -8,10 +8,10 @@ const Browse = document.getElementById('browse');
 dropDown.addEventListener('click', () => {
   
   if (subMenu.style.opacity =='1') {
-        subMenu.style.opacity='0';
+    subMenu.style.opacity = '0';
   }
   else {
-    subMenu.style.opacity='1';
+    subMenu.style.opacity = '1';
   }
 
 })
