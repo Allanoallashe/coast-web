@@ -52,7 +52,35 @@ input{
  .input4 input{
   margin-left: 16px;
   width: 300px;
+  font-weight: bold;
+  font-size: 25px;
  }
+
+ #view{
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  color: #030030;
+ }
+ #slash{
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  color: #030030;
+  display: none;
+ }
+
+.toggle{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 30px;
+  width: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+}
 
  .input5{
   display: flex;
@@ -135,7 +163,7 @@ input{
   cursor: pointer;
   border: solid 1px #fff;
   background-color: #fff;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.15s ease-in-out;
   transform: scale(1.095);
 }
 

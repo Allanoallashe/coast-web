@@ -60,7 +60,7 @@ function myFunction(x) {
 
 // var y = window.matchMedia("(min-width: 1090px)");
 // myFunction2(y)
-// y.addListener(myFunction2) 
+// y.addListener(myFunction2)
 
 // function myFunction2(y) {
 //   if (y.matches) {
@@ -69,5 +69,25 @@ function myFunction(x) {
 //     list.style.marginTop='-500px';
 //   }
 // }
+
+
+
+
+
+const view = document.getElementById('view');
+const slash = document.getElementById('slash');
+const field = document.getElementById('passwordNewuser');
+
+view.addEventListener('click', () => {
+    view.style.display = 'none';
+    slash.style.display='contents';
+    document.getElementById('passwordNewuser').inputType='text';
+})
+slash.addEventListener('click', () => {
+    view.style.display = 'contents';
+    slash.style.display='none';
+    document.getElementById('passwordNewuser').inputType='password';
+})
+
 
 

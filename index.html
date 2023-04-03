@@ -21,7 +21,7 @@
           <li class="active"><a href="#"><i class="fa fa-home"></i> Home</a></li>
         </ul>
       </div>
-      <ul id="list" class="list-one">
+      <ul>
         <li class="active"><a href="#"><i class="fa fa-home"></i> Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Contact</a></li>
@@ -58,6 +58,18 @@
     </div>
   </header>
 
+
+   <ul id="list" class="list-one">
+        <li class="active"><a href="#"><i class="fa fa-home"></i> Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Company</a></li>
+        <li><a href="connect.php">Register</a></li>
+        <li><a href="#">Groups</a></li>
+        <li><a href="#">Services</a></li>
+      </ul>
+
    <div class="title">
       <h1>THE COAST</h1>
     </div>
@@ -69,7 +81,7 @@
 
   <main class="register">
     <div class="reg-container">
-        <h3>Register and explore the Coast</h3>
+        <h3>&#128166; Register and explore the Coast  &#128166;</h3>
         <br>
       <form action="#" method="post">
         <div class="input1">
@@ -92,7 +104,11 @@
 
         <div class="input4">
         <label for="password" id="password">Password:</label>
-        <input title="password" type="password" name="password" minlength="6" inputmode="numeric" maxlength="14" autocomplete="on">
+        <input title="password" type="password" name="passwordNewUser" minlength="6" inputmode="numeric" maxlength="14" size="14" autocomplete="on" required autofocus id="passwordNewUser">
+        <div class="toggle">
+          <i id="slash" class="fa-solid fa-eye-slash"></i>
+          <i id="view" class="fa-solid fa-eye"></i>
+          </div>
         </div>
         <br>
 

@@ -58,7 +58,7 @@ ul li.active a{
 
 .title{
   position: absolute;
-  top: 20%;
+  top: 16%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -69,7 +69,7 @@ ul li.active a{
 
 .button{
   position: absolute;
-  top: 30%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
   white-space: nowrap;
@@ -163,7 +163,7 @@ ul li.active a{
 
 .register{
   position: absolute;
-  top: 66%;
+  top: 64%;
   left: 50%;
   width: 900px;
   transform: translate(-50%,-50%);
@@ -187,6 +187,15 @@ ul li.active a{
 }
 
 
+.list-one{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #060152; */
+  z-index: 100000;
+}
+
 
 
 
@@ -203,46 +212,6 @@ ul li.active a{
 /* media query */
 
 @media only screen and (max-width:1089px) {
-      
-      .main .list-one li:first-child{
-        display: none;
-      }
-      .main{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        margin-left: 50px;
-      }
-      #close i:first-child{
-        display: contents;
-      }
-      #close i:last-child{
-        margin-left: -25px;
-      }
-      .main .list-one{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background-color: #050052;
-        height: 280px;
-        width: 600px;
-        margin-top: -500px;
-        z-index: 500;
-      }
-      .main .list-one li{
-        text-align: center;
-        margin-top: 10px;
-        width: 80%;
-        background-color: #003382;
-      }
-      .main .list-one li a:hover{
-        color: #000;
-        transition: 0.2s ease;
-      }
-      .main .list-one li a{
-        color: #fff;
-      }
       
       .home{
         display: contents;
