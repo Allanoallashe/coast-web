@@ -149,7 +149,6 @@ ul li.active a{
   color: black; 
   transition: 0.2s ease;
 }
-
 #close i{
   display: none;
   color: #0c0666;
@@ -192,28 +191,37 @@ ul li.active a{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* background-color: #060152; */
-  z-index: 100000;
+  background-color: #080255;
+  position: absolute;
+  right: 10px;
+  top: 7%;
+  height: 50vh;
+  width: 210px;
+  z-index: 20000;
 }
-
-
-
-
-
-
-
-
-
-
-
-
+.list-one li{
+  margin: 12px;
+}
+.list-one li a{
+  color: #fff;
+}
 
 
 /* media query */
 
 @media only screen and (max-width:1089px) {
-      
       .home{
+        display: contents;
+      }
+      #nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .list-two{
+        display: none;
+      }
+      .active{
         display: contents;
       }
 }

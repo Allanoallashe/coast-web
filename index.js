@@ -76,18 +76,27 @@ function myFunction(x) {
 
 const view = document.getElementById('view');
 const slash = document.getElementById('slash');
-const field = document.getElementById('passwordNewuser');
+const field = document.getElementById('passwordNewUser');
 
 view.addEventListener('click', () => {
     view.style.display = 'none';
     slash.style.display='contents';
-    document.getElementById('passwordNewuser').inputType='text';
+    document.getElementById('passwordNewUser').type='text';
+    field.style.fontSize='16px';
 })
 slash.addEventListener('click', () => {
     view.style.display = 'contents';
     slash.style.display='none';
-    document.getElementById('passwordNewuser').inputType='password';
+  document.getElementById('passwordNewUser').type = 'password';
+  field.style.fontSize='25px';
 })
 
+
+list.addEventListener('click', () => {
+  list.style.marginTop = '-500px';
+  menu.style.display='contents';
+  close.style.display = 'none';
+  document.getElementById('list').style.transition = 'all 0.6s ease';
+})
 
 
