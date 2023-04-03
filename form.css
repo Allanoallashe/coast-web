@@ -1,0 +1,144 @@
+
+
+.reg-container h3{
+  background-image: linear-gradient(to right,#D7F8FF 0%, #F1F1E6 20%,#FFF7D6 50%,  #72FAC9 75%, #B5D7FF 100% );
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  background-size: 20%;
+  font-size: 25px;
+  border-bottom: dotted 1px #D7F8FF;
+}
+
+input{
+  height: 30px;
+  outline: none;
+  color:#030030;
+  font-weight: bold;
+  font-size: 14px;
+}
+ .input1{
+  display: flex;
+  align-items: center;
+ }
+ .input1 input{
+  margin-left: 6px;
+  width: 300px;
+ }
+
+ .input2{
+  display: flex;
+  align-items: center;
+ }
+ .input2 input{
+  margin-left: 9px;
+  width: 300px;
+ }
+
+ .input3{
+  display: flex;
+  align-items: center;
+ }
+ .input3 input{
+  margin-left: 50px;
+  width: 300px;
+ }
+
+ .input4{
+  display: flex;
+  align-items: center;
+ }
+ .input4 input{
+  margin-left: 16px;
+  width: 300px;
+ }
+
+ .input5{
+  display: flex;
+  align-items: center;
+ }
+ .input5 input{
+  margin-left: 9px;
+  width: 300px;
+ }
+ .input6{
+  display: flex;
+  align-items: center;
+ }
+ .input6 input{
+  margin-left: 35px;
+ }
+ .input6 label{
+  margin-left: 10px;
+ }
+ .input6 label:first-child{
+  margin-left: 0;
+ }
+ .selections{
+  display: flex;
+  align-items: center;
+ }
+ select{
+  width: 300px;
+  margin-left: 24px;
+  outline: none;
+  height: 30px;
+   color: #030030;
+  font-size: 14px;
+  font-weight: bold;
+ }
+
+ #M:hover,
+ #F:hover,
+ #X:hover{
+  cursor: pointer;
+ }
+
+ option{
+  color: #030030;
+  font-size: 14px;
+  font-weight: bold;
+ }
+ #check:hover{
+  cursor: pointer;
+ }
+
+ .input7 input{
+  margin-left: 60px;
+  margin-right: 10px;
+ }
+ 
+ .input7 p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ 
+ .sub-btn-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+ }
+.sub-btn{
+  height: 32px;
+  width: 150px;
+  color: #030030;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: yellow;
+  border: solid 1px yellow;
+  border-radius: 3px;
+}
+.sub-btn:hover{
+  cursor: pointer;
+  border: solid 1px #fff;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.095);
+}
+
+ 
+
+
