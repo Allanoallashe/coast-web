@@ -13,7 +13,6 @@
   <script src="https://kit.fontawesome.com/9acafcca7d.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <div class="content">
   <header>
     <div id="nav" class="main">
       <div class="home">
@@ -82,7 +81,7 @@
     <div class="reg-container">
         <h3>&#128166; Register and explore the Coast  &#128166;</h3>
         <br>
-      <form action="#" method="post">
+      <form action="register.php" method="post">
         <div class="input1">
         <label for="first-name" id="first-name">First Name:</label>
         <input title="first name" type="text" name="first-name" >
@@ -96,8 +95,8 @@
         <br>
 
         <div class="input3">
-        <label for="email" id="email">Email:</label>
-        <input title="email" type="email"  name="lname">
+        <label for="mail" id="email">Email:</label>
+        <input title="email address"  type="email"name="email">
         </div>
         <br>
 
@@ -120,13 +119,13 @@
         <div class="input6">
         <label for="gender" id="gender">Gender:</label>
         
-        <input title="gender" type="radio" name="gender" id="M">
+        <input title="gender" type="radio" name="gender" id="M" value="male">
         <label for="male" id="male">Male</label>
         
-        <input title="gender" type="radio" name="gender" id="F">
+        <input title="gender" type="radio" name="gender" id="F" value="female">
         <label for="female" id="female">Female</label>
         
-        <input title="gender" type="radio" name="gender" id="X">
+        <input title="gender" type="radio" name="gender" id="X" value="other">
         <label for="other" id="other">Other</label>
         </div>
         <br>
@@ -134,10 +133,11 @@
         <div class="selections">
         <label for="locations">Location:</label>
         <select name="locations" id="locations">
-          <option value="choose location">Nairobi</option>
-          <option value="choose location">Kisumu</option>
-          <option value="choose location">Eldoret</option>
-          <option value="choose location">Nakuru</option>
+          <option selected hidden>Choose location</option>
+          <option value="Nairobi">Nairobi</option>
+          <option value="Kisumu">Kisumu</option>
+          <option value="Eldoret">Eldoret</option>
+          <option value="Nakuru">Nakuru</option>
         </select>
         </div>
         <br>
@@ -153,7 +153,6 @@
 
     </div>
   </main>
-</div>
  <script src="index.js" type="text/javascript"></script>
 </body>
 </html>
