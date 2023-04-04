@@ -228,8 +228,32 @@ ul li.active a{
 
 
 
+@media  screen and (max-width:479px){
+  body{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.title h1{
+    font-size: 20px;
+  }
+  .btn{
+  padding: 5px 6px;
+  color: #0c0666;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 4px;
+}
+.reg-container{
+  transform: scale(0.65);
+  width:450px;
+}
+}
 
-@media only screen and (min-width:100px) and (max-width:720px){
+@media only screen and (min-width:480px) and (max-width:720px){
   .title h1{
     font-size: 40px;
   }
