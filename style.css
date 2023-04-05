@@ -100,7 +100,7 @@ ul li.active a{
   top: 60px;
   right: -50px;
   width: 200px;
-  margin-top: -500px;
+  margin-top: -600px;
 }
 
 .sub-menu ul{
@@ -198,6 +198,7 @@ ul li.active a{
   height: 50vh;
   width: 210px;
   z-index: 20000;
+  margin-top: -600px;
 }
 .list-one li{
   margin: 12px;
@@ -225,6 +226,18 @@ ul li.active a{
         display: contents;
       }
 }
+@media only screen and (min-width:1090px) {
+      .sub-menu{
+        margin-top: -600px;
+      }
+      #list{
+        margin-top: -600px;
+        display: none;
+      }
+      #close i{
+       display: none;
+      }
+}
 
 
 
@@ -241,15 +254,14 @@ ul li.active a{
   }
   .btn{
   padding: 5px 6px;
-  color: #0c0666;
-  text-decoration: none;
   font-size: 12px;
-  font-weight: bold;
-  margin-right: 4px;
 }
 .reg-container{
   transform: scale(0.65);
   width:450px;
+}
+.sub-menu{
+  margin-top: -600px;
 }
 }
 

@@ -71,9 +71,9 @@
    <div class="title">
       <h1>THE COAST</h1>
     </div>
-    <div class="button">
-      <a href="#" class="btn">VISIT THE COAST</a>
-      <a href="#" class="btn">BOOK HOTEL</a>
+    <div id='fun' class="button">
+      <a id="fun1" href="#" class="btn">VISIT THE COAST</a>
+      <a id="fun2" href="#" class="btn">BOOK HOTEL</a>
       <a href="#" class="btn">LEARN MORE</a>
     </div>
 
