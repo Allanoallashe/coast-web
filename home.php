@@ -30,15 +30,15 @@
       </ul>
   </header>      
 
-  <div class="merquee">
-    <marquee width="90%" direction="left" height="100%" behavior="scroll" scrollamount="5">The coastal regions i.e. the coast of Kenya are very nice places to visit especially during the holidays. The beaches have very nice aesthetic beauty. register to get started and book your hotels prier---Accomodation is there in plenty&#128150;  &#128519;</marquee>
+  <div class="marquee">
+    <marquee width="98%" direction="left" height="100%" behavior="scroll" scrollamount="5" loop="500">The coastal regions i.e. the coast of Kenya are very nice places to visit especially during the holidays. The beaches have very nice aesthetic beauty. Register to get started and book your hotels prier🥳.Accomodations are there in plenty&#128150;  &#128519; 🥳</marquee>
   </div>
 
     <div class="direct">
         <p>Already have an Account?</p>
         <button>Sign In</button>
         <p>Don't have an Account?</p>
-        <button>Register</button>
+        <a href="connect.php"><button>Register</button></a>
     </div>
 
 </body>

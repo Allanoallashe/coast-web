@@ -127,3 +127,27 @@ header ul li a:hover{
   border: #060152 solid 1px;
   border-radius: 2px;
 }
+.direct button:hover{
+  background-color: #060152;
+  color: #fff;
+  transition: 0.2s all ease-in-out;
+}
+.direct button:hover:active{
+  opacity: 0.4;
+}
+.marquee{
+  background-color: #060152;
+  color: #fff;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10%;
+  height: 40px;
+  border-radius: 4px;
+}
+marquee{
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
