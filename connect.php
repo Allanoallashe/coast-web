@@ -142,8 +142,8 @@
         </div>
         <br>
 
-        <div class="input7" autocomplete="on" required autofocus >
-        <p><input title="Agree" type="checkbox" name="check" id="check"> I agree by all the terms and conditions</p>
+        <div class="input7" >
+        <p><input title="Agree" type="checkbox" name="check" id="check" autocomplete="on" required autofocus> I agree by all the terms and conditions</p>
         </div>
         <br>
         <div class="sub-btn-container">

@@ -100,3 +100,30 @@ header ul li a:hover{
   text-decoration: none;
   transition: all 0.2s ease-in-out;
 }
+
+.direct{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #060152;
+}
+.direct button{
+  height: 40px;
+  background-color: #fff;
+  color: #060152;
+  cursor: pointer;
+  font-size: 16px;
+  width: 120px;
+  font-weight: bold;
+  border: #060152 solid 1px;
+  border-radius: 2px;
+}

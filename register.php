@@ -23,60 +23,11 @@ $conn = mysqli_connect('localhost', 'root', '' );
 
     $results = mysqli_query($conn, $query);
     if($results){
-      header('location:connection.php');
+      header('location:connect.php');
     }
 
 
-
-
-        $fisrtNameErr = $emailErr = $genderErr = $passwordErr = $lastNameErr = $telephoneErr = $locationErr = "";
-        // $name = $email = $gender = $comment = $website = "";
-
-      if ($_SERVER["REQUEST_METHOD"] == "POST") {
-      if (empty($_POST["first-name"])) {
-        $fisrtNameErr = "First name is required!";
-      } else {
-        $firstName = test_input($_POST["first-name"]);
-      }
-
-      if (empty($_POST["last-name"])) {
-        $lastNameErr = "Last name is required!";
-      } else {
-        $lastName = test_input($_POST["last-name"]);
-      }
-
-      if (empty($_POST["email"])) {
-        $emailErr = "Email is required!";
-      } else {
-        $email = test_input($_POST["email"]);
-      }
-
-      if (empty($_POST["passwordNewUser"])) {
-        $passwordErr = "Password is required!";
-      } else {
-        $password = test_input($_POST["passwordNewUser"]);
-      }
-
-      if (empty($_POST["number"])) {
-        $telephoneErr = "telephone is required";
-      } else {
-        $telephone = test_input($_POST["number"]);
-      }
-
-      if (empty($_POST["gender"])) {
-        $genderErr = "";
-      } else {
-        $gender = test_input($_POST["gender"]);
-      }
-
-      if (empty($_POST["locations"])) {
-        $locationErr = "";
-      } else {
-        $location = test_input($_POST["locations"]);
-      }
-
-    }
-
+      
 
 //     // Set Error Handler
 
