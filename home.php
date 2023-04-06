@@ -17,7 +17,7 @@
   <header>
     <div class="active">
       <button class='btn1'>
-        <a href="#"><i class="fa fa-home"></i> Home</a>
+        <a href="home.php"><i class="fa fa-home"></i> Home</a>
       </button>
     </div>
     <ul class="list-two">

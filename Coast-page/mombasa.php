@@ -30,10 +30,10 @@
   <div class="main">
         <p class="title">Images Of The Coast Of Mombasa</p>
     <div class="img-container">
-      <p>Image One</p>
-      <p>Image One</p>
-      <p>Image One</p>
-      <p>Image One</p>
+      <img src="Coast-page/images/the coast/th.jpg" alt="Theme">
+      <img src="Coast-page/images/the coast/t14.jpg" alt="pwani">
+      <img src="Coast-page/images/the coast/OIP.jpg" alt="pwani">
+      <img src="Coast-page/images/the coast/coast9.jpg" alt="pwani">
     </div>
     <div class="img-container">
       <p>Image One</p>
