@@ -28,14 +28,38 @@ body{
   padding: 16px;
   margin-right: 10px;
 }
+.nav ul li:first-child,
+.nav ul li a:first-child{
+  width: 150px;
+}
 .nav ul li{
   list-style: none;
+  width: 130px;
+}
+.nav ul li:hover{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+  height: 40px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border-radius: 2px;
+}
+.nav ul li a:hover{
+  color: #060152;
 }
 .nav ul li a{
+  width: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
   text-decoration: none;
   color: #fff;
   font-size: 20px;
   font-weight: bold;
+  transition: all 0.2s ease-in-out;
 }
 .nav button{
   height: 40px;
