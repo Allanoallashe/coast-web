@@ -14,11 +14,13 @@
 <body>
   
   <header>
-    <div class="active"><button><a href="#"><i class="fa fa-home"></i> Home</a>
+    <div class="active">
+      <button class='btn1'>
+        <a href="#"><i class="fa fa-home"></i> Home</a>
+      </button>
     </div>
     <ul class="list-two">
-        <li><a href="#">About</a>
-        </button></li>
+        <li><a href="#">About</a></li>
         <li><a href="#">Contact</a></li>
         <li><a href="#">Products</a></li>
         <li><a href="#">Company</a></li>
