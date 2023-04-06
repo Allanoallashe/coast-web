@@ -58,10 +58,10 @@ const popTwo = document.getElementById('fun2');
 const pop = document.getElementById('fun');
   
 popOne.addEventListener('click', () => {
-    alert('Register to proceed &#128166;');
+    alert('Register first to proceed');
 })
 popTwo.addEventListener('click', () => {
-    alert('Register to proceed &#128166;');
+    alert('Register first to proceed ');
 })
   
 

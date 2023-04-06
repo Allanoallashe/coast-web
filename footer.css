@@ -12,16 +12,35 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   border-top: #fff dotted 1px;
 }
+.bottom2{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 50px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #eb9950;
+  margin-bottom: -100px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 .social__icon-link{
   color: #fff;
   font-size: 24px;
 }
-.social__icon-link:hover{
+.social__icon-link2{
+  color: #060152;
+  font-size: 24px;
+}
+.social__icon-link:hover,
+.social__icon-link2:hover{
   transform: scale(1.15);
   transition: all 0.15s ease-in-out;
 }
-.social__icons{
+.social__icons,
+.social__icons2{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -32,6 +51,10 @@
   color: #fff;
   font-size: 17px;
 }
+.website__rights2{
+  color: #060152;
+  font-size: 17px;
+}
 .dot {
   height: 11px;
   width: 11px;
@@ -39,4 +62,26 @@
   border-radius: 50%;
   display: inline-block;
 }
-
+.dot2 {
+  height: 11px;
+  width: 11px;
+  background-color: #060152;
+  border-radius: 50%;
+  display: inline-block;
+}
+#footer__logo{
+  color: #fff;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 20px;
+}
+#footer__logo2{
+  color: #060152;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 20px;
+}

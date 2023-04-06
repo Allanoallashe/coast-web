@@ -5,11 +5,12 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 body{
-  background-image:url(/images/coast1.jpg);
+  background-image:url(images/coast1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #eb9950;
-  height: 742px;
+  height: 665px;
+  background-position: 100%;
 }
 
 header{
@@ -84,6 +85,7 @@ header ul li a:hover{
   left: 0;
   width: 0;
   height: 100%;
+  border-radius: 1px;
   background: #060152;
   transition: all 0.2s  ease-in-out;
 }
@@ -91,7 +93,8 @@ header ul li a:hover{
   width: 100%;
 }
 .btn1 a{
-  padding: 0 6px 0 6px;
+  padding-left: 6px;
+  padding-right: 6px;
   font-size: 20px;
   font-weight: bold;
   color: #060152;
@@ -151,3 +154,19 @@ marquee{
   justify-content: center;
   font-size: 18px;
 }
+
+.blink{
+  animation: blink 0.5s linear infinite;
+  animation-iteration-count: 100;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16%;
+  text-transform: capitalize;
+}
+@keyframes blink {
+                  0%  {opacity: 0; transition: all 0.5s ease-in-out;}
+              }

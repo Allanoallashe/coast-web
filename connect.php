@@ -10,6 +10,7 @@
   <link rel="icon" type='xtype/images' href="images/pexels-photo-533851.jpeg">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="form.css">
+  <link rel="stylesheet" href="footer.css">
   <script src="https://kit.fontawesome.com/9acafcca7d.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -17,11 +18,11 @@
     <div id="nav" class="main">
       <div class="home">
         <ul>
-          <li class="active"><a href="coast.web/homePage/home.php"><i class="fa fa-home"></i> Home</a></li>
+          <li class="active"><a href="home.php"><i class="fa fa-home"></i> Home</a></li>
         </ul>
       </div>
       <ul class="list-two">
-        <li class="active"><a href="/home.php"><i class="fa fa-home"></i> Home</a></li>
+        <li class="active"><a href="home.php"><i class="fa fa-home"></i> Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Contact</a></li>
         <li><a href="#">Products</a></li>
@@ -63,7 +64,7 @@
         <li><a href="#">Contact</a></li>
         <li><a href="#">Products</a></li>
         <li><a href="#">Company</a></li>
-        <li ><a href="/connect.php">Register</a></li>
+        <li ><a href="connect.php">Register</a></li>
         <li><a href="#">Groups</a></li>
         <li><a href="#">Services</a></li>
       </ul>
@@ -154,6 +155,33 @@
 
     </div>
   </main>
+
+  <footer class="bottom2">
+      <div class="footer__logo2">
+                <a href="#" id="footer__logo2">
+                  <i class="fas fa-gem">ALLANITY</i></a>
+        </div>
+      <p class="website__rights2">
+              <span class="dot2"></span> @allashe.com 2023. All rights reserved.
+      </p>
+      <div class="social__icons2">
+          <a href="/" class="social__icon-link2" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="/" class="social__icon-link2" target="_blank">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="/" class="social__icon-link2" target="_blank">
+            <i class="fab fa-youtube"></i>
+          </a>
+          <a href="/" class="social__icon-link2" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="/" class="social__icon-link2" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+      </div>
+    </footer>
  <script src="index.js" type="text/javascript"></script>
 </body>
 </html>

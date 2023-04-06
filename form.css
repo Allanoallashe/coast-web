@@ -1,4 +1,7 @@
 
+body{
+  height: 1100px;
+}
 
 .reg-container h3{
   background-image: linear-gradient(to right,#D7F8FF 0%, #F1F1E6 20%,#FFF7D6 50%,  #72FAC9 75%, #B5D7FF 100% );

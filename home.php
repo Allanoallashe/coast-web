@@ -8,8 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>@AllasheCoast.web</title>
   <link rel="icon" type='xtype/images' href="images/pexels-photo-533851.jpeg">
-  <link rel="stylesheet" href="/home.css">
-  <link rel="stylesheet" href="/footer.css">
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="footer.css">
   <script src="https://kit.fontawesome.com/9acafcca7d.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -32,7 +32,7 @@
   </header>      
 
   <div class="marquee">
-    <marquee width="98%" direction="left" height="100%" behavior="scroll" scrollamount="5" loop="500">The coastal regions i.e. the coast of Kenya are very nice places to visit especially during the holidays. The beaches have very nice aesthetic beauty. Register to get started and book your hotels prier🥳.Accomodations are there in plenty&#128150;  &#128519; 🥳</marquee>
+    <marquee width="98%" direction="left" height="100%" behavior="scroll" scrollamount="5" loop="10000">The coastal regions i.e. the coast of Kenya are very nice places to visit especially during the holidays. The beaches have very nice aesthetic beauty. Register to get started and book your hotels prier🥳.Accomodations are there in plenty&#128150;  &#128519; 🥳</marquee>
   </div>
 
     <div class="direct">
@@ -42,8 +42,15 @@
         <a href="connect.php"><button>Register</button></a>
     </div>
 
+    <div class="blink">
+      <p>welcome to the beautiful Coasts 🥳</p>
+    </div>
 
     <footer class="bottom">
+      <div class="footer__logo">
+                <a href="#" id="footer__logo">
+                  <i class="fas fa-gem">ALLANITY</i></a>
+        </div>
       <p class="website__rights">
               <span class="dot"></span> @allashe.com 2023. All rights reserved.
       </p>
@@ -65,5 +72,6 @@
           </a>
       </div>
     </footer>
+    <script src='index.js' type='text/javascript'></script>
 </body>
 </html>
