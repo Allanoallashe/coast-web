@@ -22,16 +22,66 @@
       <button><a href="#">Book Hotel</a></button>
     </div>
   </header>
-  
+
   <div class='marque'>
     <marquee width="98%"  direction="left" height="100%" behavior="scroll" scrollamount="5" loop="100000">The coastal regions i.e. the coast of Kenya are very nice places to visit especially during the holidays. The beaches have very nice aesthetic beauty. Register to get started and book your hotels prier🥳.Accomodations are there in plenty&#128150;  &#128519; 🥳</marquee>
   </div>
 
   <div class="main">
+        <p class="title">Images Of The Coast Of Mombasa</p>
     <div class="img-container">
-      
+      <p>Image One</p>
+      <p>Image One</p>
+      <p>Image One</p>
+      <p>Image One</p>
+    </div>
+    <div class="img-container">
+      <p>Image One</p>
+      <p>Image One</p>
+      <p>Image One</p>
+      <p>Image One</p>
+    </div>
+    <div class="img-container">
+      <p>Image One</p>
+      <p>Image One</p>
+      <p>Image One</p>
+      <p>Image One</p>
+    </div>
+    <div class="img-container">
+      <p>Image One</p>
+      <p>Image One</p>
+      <p>Image One</p>
+      <p>Image One</p>
     </div>
   </div>
+
+
+   <footer class="bottom">
+      <div class="footer__logo">
+                <a href="#" id="footer__logo">
+                  <i class="fas fa-gem">ALLANITY</i></a>
+        </div>
+      <p class="website__rights">
+              <span class="dot"></span> @allashe.com 2023. All rights reserved.
+      </p>
+      <div class="social__icons">
+          <a href="/" class="social__icon-link" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="/" class="social__icon-link" target="_blank">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="/" class="social__icon-link" target="_blank">
+            <i class="fab fa-youtube"></i>
+          </a>
+          <a href="/" class="social__icon-link" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="/" class="social__icon-link" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+      </div>
+    </footer>
 
 </body>
 </html>

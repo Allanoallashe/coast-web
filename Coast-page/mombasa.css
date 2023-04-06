@@ -1,7 +1,8 @@
 
 body{
-  background-color: antiquewhite;
+  background-color: #fff;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: relative;
 }
 
 /* nav bar */
@@ -20,7 +21,7 @@ body{
   top: 0;
   right: 0;
   left: 0;
-  border-bottom: aqua dotted 2px;
+  border-bottom: aqua dotted 1px;
 }
 .nav ul{
   display: flex;
@@ -111,15 +112,98 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #fff;
-  margin-top: 76px;
+  background-color: antiquewhite;
+  margin-top: 74px;
   height: 50px;
   color: #020022;
+  position: fixed;
+  right: 7px;
+  left: 7px;
+  border: #020022 solid 1px;
 }
 marquee{
   display: flex;
   align-items: center;
   justify-content: center;
-  /* font-weight: bold; */
   font-size: 18px;
+}
+.img-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+  margin-top: 40px;
+  padding: 10px;
+}
+.img-container p{
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  height: 310px;
+  width: 310px;
+  background-color: #060152;
+  margin: 15px;
+  color: #fff;
+  margin-right: 20px;
+}
+.title{
+  text-align: center;
+  color: #060152;
+  font-size: 30px;
+  margin-top: 160px;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: -10px;
+}
+
+
+/* footer Css */
+
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 80px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #060152;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-top: aqua dotted 1px;
+}
+.social__icon-link{
+  color: #fff;
+  font-size: 24px;
+}
+.social__icon-link:hover{
+  transform: scale(1.15);
+  transition: all 0.15s ease-in-out;
+}
+.social__icons{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 240px;
+}
+
+.website__rights{
+  color: #fff;
+  font-size: 17px;
+}
+.dot {
+  height: 11px;
+  width: 11px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#footer__logo{
+  color: #fff;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 20px;
 }
