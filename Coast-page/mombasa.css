@@ -3,6 +3,8 @@ body{
   background-color: antiquewhite;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+/* nav bar */
 .head{
   display: flex;
   align-items: center;
@@ -18,7 +20,7 @@ body{
   top: 0;
   right: 0;
   left: 0;
- border-bottom: white dotted 1px;
+  border-bottom: aqua dotted 2px;
 }
 .nav ul{
   display: flex;
@@ -102,4 +104,22 @@ body{
 }
 .nav button:hover:after{
   width: 100%;
+}
+
+/* marquee */
+.marque{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  margin-top: 76px;
+  height: 50px;
+  color: #020022;
+}
+marquee{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* font-weight: bold; */
+  font-size: 18px;
 }

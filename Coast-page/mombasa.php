@@ -22,6 +22,16 @@
       <button><a href="#">Book Hotel</a></button>
     </div>
   </header>
+  
+  <div class='marque'>
+    <marquee width="98%"  direction="left" height="100%" behavior="scroll" scrollamount="5" loop="100000">The coastal regions i.e. the coast of Kenya are very nice places to visit especially during the holidays. The beaches have very nice aesthetic beauty. Register to get started and book your hotels prier🥳.Accomodations are there in plenty&#128150;  &#128519; 🥳</marquee>
+  </div>
+
+  <div class="main">
+    <div class="img-container">
+      
+    </div>
+  </div>
 
 </body>
 </html>
