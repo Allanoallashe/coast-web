@@ -41,5 +41,26 @@
         <a href="connect.php"><button>Register</button></a>
     </div>
 
+
+    <footer class="bottom">
+      <p class="website__rights">
+              <span class="dot"></span> @allashe.com 2023. All rights reserved.</p>
+            <div class="social__icons">
+              <a href="/" class="social__icon-link" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="/" class="social__icon-link" target="_blank">
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a href="/" class="social__icon-link" target="_blank">
+                <i class="fab fa-youtube"></i>
+              </a>
+              <a href="/" class="social__icon-link" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="/" class="social__icon-link" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+    </footer>
 </body>
 </html>
