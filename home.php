@@ -9,6 +9,7 @@
   <title>@AllasheCoast.web</title>
   <link rel="icon" type='xtype/images' href="images/pexels-photo-533851.jpeg">
   <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="footer.css">
   <script src="https://kit.fontawesome.com/9acafcca7d.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -44,23 +45,25 @@
 
     <footer class="bottom">
       <p class="website__rights">
-              <span class="dot"></span> @allashe.com 2023. All rights reserved.</p>
-            <div class="social__icons">
-              <a href="/" class="social__icon-link" target="_blank">
-                <i class="fab fa-instagram"></i>
-              </a>
-              <a href="/" class="social__icon-link" target="_blank">
-                <i class="fab fa-facebook"></i>
-              </a>
-              <a href="/" class="social__icon-link" target="_blank">
-                <i class="fab fa-youtube"></i>
-              </a>
-              <a href="/" class="social__icon-link" target="_blank">
-                <i class="fab fa-twitter"></i>
-              </a>
-              <a href="/" class="social__icon-link" target="_blank">
-                <i class="fab fa-whatsapp"></i>
-              </a>
+              <span class="dot"></span> @allashe.com 2023. All rights reserved.
+      </p>
+      <div class="social__icons">
+          <a href="/" class="social__icon-link" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="/" class="social__icon-link" target="_blank">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="/" class="social__icon-link" target="_blank">
+            <i class="fab fa-youtube"></i>
+          </a>
+          <a href="/" class="social__icon-link" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="/" class="social__icon-link" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+      </div>
     </footer>
 </body>
 </html>
