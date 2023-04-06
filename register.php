@@ -27,29 +27,80 @@ $conn = mysqli_connect('localhost', 'root', '' );
     }
 
 
-    // Set Error Handler
 
-set_error_handler (
-    function($errno, $errstr, $errfile, $errline) {
-        throw new ErrorException($errstr, $errno, 0, $errfile, $errline);     
+
+        $fisrtNameErr = $emailErr = $genderErr = $passwordErr = $lastNameErr = $telephoneErr = $locationErr = "";
+        // $name = $email = $gender = $comment = $website = "";
+
+      if ($_SERVER["REQUEST_METHOD"] == "POST") {
+      if (empty($_POST["first-name"])) {
+        $fisrtNameErr = "First name is required!";
+      } else {
+        $firstName = test_input($_POST["first-name"]);
+      }
+
+      if (empty($_POST["last-name"])) {
+        $lastNameErr = "Last name is required!";
+      } else {
+        $lastName = test_input($_POST["last-name"]);
+      }
+
+      if (empty($_POST["email"])) {
+        $emailErr = "Email is required!";
+      } else {
+        $email = test_input($_POST["email"]);
+      }
+
+      if (empty($_POST["passwordNewUser"])) {
+        $passwordErr = "Password is required!";
+      } else {
+        $password = test_input($_POST["passwordNewUser"]);
+      }
+
+      if (empty($_POST["number"])) {
+        $telephoneErr = "telephone is required";
+      } else {
+        $telephone = test_input($_POST["number"]);
+      }
+
+      if (empty($_POST["gender"])) {
+        $genderErr = "";
+      } else {
+        $gender = test_input($_POST["gender"]);
+      }
+
+      if (empty($_POST["locations"])) {
+        $locationErr = "";
+      } else {
+        $location = test_input($_POST["locations"]);
+      }
+
     }
-);
 
 
-// Trigger an exception in a try block
+//     // Set Error Handler
 
-try {
-    $a = 3/0;
-    echo $a;
-}
-catch(Exception $e) {
-    echo 'Message: the email already exist ' .$e->getMessage();
-}
+// set_error_handler (
+//     function($errno, $errstr, $errfile, $errline) {
+//         throw new ErrorException($errstr, $errno, 0, $errfile, $errline);     
+//     }
+// );
 
-echo '<script type="text/javascript">
 
-            window.onload = function () { alert("Welcome to to the beautiful coast"); }
+// // Trigger an exception in a try block
 
-    </script>';
+// try {
+//     $a = 3/0;
+//     echo $a;
+// }
+// catch(Exception $e) {
+//     echo 'Message: the email already exist ' .$e->getMessage();
+// }
+
+// echo '<script type="text/javascript">
+
+//             window.onload = function () { alert("Welcome to to the beautiful coast"); }
+
+//     </script>';
 
 ?>

@@ -81,7 +81,7 @@
     <div class="reg-container">
         <h3>&#128166; Register and explore the Coast  &#128166;</h3>
         <br>
-      <form action="register.php" method="post">
+      <form action="register.php" method="post"><script>alert('Registration Successful')</script>
         <div class="input1">
         <label for="first-name" id="first-name">First Name:</label>
         <input title="first name" type="text" name="first-name" >
