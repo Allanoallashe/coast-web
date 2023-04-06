@@ -17,11 +17,11 @@
     <div id="nav" class="main">
       <div class="home">
         <ul>
-          <li class="active"><a href="#"><i class="fa fa-home"></i> Home</a></li>
+          <li class="active"><a href="coast.web/homePage/home.php"><i class="fa fa-home"></i> Home</a></li>
         </ul>
       </div>
       <ul class="list-two">
-        <li class="active"><a href="#"><i class="fa fa-home"></i> Home</a></li>
+        <li class="active"><a href="/home.php"><i class="fa fa-home"></i> Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Contact</a></li>
         <li><a href="#">Products</a></li>
@@ -63,7 +63,7 @@
         <li><a href="#">Contact</a></li>
         <li><a href="#">Products</a></li>
         <li><a href="#">Company</a></li>
-        <li ><a href="connect.php">Register</a></li>
+        <li ><a href="/connect.php">Register</a></li>
         <li><a href="#">Groups</a></li>
         <li><a href="#">Services</a></li>
       </ul>
@@ -81,7 +81,8 @@
     <div class="reg-container">
         <h3>&#128166; Register and explore the Coast  &#128166;</h3>
         <br>
-      <form action="register.php" method="post"><script>alert('Welcome to Registration Page! click Ok to Proceed')</script>
+      <form action="register.php" method="post">
+        <!-- <script>alert('Welcome to Registration Page! click Ok to Proceed')</script> -->
         <div class="input1">
         <label for="first-name" id="first-name">First Name:</label>
         <input title="first name" type="text" name="first-name" autocomplete="on" required autofocus  >

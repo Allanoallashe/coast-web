@@ -8,8 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>@AllasheCoast.web</title>
   <link rel="icon" type='xtype/images' href="images/pexels-photo-533851.jpeg">
-  <link rel="stylesheet" href="home.css">
-  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="/home.css">
+  <link rel="stylesheet" href="/footer.css">
   <script src="https://kit.fontawesome.com/9acafcca7d.js" crossorigin="anonymous"></script>
 </head>
 <body>
