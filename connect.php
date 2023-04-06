@@ -81,22 +81,22 @@
     <div class="reg-container">
         <h3>&#128166; Register and explore the Coast  &#128166;</h3>
         <br>
-      <form action="register.php" method="post"><script>alert('Registration Successful')</script>
+      <form action="register.php" method="post"><script>alert('Welcome to Registration Page! click Ok to Proceed')</script>
         <div class="input1">
         <label for="first-name" id="first-name">First Name:</label>
-        <input title="first name" type="text" name="first-name" >
+        <input title="first name" type="text" name="first-name" autocomplete="on" required autofocus  >
         </div>
         <br>
 
         <div class="input2">
         <label for="last-name" id="last-name">Last Name:</label>
-        <input title="last name" type="text" name="last-name">
+        <input title="last name" type="text" name="last-name" autocomplete="on" required autofocus >
         </div>
         <br>
 
         <div class="input3">
         <label for="mail" id="email">Email:</label>
-        <input title="email address"  type="email"name="email">
+        <input title="email address"  type="email"name="email" autocomplete="on" required autofocus >
         </div>
         <br>
 
@@ -112,27 +112,27 @@
 
         <div class="input5">
         <label for="number">Telephone:</label>
-        <input title="phone number" type="text" name="number">
+        <input title="phone number" type="text" name="number" autocomplete="on" required autofocus >
         </div>
         <br>
 
         <div class="input6">
         <label for="gender" id="gender">Gender:</label>
         
-        <input title="gender" type="radio" name="gender" id="M" value="male">
+        <input title="gender" type="radio" name="gender" id="M" value="male" autocomplete="on" required autofocus >
         <label for="male" id="male">Male</label>
         
-        <input title="gender" type="radio" name="gender" id="F" value="female">
+        <input title="gender" type="radio" name="gender" id="F" value="female" autocomplete="on" required autofocus >
         <label for="female" id="female">Female</label>
         
-        <input title="gender" type="radio" name="gender" id="X" value="other">
+        <input title="gender" type="radio" name="gender" id="X" value="other" autocomplete="on" required autofocus >
         <label for="other" id="other">Other</label>
         </div>
         <br>
         
         <div class="selections">
         <label for="locations">Location:</label>
-        <select name="locations" id="locations">
+        <select name="locations" id="locations" autocomplete="on" required autofocus >
           <option selected hidden>Choose location</option>
           <option value="Nairobi">Nairobi</option>
           <option value="Kisumu">Kisumu</option>
@@ -142,7 +142,7 @@
         </div>
         <br>
 
-        <div class="input7">
+        <div class="input7" autocomplete="on" required autofocus >
         <p><input title="Agree" type="checkbox" name="check" id="check"> I agree by all the terms and conditions</p>
         </div>
         <br>
