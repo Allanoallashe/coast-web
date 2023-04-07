@@ -3,6 +3,7 @@ body{
   background-color: #fff;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   position: relative;
+  height: 5000px;
 }
 
 /* nav bar */
@@ -112,7 +113,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: antiquewhite;
+  background-color: rgb(254, 211, 155);
   margin-top: 73px;
   height: 50px;
   color: #020022;
@@ -130,13 +131,22 @@ marquee{
 .img-container{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   height: 350px;
   margin-top: 40px;
   padding: 10px;
 }
+.images{
+  background-color: #060152;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+  width: 350px;
+}
 .img-container img{
   object-fit: cover;
+  object-position: right;
 }
 .img-container p{
   display: flex;

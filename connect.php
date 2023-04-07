@@ -39,7 +39,7 @@
 
         <div id="sub-menu" class="sub-menu">
           <ul id="browse">
-            <li><a href="Coast-page/mombasa.php" target="blank">Mombasa</a></li>
+            <li><a href="Coast-page/mombasa.php" target="">Mombasa</a></li>
             <li><a href="#">Malindi</a></li>
             <li><a href="#">Lamu</a></li>
             <li><a href="#">Kilifi</a></li>

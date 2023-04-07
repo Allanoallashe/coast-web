@@ -30,28 +30,59 @@
   <div class="main">
         <p class="title">Images Of The Coast Of Mombasa</p>
     <div class="img-container">
-      <img src="Coast-page/images/the coast/th.jpg" alt="Theme">
-      <img src="Coast-page/images/the coast/t14.jpg" alt="pwani">
-      <img src="Coast-page/images/the coast/OIP.jpg" alt="pwani">
-      <img src="Coast-page/images/the coast/coast9.jpg" alt="pwani">
+      <div class="images">
+        <img src="./images/The-Coast/coast11.jpg" alt="Theme">
+      </div>
+      <div class="images">
+        <img src="./images/The-Coast/t14.jpg" alt="pwani">
+      </div>
+      <div class="images">
+        <img src="./images/The-Coast/coast9.jpg" alt="pwani">
+      </div>
     </div>
     <div class="img-container">
-      <p>Image One</p>
-      <p>Image One</p>
-      <p>Image One</p>
-      <p>Image One</p>
+      <div class="images">
+        <img src="./images/The-Coast/coast11.jpg" alt="Theme">
+      </div>
+      <div class="images">
+        <img src="./images/The-Coast/t14.jpg" alt="pwani">
+      </div>
+      <div class="images">
+        <img src="./images/The-Coast/coast9.jpg" alt="pwani">
+      </div>
     </div>
     <div class="img-container">
-      <p>Image One</p>
-      <p>Image One</p>
-      <p>Image One</p>
-      <p>Image One</p>
+      <div class="images">
+        <img src="./images/The-Coast/coast11.jpg" alt="Theme">
+      </div>
+      <div class="images">
+        <img src="./images/The-Coast/t14.jpg" alt="pwani">
+      </div>
+      <div class="images">
+        <img src="./images/The-Coast/coast9.jpg" alt="pwani">
+      </div>
     </div>
     <div class="img-container">
-      <p>Image One</p>
-      <p>Image One</p>
-      <p>Image One</p>
-      <p>Image One</p>
+      <div class="images">
+        <img src="./images/The-Coast/coast11.jpg" alt="Theme">
+      </div>
+      <div class="images">
+        <img src="./images/The-Coast/t14.jpg" alt="pwani">
+      </div>
+      <div class="images">
+        <img src="./images/The-Coast/coast9.jpg" alt="pwani">
+      </div>
+    </div>
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/The-Coast/coast11.jpg" alt="Theme">
+      </div>
+      <div class="images">
+        <img src="./images/The-Coast/t14.jpg" alt="pwani">
+      </div>
+      <div class="images">
+        <img src="./images/The-Coast/coast9.jpg" alt="pwani">
+      </div>
     </div>
   </div>
 
