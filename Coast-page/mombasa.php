@@ -27,6 +27,7 @@
     <marquee width="98%"  direction="left" height="100%" behavior="scroll" scrollamount="5" loop="100000">The coastal regions i.e. the coast of Kenya are very nice places to visit especially during the holidays. The beaches have very nice aesthetic beauty. Register to get started and book your hotels prier🥳.Accomodations are there in plenty&#128150;  &#128519; 🥳</marquee>
   </div>
 
+  <!-- coats -->
   <div class="main">
         <p class="title">Images Of The Coast Of Mombasa</p>
     <div class="img-container">
@@ -85,8 +86,67 @@
       </div>
     </div>
   </div>
+  <!-- hotels -->
+  <div class="main">
+        <p class="title">Hotels At Mombasa</p>
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/The-Coast/coast11.jpg" alt="Theme">
+      </div>
+      <div class="images">
+        <img src="./images/The-Coast/t14.jpg" alt="pwani">
+      </div>
+      <div class="images">
+        <img src="./images/The-Coast/coast9.jpg" alt="pwani">
+      </div>
+    </div>
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/The-Coast/coast11.jpg" alt="Theme">
+      </div>
+      <div class="images">
+        <img src="./images/The-Coast/t14.jpg" alt="pwani">
+      </div>
+      <div class="images">
+        <img src="./images/The-Coast/coast9.jpg" alt="pwani">
+      </div>
+    </div>
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/The-Coast/coast11.jpg" alt="Theme">
+      </div>
+      <div class="images">
+        <img src="./images/The-Coast/t14.jpg" alt="pwani">
+      </div>
+      <div class="images">
+        <img src="./images/The-Coast/coast9.jpg" alt="pwani">
+      </div>
+    </div>
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/The-Coast/coast11.jpg" alt="Theme">
+      </div>
+      <div class="images">
+        <img src="./images/The-Coast/t14.jpg" alt="pwani">
+      </div>
+      <div class="images">
+        <img src="./images/The-Coast/coast9.jpg" alt="pwani">
+      </div>
+    </div>
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/The-Coast/coast11.jpg" alt="Theme">
+      </div>
+      <div class="images">
+        <img src="./images/The-Coast/t14.jpg" alt="pwani">
+      </div>
+      <div class="images">
+        <img src="./images/The-Coast/coast9.jpg" alt="pwani">
+      </div>
+    </div>
+  </div>
 
-
+<!-- footer -->
    <footer class="bottom">
       <div class="footer__logo">
                 <a href="#" id="footer__logo">

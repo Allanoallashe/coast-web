@@ -3,7 +3,7 @@ body{
   background-color: #fff;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   position: relative;
-  height: 5000px;
+  height: 4600px;
 }
 
 /* nav bar */
@@ -135,6 +135,7 @@ marquee{
   height: 350px;
   margin-top: 40px;
   padding: 10px;
+  background-color: aqua;
 }
 .images{
   background-color: #060152;
@@ -143,21 +144,6 @@ marquee{
   justify-content: center;
   height: 350px;
   width: 350px;
-}
-.img-container img{
-  object-fit: cover;
-  object-position: right;
-}
-.img-container p{
-  display: flex;
-  align-items: center;
-  justify-content:space-evenly;
-  height: 310px;
-  width: 310px;
-  background-color: #060152;
-  margin: 15px;
-  color: #fff;
-  margin-right: 20px;
 }
 .title{
   text-align: center;
