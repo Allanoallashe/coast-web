@@ -1,6 +1,6 @@
 
 body{
-  background-color: #fff;
+  background-color: #d4d4d4;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   position: relative;
   height: 4600px;
@@ -113,14 +113,14 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: yellow;
+  background-color: rgb(158, 255, 223);
   margin-top: 73px;
-  height: 50px;
-  color: #020022;
+  height: 40px;
+  color: #060053;
   position: fixed;
   right: 5px;
   left: 5px;
-  border: #020022 solid 1px;
+  border-bottom: #020022 solid 1px;
 }
 marquee{
   display: flex;
@@ -128,6 +128,8 @@ marquee{
   justify-content: center;
   font-size: 18px;
 }
+
+/* images */
 .img-container{
   display: flex;
   align-items: center;
@@ -135,7 +137,6 @@ marquee{
   height: 350px;
   margin-top: 40px;
   padding: 10px;
-  background-color: aqua;
 }
 .images{
   background-color: #060152;
@@ -143,7 +144,11 @@ marquee{
   align-items: center;
   justify-content: center;
   height: 350px;
-  width: 350px;
+  width: 400px;
+}
+.images img{
+  height: 350px;
+  width: 400px;
 }
 .title{
   text-align: center;
