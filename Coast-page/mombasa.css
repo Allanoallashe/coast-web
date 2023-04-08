@@ -187,15 +187,25 @@ marquee{
 }
 
 .website__rights{
+  display: flex;
+  align-items: center;
+  height: 30px;
+  justify-content: center;
   color: #fff;
   font-size: 17px;
 }
 .dot {
-  height: 11px;
-  width: 11px;
-  background-color: #fff;
+  height: 18px;
+  width: 18px;
+  margin-right: 4px;
+  border: #fff solid 2px;
   border-radius: 50%;
-  display: inline-block;
+  font-size: 14px;
+  font-weight: bolder;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #footer__logo{
