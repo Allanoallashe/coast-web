@@ -88,60 +88,60 @@
   </div>
   <!-- hotels -->
   <div class="main">
-        <p class="title">Hotels At Mombasa</p>
+        <p class="title1">Hotels At Mombasa</p>
     <div class="img-container">
       <div class="images">
-        <img src="./images/The-Coast/coast11.jpg" alt="Theme">
+        <img src="./images/hotels/h1.jpg" alt="Theme">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/t14.jpg" alt="pwani">
+        <img src="./images/hotels/h10.jpg" alt="pwani">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/coast9.jpg" alt="pwani">
+        <img src="./images/hotels/h11.jpg" alt="pwani">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/The-Coast/coast11.jpg" alt="Theme">
+        <img src="./images/hotels/h12.jpg" alt="Theme">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/t14.jpg" alt="pwani">
+        <img src="./images/hotels/h13.jpg" alt="pwani">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/coast9.jpg" alt="pwani">
-      </div>
-    </div>
-    <div class="img-container">
-      <div class="images">
-        <img src="./images/The-Coast/coast11.jpg" alt="Theme">
-      </div>
-      <div class="images">
-        <img src="./images/The-Coast/t14.jpg" alt="pwani">
-      </div>
-      <div class="images">
-        <img src="./images/The-Coast/coast9.jpg" alt="pwani">
+        <img src="./images/hotels/h14.jpg" alt="pwani">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/The-Coast/coast11.jpg" alt="Theme">
+        <img src="./images/hotels/h15.jpg" alt="Theme">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/t14.jpg" alt="pwani">
+        <img src="./images/hotels/h16.jpg" alt="pwani">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/coast9.jpg" alt="pwani">
+        <img src="./images/hotels/h17.jpg" alt="pwani">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/The-Coast/coast11.jpg" alt="Theme">
+        <img src="./images/hotels/h18.jpg" alt="Theme">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/t14.jpg" alt="pwani">
+        <img src="./images/hotels/h19.jpg" alt="pwani">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/coast9.jpg" alt="pwani">
+        <img src="./images/hotels/h20.jpg" alt="pwani">
+      </div>
+    </div>
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/hotels/h21.jpg" alt="Theme">
+      </div>
+      <div class="images">
+        <img src="./images/hotels/h22.jpg" alt="pwani">
+      </div>
+      <div class="images">
+        <img src="./images/hotels/h23.jpg" alt="pwani">
       </div>
     </div>
   </div>
