@@ -37,7 +37,7 @@
 
     <div class="direct">
         <p>Already have an Account?</p>
-        <button>Sign In</button>
+        <a href="Coast-page/mombasa.php"><button>Sign In</button></a>
         <p>Don't have an Account?</p>
         <a href="connect.php"><button>Register</button></a>
     </div>

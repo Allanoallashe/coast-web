@@ -162,7 +162,7 @@
                   <i class="fas fa-gem">ALLANITY</i></a>
         </div>
       <p class="website__rights2">
-              <span class="dot2"></span> @allashe.com 2023. All rights reserved.
+              <span class="dot2">C</span> @allashe.com 2023. All rights reserved.
       </p>
       <div class="social__icons2">
           <a href="/" class="social__icon-link2" target="_blank">

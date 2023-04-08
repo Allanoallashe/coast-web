@@ -58,8 +58,9 @@
 .dot {
   height: 20px;
   width: 20px;
+  border-radius: #fff solid 2px;
   border-radius: 50%;
-  background-color: transparent;
+  background-color: yellow;
   display: flex;
   align-items: center;
   justify-content: center;
