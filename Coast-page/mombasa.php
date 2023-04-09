@@ -28,7 +28,7 @@
             <li class="item3"><a href="#">Kilifi</a></li>
             <li class="item4"><a href="#">Nyali</a></li>
             <li class="item5"><a href="#">Diani</a></li>
-            <li class="item6"><a href="#">Bamburi</a></li>
+            <li class="item6"><a href="./More-pages/bamburi/bamburi.php">Bamburi</a></li>
           </ul>
       </div>
       </li>
