@@ -15,7 +15,7 @@
   <header class="head">
     <div class="nav">
       <ul>
-        <li class="active"><a href="#"><i class="fas fa-gem"></i> Mombasa</a></li>
+        <li class="active"><a href="#"><i class="fas fa-gem"></i> Bamburi</a></li>
         <li><a href="#">Images</a></li>
         <li><a href="#">Hotels</a></li>
         <li id="list"><a id="drop" href="#"><i class="fa fa-caret-down"></i> More</a>
@@ -28,8 +28,8 @@
             <li class="item2"><a href="#">Lamu</a></li>
             <li class="item3"><a href="#">Kilifi</a></li>
             <li class="item4"><a href="#">Nyali</a></li>
-            <li class="item5"><a href="#">Diani</a></li>
-            <li class="item6"><a href="#">Bamburi</a></li>
+            <li class="item5"><a href="../diani/diani.php">Diani</a></li>
+            <li class="item6"><a href="#">Mombasa</a></li>
           </ul>
       </div>
       </li>
@@ -44,7 +44,7 @@
 
   <!-- coats -->
   <div class="main">
-        <p class="title">The Coast Of Mombasa Images</p>
+        <p class="title">The Coast Of Bamburi Images</p>
     <div class="img-container">
       <div class="images">
         <img id="img" src="./images/The-Coast/th.jpg" alt="Theme">
@@ -103,7 +103,7 @@
   </div>
   <!-- hotels -->
   <div class="main">
-        <p class="title1">Hotels At Mombasa</p>
+        <p class="title1">Hotels At Bamburi</p>
     <div class="img-container">
       <div class="images">
         <img src="./images/hotels/h1.jpg" alt="Theme">

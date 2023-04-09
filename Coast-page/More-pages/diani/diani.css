@@ -1,0 +1,323 @@
+
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: relative;
+  height: 4400px;
+  background-image: linear-gradient(to  bottom, #ffffff 0%, #ffffff 25%, #ffffff 50%, #ffffff 75%, #ffffff 100%);
+}
+
+/* nav bar */
+.head{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #060152;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-bottom: rgb(0, 165, 165) dotted 1px;
+  z-index: 100;
+}
+.nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 700px;
+  padding: 16px;
+  margin-right: 10px;
+}
+.nav ul li:first-child,
+.nav ul li a:first-child{
+  width: 150px;
+}
+.nav ul li{
+  list-style: none;
+  width: 130px;
+}
+.nav ul li:hover{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #caffed;
+  height: 40px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border-radius: 2px;
+}
+.nav ul li a:hover{
+  color: #060152;
+}
+.nav ul li a{
+  width: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+.nav button{
+  height: 40px;
+  width: 120px;
+  cursor: pointer;
+  background-color: #fff;
+  border: none;
+  border-radius: 2px;
+  font-weight: bold;
+  font-size: 18px;
+  white-space: nowrap;
+  margin-right: 10px;
+  position: relative;
+}
+.nav button a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #060152;
+  text-decoration: none;
+  z-index: 100;
+  height: 40px;
+  position: relative;
+}
+.nav button a:hover{
+  z-index: 500;
+  color: #060152;
+  transition: all 0.2s ease-in-out;
+}
+.nav button::after{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #caffed;
+  transition: all 0.2s  ease-in-out;
+  border-radius: 2px;
+}
+.nav button:hover:after{
+  width: 100%;
+}
+
+/* drop-down */
+#more{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 450px;
+  width: 600px;
+  top: -60px;
+  margin-top: -600px;
+  right:-70px;
+  z-index: 500;
+  padding: 10px;
+}
+#browse1{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-color: #060152;
+  height: 380px;
+  border-radius: 3px;
+  width: 600px;
+}
+#list{
+  position: relative;
+}
+#browse1 li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  margin: 5px;
+}
+#browse1 li a{
+  width: 400px;
+}
+#browse1 li:hover{
+  background-color: #fff;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.02);
+}
+.close{
+  width: 580px;
+  height: 30px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+#cross{
+  color: #fff;
+  font-size: 25px;
+  margin-right: 5px;
+}
+
+
+/* marquee */
+.marque{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 63px;
+  height: 40px;
+  color: #020024;
+  position: fixed;
+  right: 0;
+  left: 1px;
+  border-bottom: #b7b0ff dotted 1px;
+  z-index: 50;
+  background-color: #fff;
+}
+marquee{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  overflow: hidden;
+}
+
+/* images */
+.img-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 350px;
+  margin-top: 30px;
+  padding: 10px;
+}
+.images{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+  width: 400px;
+}
+.images img{
+  height: 320px;
+  width: 400px;
+  border: #c8c5eb 1px solid;
+  border-radius: 2px;
+}
+.images img:hover{
+  transform: scale(1.025);
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+.title{
+  text-align: center;
+  color: #060152;
+  font-size: 30px;
+  margin-top: 160px;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: -10px;
+}
+.title1{
+  text-align: center;
+  color: #060152;
+  font-size: 30px;
+  margin-top: 100px;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: -10px;
+}
+
+
+/* footer Css */
+
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 50px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #060152;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-top: aqua dotted 1px;
+}
+.social__icon-link{
+  color: #fff;
+  font-size: 24px;
+}
+.social__icon-link:hover{
+  transform: scale(1.15);
+  transition: all 0.15s ease-in-out;
+}
+.social__icons{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 240px;
+}
+
+.website__rights{
+  display: flex;
+  align-items: center;
+  height: 30px;
+  justify-content: center;
+  color: #fff;
+  font-size: 17px;
+}
+.dot {
+  height: 18px;
+  width: 18px;
+  margin-right: 4px;
+  border: #fff solid 2px;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: bolder;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#footer__logo{
+  color: #fff;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+/* scroll bar */
+::-webkit-scrollbar{
+  width: 16px;
+  border-left: #a7a0ee solid 1px;
+  border-right: #020022 solid 1px;
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to right,#003B7C, #00538B, #83BBE6); 
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #003B7C; 
+    border-radius: 10px;
+    background: rgb(240, 240, 240);
+    border-left: 6px solid rgba(255,255,255,0);
+    border-right: 6px solid rgba(255,255,255,0);
+    background-clip: content-box;
+}
+::-webkit-scrollbar-button{
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+}
