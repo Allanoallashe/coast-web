@@ -110,14 +110,15 @@ body{
 }
 
 /* drop-down */
-.more{
+#more{
   position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 450px;
   width: 600px;
-  top: -600px;
+  top: -60px;
+  margin-top: -600px;
   right:-70px;
   z-index: 500;
   padding: 10px;

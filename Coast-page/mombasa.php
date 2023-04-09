@@ -17,10 +17,12 @@
         <li class="active"><a href="#"><i class="fas fa-gem"></i> Mombasa</a></li>
         <li><a href="#">Images</a></li>
         <li><a href="#">Hotels</a></li>
-        <li id="list"><a href="#"><i class="fa fa-caret-down"></i> More</a>
-         <div class="more">
+        <li id="list"><a id="drop" href="#"><i class="fa fa-caret-down"></i> More</a>
+         <div id="more">
           <ul id="browse1">
-            <div class="close"><i id="cross" class="fa-solid fa-xmark"></i></div>
+            <div class="close">
+              <i id="cross" class="fa-solid fa-xmark"></i>
+            </div>
             <li><a href="#">Malindi</a></li>
             <li><a href="#">Lamu</a></li>
             <li><a href="#">Kilifi</a></li>
@@ -186,6 +188,6 @@
       </div>
     </footer>
 
-    <script src="coast.js" type="text/javascript"></script>
+    <script src="./coast.js" type="text/javascript"></script>
 </body>
 </html>
