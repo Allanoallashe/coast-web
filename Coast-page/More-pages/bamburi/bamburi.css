@@ -296,3 +296,28 @@ marquee{
   text-decoration: none;
   font-size: 20px;
 }
+
+
+/* scroll bar */
+::-webkit-scrollbar{
+  width: 22px;
+  border-left: #a7a0ee solid 1px;
+  border-right: #020022 solid 1px;
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to right,#003B7C, #00538B, #83BBE6); 
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #003B7C; 
+    border-radius: 10px;
+    background: rgb(240, 240, 240);
+    border-left: 6px solid rgba(255,255,255,0);
+    border-right: 6px solid rgba(255,255,255,0);
+    background-clip: content-box;
+}
+::-webkit-scrollbar-button{
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+}
