@@ -3,7 +3,7 @@ body{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   position: relative;
   height: 4400px;
-  background-image: linear-gradient(to right bottom, #ffffff 0%, #f9fbfd 25%, #f2f7fb 50%, #e9f4f7 75%, #e1f1f1 100%);
+  background-image: linear-gradient(to  bottom, #ffffff 0%, #f5faff 25%, #f2f7fb 50%, #eef5f7 75%, #f1f9f9 100%);
 }
 
 /* nav bar */
@@ -45,7 +45,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: aqua;
+  background-color: #caffed;
   height: 40px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
@@ -101,7 +101,7 @@ body{
   left: 0;
   width: 0;
   height: 100%;
-  background: aqua;
+  background: #caffed;
   transition: all 0.2s  ease-in-out;
   border-radius: 2px;
 }
@@ -143,6 +143,9 @@ body{
   width: 400px;
   margin: 5px;
 }
+#browse1 li a{
+  width: 400px;
+}
 #browse1 li:hover{
   background-color: #fff;
   transition: all 0.2s ease-in-out;
@@ -168,7 +171,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(202, 255, 237);
+  background-color: #caffed;
   margin-top: 63px;
   height: 40px;
   color: #020024;

@@ -23,12 +23,12 @@
             <div class="close">
               <i id="cross" class="fa-solid fa-xmark"></i>
             </div>
-            <li><a href="#">Malindi</a></li>
-            <li><a href="#">Lamu</a></li>
-            <li><a href="#">Kilifi</a></li>
-            <li><a href="#">Nyali</a></li>
-            <li><a href="#">Diani</a></li>
-            <li><a href="#">Bamburi</a></li>
+            <li class="item1"><a href="#">Malindi</a></li>
+            <li class="item2"><a href="#">Lamu</a></li>
+            <li class="item3"><a href="#">Kilifi</a></li>
+            <li class="item4"><a href="#">Nyali</a></li>
+            <li class="item5"><a href="#">Diani</a></li>
+            <li class="item6"><a href="#">Bamburi</a></li>
           </ul>
       </div>
       </li>
@@ -46,7 +46,7 @@
         <p class="title">The Coast Of Mombasa Images</p>
     <div class="img-container">
       <div class="images">
-        <img src="./images/The-Coast/th.jpg" alt="Theme">
+        <img id="img" src="./images/The-Coast/th.jpg" alt="Theme">
       </div>
       <div class="images">
         <img src="./images/The-Coast/OIP.jpg" alt="pwani">
