@@ -17,7 +17,7 @@ body{
   align-items: center;
   justify-content: space-evenly;
   background-color: #060152;
-  height: 80px;
+  height: 70px;
   position: fixed;
   top: 0;
   right: 0;
@@ -109,20 +109,73 @@ body{
   width: 100%;
 }
 
+/* drop-down */
+.more{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 450px;
+  width: 600px;
+  top: -600px;
+  right:-70px;
+  z-index: 500;
+  padding: 10px;
+}
+#browse1{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-color: #060152;
+  height: 380px;
+  border-radius: 3px;
+  width: 600px;
+}
+#list{
+  position: relative;
+}
+#browse1 li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  margin: 5px;
+}
+#browse1 li:hover{
+  background-color: #fff;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.02);
+}
+.close{
+  width: 580px;
+  height: 30px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+#cross{
+  color: #fff;
+  font-size: 25px;
+  margin-right: 5px;
+}
+
+
 /* marquee */
 .marque{
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: rgb(202, 255, 237);
-  margin-top: 73px;
+  margin-top: 63px;
   height: 40px;
   color: #020024;
   position: fixed;
-  right: 5px;
-  left: 5px;
+  right: 0;
+  left: 1px;
   border-bottom: #020022 solid 1px;
-  z-index: 100;
+  z-index: 1;
 }
 marquee{
   display: flex;
@@ -151,11 +204,11 @@ marquee{
 .images img{
   height: 320px;
   width: 400px;
-  border: #524d8e 1px solid;
+  border: #9089d7 1px solid;
   border-radius: 2px;
 }
 .images img:hover{
-  transform: scale(1.080);
+  transform: scale(1.025);
   transition: all 0.2s ease-in;
   cursor: pointer;
 }
@@ -185,7 +238,7 @@ marquee{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  height: 60px;
+  height: 50px;
   position: fixed;
   right: 0;
   left: 0;
