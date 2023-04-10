@@ -27,8 +27,8 @@
             <div class="close">
               <i id="cross" class="fa-solid fa-xmark"></i>
             </div>
-            <li class="item1"><a href="#">Malindi</a></li>
-            <li class="item2"><a href="../lamu/lamu.php">Lamu</a></li>
+            <li class="item1"><a href="../malindi/malindi.php">Malindi</a></li>
+            <li class="item2"><a href="../kilifi/kilifi.php">Kilifi</a></li>
             <li class="item3"><a href="../diani/diani.php">Diani</a></li>
             <li class="item4"><a href="#">Nyali</a></li>
             <li class="item5"><a href="#">Mombasa</a></li>
