@@ -17,7 +17,7 @@
     <div class="nav">
       <ul>
         <li class="active"><a href="#"><i class="fa-brands fa-fort-awesome fa-beat"></i> Malindi</a></li>
-        <li><a href="#title">Images</a></li>
+        <li><a href="#">Images</a></li>
         <li><a href="#title1">Restaurants</a></li>
         <li id="list"><a id="drop" href="#"><i class="fa fa-caret-down"></i> More</a>
          <div id="more">
@@ -45,7 +45,7 @@
 
   <!-- coats -->
   <div class="main">
-        <p id='title' class="title">Malindi Images</p>
+        <p class="title">Malindi Images</p>
     <div class="img-container">
       <div class="images">
         <img id="img" src="./images/coast/m1.jpg" alt="Theme">

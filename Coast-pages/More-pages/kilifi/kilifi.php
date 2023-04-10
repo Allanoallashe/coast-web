@@ -46,7 +46,7 @@
 
   <!-- coats -->
   <div class="main">
-        <p id="#title" class="title">Kilifi Images</p>
+        <p class="title">Kilifi Images</p>
     <div class="img-container">
       <div class="images">
         <img id="img" src="./images/coast/k1.jpg" alt="Theme">

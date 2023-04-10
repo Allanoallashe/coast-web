@@ -16,7 +16,7 @@
     <div class="nav">
       <ul>
         <li class="active"><a href="#"><i class="fa-sharp fa-solid fa-industry fa-beat"></i> Bamburi</a></li>
-        <li><a href="#title">Images</a></li>
+        <li><a href="#">Images</a></li>
         <li><a href="#title1">Restaurants</a></li>
         <li id="list"><a id="drop" href="#"><i class="fa fa-caret-down"></i> More</a>
          <div id="more">
@@ -44,7 +44,7 @@
 
   <!-- coats -->
   <div class="main">
-        <p id='title' class="title">Bamburi Images</p>
+        <p class="title">Bamburi Images</p>
     <div class="img-container">
       <div class="images">
         <img id="img" src="./images/coast/b1.jpg" alt="Theme">

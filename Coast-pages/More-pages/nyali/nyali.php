@@ -18,7 +18,7 @@
       <ul>
         <li class="active"><a href="#"><i class="fa-solid fa-otter fa-spin fa-spin-reverse"></i> Nyali</a></li>
         <li><a href="#">Images</a></li>
-        <li><a href="#">Hotels</a></li>
+        <li><a href="#title1">Restaurants</a></li>
         <li id="list"><a id="drop" href="#"><i class="fa fa-caret-down"></i> More</a>
          <div id="more">
           <ul id="browse1">
@@ -45,66 +45,66 @@
 
   <!-- coats -->
   <div class="main">
-        <p class="title">Nyali Images</p>
+        <p  class="title">Nyali Images</p>
     <div class="img-container">
       <div class="images">
-        <img id="img" src="./images/The-Coast/th.jpg" alt="Theme">
+        <img id="img" src="./images/coast/N1.jpg" alt="Theme">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/OIP.jpg" alt="pwani">
+        <img src="./images/coast/N10.jpg" alt="pwani">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/coast9.jpg" alt="pwani">
+        <img src="./images/coast/N11.jpg" alt="pwani">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/The-Coast/coast8.jpg" alt="Theme">
+        <img src="./images/coast/N12.jpg" alt="Theme">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/coast7.jpg" alt="pwani">
+        <img src="./images/coast/N13.jpg" alt="pwani">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/coast6.jpg" alt="pwani">
-      </div>
-    </div>
-    <div class="img-container">
-      <div class="images">
-        <img src="./images/The-Coast/coast5.jpg" alt="Theme">
-      </div>
-      <div class="images">
-        <img src="./images/The-Coast/coast4.jpg" alt="pwani">
-      </div>
-      <div class="images">
-        <img src="./images/The-Coast/coast3.jpg" alt="pwani">
+        <img src="./images/coast/N14.jpg" alt="pwani">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/The-Coast/coast10.jpg" alt="Theme">
+        <img src="./images/coast/N15.jpg" alt="Theme">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/coast11.jpg" alt="pwani">
+        <img src="./images/coast/N16.jpg" alt="pwani">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/coast12.jpg" alt="pwani">
+        <img src="./images/coast/N17.jpg" alt="pwani">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/The-Coast/coast13.jpg" alt="Theme">
+        <img src="./images/coast/N18.jpg" alt="Theme">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/coast16.jpg" alt="pwani">
+        <img src="./images/coast/N19.jpg" alt="pwani">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/coast19.jpg" alt="pwani">
+        <img src="./images/coast/N3.jpg" alt="pwani">
+      </div>
+    </div>
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/coast/N5.jpg" alt="Theme">
+      </div>
+      <div class="images">
+        <img src="./images/coast/N7.jpg" alt="pwani">
+      </div>
+      <div class="images">
+        <img src="./images/coast/N9.jpg" alt="pwani">
       </div>
     </div>
   </div>
   <!-- hotels -->
   <div class="main">
-        <p class="title1">Nyali Hotels</p>
+        <p id="title1" class="title1">Nyali Restaurants</p>
     <div class="img-container">
       <div class="images">
         <img src="./images/hotels/h1.jpg" alt="Theme">
@@ -151,13 +151,13 @@
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/hotels/h21.jpg" alt="Theme">
+        <img src="./images/hotels/h5.jpg" alt="Theme">
       </div>
       <div class="images">
-        <img src="./images/hotels/h22.jpg" alt="pwani">
+        <img src="./images/hotels/h7.jpg" alt="pwani">
       </div>
       <div class="images">
-        <img src="./images/hotels/h23.jpg" alt="pwani">
+        <img src="./images/hotels/h9.jpg" alt="pwani">
       </div>
     </div>
   </div>
