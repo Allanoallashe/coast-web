@@ -39,13 +39,13 @@
 
         <div id="sub-menu" class="sub-menu">
           <ul id="browse">
-            <li><a href="Coast-page/mombasa.php" target="">Mombasa</a></li>
-            <li><a href="#">Malindi</a></li>
-            <li><a href="#">Lamu</a></li>
-            <li><a href="#">Kilifi</a></li>
-            <li><a href="#">Nyali</a></li>
-            <li><a href="#">Diani</a></li>
-            <li><a href="#">Bamburi</a></li>
+            <li><a href="./Coast-pages/More-pages/Mombasa/mombasa.php" target="">Mombasa</a></li>
+            <li><a href="./Coast-pages/More-pages/malindi/malindi.php">Malindi</a></li>
+            <li><a href="./Coast-pages/More-pages/lamu/lamu.php">Lamu</a></li>
+            <li><a href="./Coast-pages/More-pages/kilifi/kilifi.php">Kilifi</a></li>
+            <li><a href="./Coast-pages/More-pages/nyali/nyali.php">Nyali</a></li>
+            <li><a href="./Coast-pages/More-pages/diani/diani.php">Diani</a></li>
+            <li><a href="./Coast-pages/More-pages/bamburi/bamburi.php">Bamburi</a></li>
           </ul>
         </div>
       </div>
