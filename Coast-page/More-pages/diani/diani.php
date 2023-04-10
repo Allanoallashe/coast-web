@@ -27,7 +27,7 @@
             </div>
             <li class="item1"><a href="#">Malindi</a></li>
             <li class="item2"><a href="#">Lamu</a></li>
-            <li class="item3"><a href="#">Kilifi</a></li>
+            <li class="item3"><a href="../kilifi/kilifi.php">Kilifi</a></li>
             <li class="item4"><a href="#">Nyali</a></li>
             <li class="item5"><a href="#">Mombasa</a></li>
             <li class="item6"><a href="#">Bamburi</a></li>
