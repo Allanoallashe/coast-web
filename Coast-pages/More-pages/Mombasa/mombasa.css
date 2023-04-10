@@ -3,7 +3,7 @@ body{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   position: relative;
   height: 4400px;
-  background-image: linear-gradient(to  bottom, #ffffff 0%, #f5faff 25%, #f2f7fb 50%, #eef5f7 75%, #f1f9f9 100%);
+  background-image: linear-gradient(to  bottom, #ffffff 0%, #ffffff 25%, #ffffff 50%, #ffffff 75%, #ffffff 100%);
 }
 
 /* nav bar */
