@@ -14,7 +14,7 @@
   <header class="head">
     <div class="nav">
       <ul>
-        <li class="active"><a href="#"><i class="fas fa-gem"></i> Mombasa</a></li>
+        <li class="active"><a href="#"><i class="fa-solid fa-ship fa-beat"></i> Mombasa</a></li>
         <li><a href="#">Images</a></li>
         <li><a href="#">Hotels</a></li>
         <li id="list"><a id="drop" href="#"><i class="fa fa-caret-down"></i> More</a>

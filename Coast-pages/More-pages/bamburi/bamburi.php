@@ -15,7 +15,7 @@
   <header class="head">
     <div class="nav">
       <ul>
-        <li class="active"><a href="#"><i class="fa-brands fa-fort-awesome"></i> Bamburi</a></li>
+        <li class="active"><a href="#"><i class="fa-sharp fa-solid fa-industry fa-beat"></i> Bamburi</a></li>
         <li><a href="#">Images</a></li>
         <li><a href="#">Hotels</a></li>
         <li id="list"><a id="drop" href="#"><i class="fa fa-caret-down"></i> More</a>
