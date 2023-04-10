@@ -47,57 +47,57 @@
         <p class="title">The Coast Of Bamburi Images</p>
     <div class="img-container">
       <div class="images">
-        <img id="img" src="./images/The-Coast/th.jpg" alt="Theme">
+        <img id="img" src="./images/coast/b1.jpg" alt="Theme">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/OIP.jpg" alt="pwani">
+        <img src="./images/coast/b10.jpg" alt="pwani">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/coast9.jpg" alt="pwani">
-      </div>
-    </div>
-    <div class="img-container">
-      <div class="images">
-        <img src="./images/The-Coast/coast8.jpg" alt="Theme">
-      </div>
-      <div class="images">
-        <img src="./images/The-Coast/coast7.jpg" alt="pwani">
-      </div>
-      <div class="images">
-        <img src="./images/The-Coast/coast6.jpg" alt="pwani">
+        <img src="./images/coast/b11.jpg" alt="pwani">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/The-Coast/coast5.jpg" alt="Theme">
+        <img src="./images/coast/b12.jpg" alt="Theme">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/coast4.jpg" alt="pwani">
+        <img src="./images/coast/b13.jpg" alt="pwani">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/coast3.jpg" alt="pwani">
-      </div>
-    </div>
-    <div class="img-container">
-      <div class="images">
-        <img src="./images/The-Coast/coast10.jpg" alt="Theme">
-      </div>
-      <div class="images">
-        <img src="./images/The-Coast/coast11.jpg" alt="pwani">
-      </div>
-      <div class="images">
-        <img src="./images/The-Coast/coast12.jpg" alt="pwani">
+        <img src="./images/coast/b14.jpg" alt="pwani">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/The-Coast/coast13.jpg" alt="Theme">
+        <img src="./images/coast/b15.jpg" alt="Theme">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/coast16.jpg" alt="pwani">
+        <img src="./images/coast/b16.jpg" alt="pwani">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/coast19.jpg" alt="pwani">
+        <img src="./images/coast/b17.jpg" alt="pwani">
+      </div>
+    </div>
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/coast/b18.jpg" alt="Theme">
+      </div>
+      <div class="images">
+        <img src="./images/coast/b19.jpg" alt="pwani">
+      </div>
+      <div class="images">
+        <img src="./images/coast/b20.jpg" alt="pwani">
+      </div>
+    </div>
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/coast/b21.jpg" alt="Theme">
+      </div>
+      <div class="images">
+        <img src="./images/coast/b22.jpg" alt="pwani">
+      </div>
+      <div class="images">
+        <img src="./images/coast/b23.jpg" alt="pwani">
       </div>
     </div>
   </div>
