@@ -316,8 +316,51 @@ marquee{
     border-right: 6px solid rgba(255,255,255,0);
     background-clip: content-box;
 }
-::-webkit-scrollbar-button{
-  background-color: transparent;
-  color: black;
-  cursor: pointer;
+
+::-webkit-resizer{
+  resize: both;
+  overflow: hidden;
+}
+
+
+::-webkit-scrollbar-button {
+    border-style: solid;
+    height: 16px;
+    width: 16px;
+}
+
+::-webkit-scrollbar-corner{
+  background-color: #060152;
+}
+
+::-webkit-scrollbar-button:vertical:decrement {
+    border-width: 0 8px 14px 8px;
+    border-color: transparent transparent #003B7C transparent;
+}
+::-webkit-scrollbar-button:horizontal:decrement {
+    border-width: 8px 12px 8px 0;
+    border-color: transparent #003B7C transparent transparent;
+}
+
+::-webkit-scrollbar-button:vertical:decrement:hover {
+    border-color: transparent transparent #0069d8  transparent;
+}
+::-webkit-scrollbar-button:horizontal:decrement:hover {
+   border-color: transparent #0069d8 transparent transparent;
+}
+
+::-webkit-scrollbar-button:vertical:increment {
+    border-width: 14px 8px 0 8px;
+    border-color: #003B7C transparent transparent transparent;
+}
+::-webkit-scrollbar-button:horizontal:increment {
+    border-width: 8px 0 8px 12px;
+    border-color: transparent transparent transparent #003B7C;
+}
+
+::-webkit-scrollbar-button:vertical:increment:hover {
+    border-color: #0069d8 transparent transparent transparent;
+}
+::-webkit-scrollbar-button:horizontal:increment:hover {
+    border-color: transparent transparent transparent #0069d8;
 }
