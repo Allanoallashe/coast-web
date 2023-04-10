@@ -1,8 +1,5 @@
 
 
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,7 +16,7 @@
   <header class="head">
     <div class="nav">
       <ul>
-        <li class="active"><a href="#"><i class="fas fa-gem"></i> Lamu</a></li>
+        <li class="active"><a href="#"><i class="fas fa-gem"></i> Malindi</a></li>
         <li><a href="#">Images</a></li>
         <li><a href="#">Hotels</a></li>
         <li id="list"><a id="drop" href="#"><i class="fa fa-caret-down"></i> More</a>
@@ -28,10 +25,10 @@
             <div class="close">
               <i id="cross" class="fa-solid fa-xmark"></i>
             </div>
-            <li class="item1"><a href="../malindi/malindi.php">Malindi</a></li>
+            <li class="item1"><a href="../lamu/lamu.php">Lamu</a></li>
             <li class="item2"><a href="../kilifi/kilifi.php">Kilifi</a></li>
             <li class="item3"><a href="../diani/diani.php">Diani</a></li>
-            <li class="item4"><a href="#">Nyali</a></li>
+            <li class="item4"><a href="../nyali/nyali.php">Nyali</a></li>
             <li class="item5"><a href="#">Mombasa</a></li>
             <li class="item6"><a href="#">Bamburi</a></li>
           </ul>
@@ -48,7 +45,7 @@
 
   <!-- coats -->
   <div class="main">
-        <p class="title">Lamu Images</p>
+        <p class="title">Malindi Images</p>
     <div class="img-container">
       <div class="images">
         <img id="img" src="./images/The-Coast/th.jpg" alt="Theme">
@@ -107,7 +104,7 @@
   </div>
   <!-- hotels -->
   <div class="main">
-        <p class="title1">Lamu Hotels</p>
+        <p class="title1">Malindi Hotels</p>
     <div class="img-container">
       <div class="images">
         <img src="./images/hotels/h1.jpg" alt="Theme">
