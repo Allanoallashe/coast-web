@@ -17,7 +17,7 @@
       <ul>
         <li class="active"><a href="#"><i class="fa-sharp fa-solid fa-industry fa-beat"></i> Bamburi</a></li>
         <li><a href="#">Images</a></li>
-        <li><a href="#title1">Restaurants</a></li>
+        <li><a href="#title">Restaurants</a></li>
         <li id="list"><a id="drop" href="#"><i class="fa fa-caret-down"></i> More</a>
          <div id="more">
           <ul id="browse1">
@@ -93,69 +93,183 @@
         <img src="./images/coast/b21.jpg" alt="Theme">
       </div>
     </div>
-    
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/coast/b21.jpg" alt="Theme">
+      </div>
+    </div>
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/coast/b21.jpg" alt="Theme">
+      </div>
+    </div>
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/coast/b21.jpg" alt="Theme">
+      </div>
+    </div>
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/coast/b21.jpg" alt="Theme">
+      </div>
+    </div>
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/coast/b21.jpg" alt="Theme">
+      </div>
+    </div>
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/coast/b21.jpg" alt="Theme">
+      </div>
+    </div>
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/coast/b21.jpg" alt="Theme">
+      </div>
+    </div>
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/coast/b21.jpg" alt="Theme">
+      </div>
+    </div>
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/coast/b21.jpg" alt="Theme">
+      </div>
+    </div>
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/coast/b21.jpg" alt="Theme">
+      </div>
+    </div>
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/coast/b21.jpg" alt="Theme">
+      </div>
+    </div>
+    <div id='title' class="img-container">
+      <div class="images">
+        <img src="./images/coast/b21.jpg" alt="Theme">
+      </div>
+    </div>
+
   </div>
 
 
   <!-- hotels -->
-    <!-- <p id="title1" class="title1">Bamburi Restaurants</p> -->
-  <!-- <div class="main">
+    <p id="title1" class="title1">Bamburi Restaurants</p>
+   <div class="main">
+
     <div class="img-container">
       <div class="images">
-        <img src="./images/hotels/h1.jpg" alt="Theme">
+        <img src="./images/coast/b12.jpg" alt="Theme">
       </div>
+    </div>
+
+    <div class="img-container">
       <div class="images">
-        <img src="./images/hotels/h10.jpg" alt="pwani">
+        <img src="./images/coast/b12.jpg" alt="Theme">
       </div>
+    </div>
+
+    <div class="img-container">
       <div class="images">
-        <img src="./images/hotels/h11.jpg" alt="pwani">
+        <img src="./images/coast/b12.jpg" alt="Theme">
+      </div>
+    </div>
+
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/coast/b12.jpg" alt="Theme">
+      </div>
+    </div>
+
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/coast/b12.jpg" alt="Theme">
+      </div>
+    </div>
+
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/coast/b15.jpg" alt="Theme">
+      </div>
+    </div>
+
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/coast/b18.jpg" alt="Theme">
+      </div>
+    </div>
+
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/coast/b21.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/hotels/h12.jpg" alt="Theme">
-      </div>
-      <div class="images">
-        <img src="./images/hotels/h13.jpg" alt="pwani">
-      </div>
-      <div class="images">
-        <img src="./images/hotels/h14.jpg" alt="pwani">
+        <img src="./images/coast/b21.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/hotels/h15.jpg" alt="Theme">
-      </div>
-      <div class="images">
-        <img src="./images/hotels/h16.jpg" alt="pwani">
-      </div>
-      <div class="images">
-        <img src="./images/hotels/h17.jpg" alt="pwani">
+        <img src="./images/coast/b21.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/hotels/h18.jpg" alt="Theme">
-      </div>
-      <div class="images">
-        <img src="./images/hotels/h19.jpg" alt="pwani">
-      </div>
-      <div class="images">
-        <img src="./images/hotels/h20.jpg" alt="pwani">
+        <img src="./images/coast/b21.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/hotels/h21.jpg" alt="Theme">
-      </div>
-      <div class="images">
-        <img src="./images/hotels/h22.jpg" alt="pwani">
-      </div>
-      <div class="images">
-        <img src="./images/hotels/h0.jpg" alt="pwani">
+        <img src="./images/coast/b21.jpg" alt="Theme">
       </div>
     </div>
-  </div> -->
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/coast/b21.jpg" alt="Theme">
+      </div>
+    </div>
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/coast/b21.jpg" alt="Theme">
+      </div>
+    </div>
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/coast/b21.jpg" alt="Theme">
+      </div>
+    </div>
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/coast/b21.jpg" alt="Theme">
+      </div>
+    </div>
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/coast/b21.jpg" alt="Theme">
+      </div>
+    </div>
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/coast/b21.jpg" alt="Theme">
+      </div>
+    </div>
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/coast/b21.jpg" alt="Theme">
+      </div>
+    </div>
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/coast/b21.jpg" alt="Theme">
+      </div>
+    </div>
+
+  </div>
 
 <!-- footer -->
    <footer class="bottom">

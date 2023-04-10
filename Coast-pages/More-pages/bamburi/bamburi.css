@@ -2,7 +2,7 @@
 body{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   position: relative;
-  height: 4400px;
+  height: 3870px;
   background-image: linear-gradient(to  bottom, #ffffff 0%, #ffffff 25%, #ffffff 50%, #ffffff 75%, #ffffff 100%);
 }
 
@@ -241,7 +241,7 @@ marquee{
   margin-top: 100px;
   font-weight: bold;
   text-decoration: underline;
-  margin-bottom: 18px;
+  margin-bottom: 50px;
 }
 
 /* images media query */
@@ -394,7 +394,7 @@ marquee{
   bottom: 0;
   background-color: #060152;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  border-top: aqua dotted 1px;
+  border-top: rgb(0, 107, 107) dotted 1px;
 }
 .social__icon-link{
   color: #fff;
