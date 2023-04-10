@@ -16,8 +16,8 @@
     <div class="nav">
       <ul>
         <li class="active"><a href="#"><i class="fa-sharp fa-solid fa-industry fa-beat"></i> Bamburi</a></li>
-        <li><a href="#">Images</a></li>
-        <li><a href="#">Hotels</a></li>
+        <li><a href="#title">Images</a></li>
+        <li><a href="#title1">Restaurants</a></li>
         <li id="list"><a id="drop" href="#"><i class="fa fa-caret-down"></i> More</a>
          <div id="more">
           <ul id="browse1">
@@ -44,7 +44,7 @@
 
   <!-- coats -->
   <div class="main">
-        <p class="title">Bamburi Images</p>
+        <p id='title' class="title">Bamburi Images</p>
     <div class="img-container">
       <div class="images">
         <img id="img" src="./images/coast/b1.jpg" alt="Theme">
@@ -103,7 +103,7 @@
   </div>
   <!-- hotels -->
   <div class="main">
-        <p class="title1">Bamburi Restaurants</p>
+        <p id="title1" class="title1">Bamburi Restaurants</p>
     <div class="img-container">
       <div class="images">
         <img src="./images/hotels/h1.jpg" alt="Theme">

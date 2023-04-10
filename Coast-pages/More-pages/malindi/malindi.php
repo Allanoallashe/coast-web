@@ -17,8 +17,8 @@
     <div class="nav">
       <ul>
         <li class="active"><a href="#"><i class="fa-brands fa-fort-awesome fa-beat"></i> Malindi</a></li>
-        <li><a href="#">Images</a></li>
-        <li><a href="#">Hotels</a></li>
+        <li><a href="#title">Images</a></li>
+        <li><a href="#title1">Restaurants</a></li>
         <li id="list"><a id="drop" href="#"><i class="fa fa-caret-down"></i> More</a>
          <div id="more">
           <ul id="browse1">
@@ -45,66 +45,66 @@
 
   <!-- coats -->
   <div class="main">
-        <p class="title">Malindi Images</p>
+        <p id='title' class="title">Malindi Images</p>
     <div class="img-container">
       <div class="images">
-        <img id="img" src="./images/The-Coast/th.jpg" alt="Theme">
+        <img id="img" src="./images/coast/m1.jpg" alt="Theme">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/OIP.jpg" alt="pwani">
+        <img src="./images/coast/m10.jpg" alt="pwani">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/coast9.jpg" alt="pwani">
+        <img src="./images/coast/m11.jpg" alt="pwani">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/The-Coast/coast8.jpg" alt="Theme">
+        <img src="./images/coast/m12.jpg" alt="Theme">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/coast7.jpg" alt="pwani">
+        <img src="./images/coast/m13.jpg" alt="pwani">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/coast6.jpg" alt="pwani">
-      </div>
-    </div>
-    <div class="img-container">
-      <div class="images">
-        <img src="./images/The-Coast/coast5.jpg" alt="Theme">
-      </div>
-      <div class="images">
-        <img src="./images/The-Coast/coast4.jpg" alt="pwani">
-      </div>
-      <div class="images">
-        <img src="./images/The-Coast/coast3.jpg" alt="pwani">
+        <img src="./images/coast/m14.jpg" alt="pwani">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/The-Coast/coast10.jpg" alt="Theme">
+        <img src="./images/coast/m15.jpg" alt="Theme">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/coast11.jpg" alt="pwani">
+        <img src="./images/coast/m16.jpg" alt="pwani">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/coast12.jpg" alt="pwani">
+        <img src="./images/coast/m17.jpg" alt="pwani">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/The-Coast/coast13.jpg" alt="Theme">
+        <img src="./images/coast/m18.jpg" alt="Theme">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/coast16.jpg" alt="pwani">
+        <img src="./images/coast/m19.jpg" alt="pwani">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/coast19.jpg" alt="pwani">
+        <img src="./images/coast/m21.jpg" alt="pwani">
+      </div>
+    </div>
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/coast/m4.jpg" alt="Theme">
+      </div>
+      <div class="images">
+        <img src="./images/coast/m6.jpg" alt="pwani">
+      </div>
+      <div class="images">
+        <img src="./images/coast/m8.jpg" alt="pwani">
       </div>
     </div>
   </div>
   <!-- hotels -->
   <div class="main">
-        <p class="title1">Malindi Hotels</p>
+        <p id="title1" class="title1">Malindi Restaurants</p>
     <div class="img-container">
       <div class="images">
         <img src="./images/hotels/h1.jpg" alt="Theme">
@@ -154,10 +154,10 @@
         <img src="./images/hotels/h21.jpg" alt="Theme">
       </div>
       <div class="images">
-        <img src="./images/hotels/h22.jpg" alt="pwani">
+        <img src="./images/hotels/h5.jpg" alt="pwani">
       </div>
       <div class="images">
-        <img src="./images/hotels/h23.jpg" alt="pwani">
+        <img src="./images/hotels/h9.jpg" alt="pwani">
       </div>
     </div>
   </div>

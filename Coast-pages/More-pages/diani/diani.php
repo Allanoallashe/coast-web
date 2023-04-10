@@ -17,8 +17,8 @@
     <div class="nav">
       <ul>
         <li class="active"><a href="#"><i class="fa-solid fa-fish-fins fa-spin fa-spin-reverse"></i> Diani</a></li>
-        <li><a href="#">Images</a></li>
-        <li><a href="#">Hotels</a></li>
+        <li><a href="#title">Images</a></li>
+        <li><a href="#title1">Hotels</a></li>
         <li id="list"><a id="drop" href="#"><i class="fa fa-caret-down"></i> More</a>
          <div id="more">
           <ul id="browse1">
@@ -45,7 +45,7 @@
 
   <!-- coats -->
   <div class="main">
-        <p class="title">Diani Images</p>
+        <p id='#title' class="title">Diani Images</p>
     <div class="img-container">
       <div class="images">
         <img id="img" src="./images/coast/d1.jpg" alt="Theme">
@@ -104,7 +104,7 @@
   </div>
   <!-- hotels -->
   <div class="main">
-        <p class="title1">Diani Restaurants</p>
+        <p id='title1' class="title1">Diani Restaurants</p>
     <div class="img-container">
       <div class="images">
         <img src="./images/hotels/h1.jpg" alt="Theme">
