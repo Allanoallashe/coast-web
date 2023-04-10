@@ -45,66 +45,66 @@
 
   <!-- coats -->
   <div class="main">
-        <p class="title">The Coast Of Diani Images</p>
+        <p class="title">Diani Images</p>
     <div class="img-container">
       <div class="images">
-        <img id="img" src="./images/The-Coast/th.jpg" alt="Theme">
+        <img id="img" src="./images/coast/d1.jpg" alt="Theme">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/OIP.jpg" alt="pwani">
+        <img src="./images/coast/d11.jpg" alt="pwani">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/coast9.jpg" alt="pwani">
+        <img src="./images/coast/d12.jpg" alt="pwani">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/The-Coast/coast8.jpg" alt="Theme">
+        <img src="./images/coast/d13.jpg" alt="Theme">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/coast7.jpg" alt="pwani">
+        <img src="./images/coast/d14.jpg" alt="pwani">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/coast6.jpg" alt="pwani">
-      </div>
-    </div>
-    <div class="img-container">
-      <div class="images">
-        <img src="./images/The-Coast/coast5.jpg" alt="Theme">
-      </div>
-      <div class="images">
-        <img src="./images/The-Coast/coast4.jpg" alt="pwani">
-      </div>
-      <div class="images">
-        <img src="./images/The-Coast/coast3.jpg" alt="pwani">
+        <img src="./images/coast/d15.jpg" alt="pwani">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/The-Coast/coast10.jpg" alt="Theme">
+        <img src="./images/coast/d16.jpg" alt="Theme">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/coast11.jpg" alt="pwani">
+        <img src="./images/coast/d17.jpg" alt="pwani">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/coast12.jpg" alt="pwani">
+        <img src="./images/coast/d18.jpg" alt="pwani">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/The-Coast/coast13.jpg" alt="Theme">
+        <img src="./images/coast/d2.jpg" alt="Theme">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/coast16.jpg" alt="pwani">
+        <img src="./images/coast/d3.jpg" alt="pwani">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/coast19.jpg" alt="pwani">
+        <img src="./images/coast/d4.jpg" alt="pwani">
+      </div>
+    </div>
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/coast/d5.jpg" alt="Theme">
+      </div>
+      <div class="images">
+        <img src="./images/coast/d6.jpg" alt="pwani">
+      </div>
+      <div class="images">
+        <img src="./images/coast/d8.jpg" alt="pwani">
       </div>
     </div>
   </div>
   <!-- hotels -->
   <div class="main">
-        <p class="title1">Hotels At Diani</p>
+        <p class="title1">Diani Restaurants</p>
     <div class="img-container">
       <div class="images">
         <img src="./images/hotels/h1.jpg" alt="Theme">
@@ -151,13 +151,13 @@
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/hotels/h21.jpg" alt="Theme">
+        <img src="./images/hotels/h2.jpg" alt="Theme">
       </div>
       <div class="images">
-        <img src="./images/hotels/h22.jpg" alt="pwani">
+        <img src="./images/hotels/h5.jpg" alt="pwani">
       </div>
       <div class="images">
-        <img src="./images/hotels/h23.jpg" alt="pwani">
+        <img src="./images/hotels/h7.jpg" alt="pwani">
       </div>
     </div>
   </div>

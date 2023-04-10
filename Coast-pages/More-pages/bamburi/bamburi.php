@@ -44,7 +44,7 @@
 
   <!-- coats -->
   <div class="main">
-        <p class="title">The Coast Of Bamburi Images</p>
+        <p class="title">Bamburi Images</p>
     <div class="img-container">
       <div class="images">
         <img id="img" src="./images/coast/b1.jpg" alt="Theme">
@@ -103,7 +103,7 @@
   </div>
   <!-- hotels -->
   <div class="main">
-        <p class="title1">Hotels At Bamburi</p>
+        <p class="title1">Bamburi Restaurants</p>
     <div class="img-container">
       <div class="images">
         <img src="./images/hotels/h1.jpg" alt="Theme">
@@ -156,7 +156,7 @@
         <img src="./images/hotels/h22.jpg" alt="pwani">
       </div>
       <div class="images">
-        <img src="./images/hotels/h23.jpg" alt="pwani">
+        <img src="./images/hotels/h0.jpg" alt="pwani">
       </div>
     </div>
   </div>

@@ -17,9 +17,9 @@
   <header class="head">
     <div class="nav">
       <ul>
-        <li class="active"><a href="#"><i class="fa-solid fa-ship fa-beat"></i> Kilifi</a></li>
+        <li class="active"><a href="kilifi.php"><i class="fa-solid fa-ship fa-beat"></i> Kilifi</a></li>
         <li><a href="#">Images</a></li>
-        <li><a href="#">Hotels</a></li>
+        <li><a href="#title1">Restaurants</a></li>
         <li id="list"><a id="drop" href="#"><i class="fa fa-caret-down"></i> More</a>
          <div id="more">
           <ul id="browse1">
@@ -46,66 +46,66 @@
 
   <!-- coats -->
   <div class="main">
-        <p class="title">Kilifi Images</p>
+        <p id="#title" class="title">Kilifi Images</p>
     <div class="img-container">
       <div class="images">
-        <img id="img" src="./images/The-Coast/th.jpg" alt="Theme">
+        <img id="img" src="./images/coast/k1.jpg" alt="Theme">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/OIP.jpg" alt="pwani">
+        <img src="./images/coast/k9.jpg" alt="pwani">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/coast9.jpg" alt="pwani">
+        <img src="./images/coast/k3.jpg" alt="pwani">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/The-Coast/coast8.jpg" alt="Theme">
+        <img src="./images/coast/k13.jpg" alt="Theme">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/coast7.jpg" alt="pwani">
+        <img src="./images/coast/k14.jpg" alt="pwani">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/coast6.jpg" alt="pwani">
-      </div>
-    </div>
-    <div class="img-container">
-      <div class="images">
-        <img src="./images/The-Coast/coast5.jpg" alt="Theme">
-      </div>
-      <div class="images">
-        <img src="./images/The-Coast/coast4.jpg" alt="pwani">
-      </div>
-      <div class="images">
-        <img src="./images/The-Coast/coast3.jpg" alt="pwani">
+        <img src="./images/coast/k15.jpg" alt="pwani">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/The-Coast/coast10.jpg" alt="Theme">
+        <img src="./images/coast/k16.jpg" alt="Theme">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/coast11.jpg" alt="pwani">
+        <img src="./images/coast/k17.jpg" alt="pwani">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/coast12.jpg" alt="pwani">
+        <img src="./images/coast/k18.jpg" alt="pwani">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/The-Coast/coast13.jpg" alt="Theme">
+        <img src="./images/coast/k19.jpg" alt="Theme">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/coast16.jpg" alt="pwani">
+        <img src="./images/coast/k20.jpg" alt="pwani">
       </div>
       <div class="images">
-        <img src="./images/The-Coast/coast19.jpg" alt="pwani">
+        <img src="./images/coast/k21.jpg" alt="pwani">
+      </div>
+    </div>
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/coast/k5.jpg" alt="Theme">
+      </div>
+      <div class="images">
+        <img src="./images/coast/k6.jpg" alt="pwani">
+      </div>
+      <div class="images">
+        <img src="./images/coast/k8.jpg" alt="pwani">
       </div>
     </div>
   </div>
   <!-- hotels -->
   <div class="main">
-        <p class="title1">Kilifi Hotels</p>
+        <p id="title1" class="title1">Kilifi Restaurants</p>
     <div class="img-container">
       <div class="images">
         <img src="./images/hotels/h1.jpg" alt="Theme">
@@ -114,7 +114,7 @@
         <img src="./images/hotels/h10.jpg" alt="pwani">
       </div>
       <div class="images">
-        <img src="./images/hotels/h11.jpg" alt="pwani">
+        <img src="./images/hotels/h2.jpg" alt="pwani">
       </div>
     </div>
     <div class="img-container">
@@ -152,13 +152,13 @@
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/hotels/h21.jpg" alt="Theme">
+        <img src="./images/hotels/h3.jpg" alt="Theme">
       </div>
       <div class="images">
-        <img src="./images/hotels/h22.jpg" alt="pwani">
+        <img src="./images/hotels/h6.jpg" alt="pwani">
       </div>
       <div class="images">
-        <img src="./images/hotels/h23.jpg" alt="pwani">
+        <img src="./images/hotels/h9.jpg" alt="pwani">
       </div>
     </div>
   </div>
