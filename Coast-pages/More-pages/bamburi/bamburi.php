@@ -42,68 +42,64 @@
     <marquee width="98%"  direction="left" height="100%" behavior="scroll" scrollamount="5" loop="100000">The coastal regions i.e. the coast of Kenya, are very nice places to visit especially during the holidays. The beaches have very nice aesthetic beauty. Register to get started and book your hotels prier🥳.Accomodations are there in plenty&#128150;  &#128519; 🥳</marquee>
   </div>
 
-  <!-- coats -->
-  <div class="main">
+  <!-- coasts -->
         <p class="title">Bamburi Images</p>
-    <div class="img-container">
-      <div class="images">
-        <img id="img" src="./images/coast/b1.jpg" alt="Theme">
-      </div>
-      <div class="images">
-        <img src="./images/coast/b10.jpg" alt="pwani">
-      </div>
-      <div class="images">
-        <img src="./images/coast/b11.jpg" alt="pwani">
-      </div>
-    </div>
+  <div class="main">
+
     <div class="img-container">
       <div class="images">
         <img src="./images/coast/b12.jpg" alt="Theme">
       </div>
+    </div>
+
+    <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b13.jpg" alt="pwani">
-      </div>
-      <div class="images">
-        <img src="./images/coast/b14.jpg" alt="pwani">
+        <img src="./images/coast/b12.jpg" alt="Theme">
       </div>
     </div>
+
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/coast/b12.jpg" alt="Theme">
+      </div>
+    </div>
+
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/coast/b12.jpg" alt="Theme">
+      </div>
+    </div>
+
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/coast/b12.jpg" alt="Theme">
+      </div>
+    </div>
+
     <div class="img-container">
       <div class="images">
         <img src="./images/coast/b15.jpg" alt="Theme">
       </div>
-      <div class="images">
-        <img src="./images/coast/b16.jpg" alt="pwani">
-      </div>
-      <div class="images">
-        <img src="./images/coast/b17.jpg" alt="pwani">
-      </div>
     </div>
+
     <div class="img-container">
       <div class="images">
         <img src="./images/coast/b18.jpg" alt="Theme">
       </div>
-      <div class="images">
-        <img src="./images/coast/b19.jpg" alt="pwani">
-      </div>
-      <div class="images">
-        <img src="./images/coast/b20.jpg" alt="pwani">
-      </div>
     </div>
+
     <div class="img-container">
       <div class="images">
         <img src="./images/coast/b21.jpg" alt="Theme">
       </div>
-      <div class="images">
-        <img src="./images/coast/b22.jpg" alt="pwani">
-      </div>
-      <div class="images">
-        <img src="./images/coast/b23.jpg" alt="pwani">
-      </div>
     </div>
+    
   </div>
+
+
   <!-- hotels -->
-  <div class="main">
-        <p id="title1" class="title1">Bamburi Restaurants</p>
+    <!-- <p id="title1" class="title1">Bamburi Restaurants</p> -->
+  <!-- <div class="main">
     <div class="img-container">
       <div class="images">
         <img src="./images/hotels/h1.jpg" alt="Theme">
@@ -159,7 +155,7 @@
         <img src="./images/hotels/h0.jpg" alt="pwani">
       </div>
     </div>
-  </div>
+  </div> -->
 
 <!-- footer -->
    <footer class="bottom">
