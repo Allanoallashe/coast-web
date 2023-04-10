@@ -335,7 +335,7 @@ marquee{
 
 ::-webkit-resizer{
   resize: both;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 

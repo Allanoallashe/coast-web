@@ -27,8 +27,8 @@
               <i id="cross" class="fa-solid fa-xmark"></i>
             </div>
             <li class="item1"><a href="#">Malindi</a></li>
-            <li class="item2"><a href="#">Lamu</a></li>
-            <li class="item3"><a href="../lamu/lamu.php">Diani</a></li>
+            <li class="item2"><a href="../lamu/lamu.php">Lamu</a></li>
+            <li class="item3"><a href="../diani/diani.php">Diani</a></li>
             <li class="item4"><a href="#">Nyali</a></li>
             <li class="item5"><a href="#">Mombasa</a></li>
             <li class="item6"><a href="#">Bamburi</a></li>
@@ -191,6 +191,6 @@
       </div>
     </footer>
 
-    <script src="./diani.js" type="text/javascript"></script>
+    <script src="./kilifi.js" type="text/javascript"></script>
 </body>
 </html>
