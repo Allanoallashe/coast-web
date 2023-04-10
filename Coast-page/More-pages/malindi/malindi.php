@@ -12,7 +12,7 @@
   <title>Allashe@mombasaPage.com</title>
   <script src="https://kit.fontawesome.com/9acafcca7d.js" crossorigin="anonymous"></script>
     <link rel="icon" type='xtype/images' href="images/pexels-photo-533851.jpeg">
-    <link rel="stylesheet" href="./lamu.css">
+    <link rel="stylesheet" href="./malindi.css">
 </head>
 <body>
   
@@ -193,6 +193,6 @@
       </div>
     </footer>
 
-    <script src="./lamu.js" type="text/javascript"></script>
+    <script src="./malindi.js" type="text/javascript"></script>
 </body>
 </html>
