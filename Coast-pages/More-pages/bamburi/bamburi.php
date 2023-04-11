@@ -60,6 +60,12 @@
     <marquee width="98%"  direction="left" height="100%" behavior="scroll" scrollamount="5" loop="100000">The coastal regions i.e. the coast of Kenya, are very nice places to visit especially during the holidays. The beaches have very nice aesthetic beauty. Register to get started and book your hotels prier🥳.Accomodations are there in plenty&#128150;  &#128519; 🥳</marquee>
   </div>
 
+      <!-- popup image -->
+      <div class="popup-image">
+        <span>&times;</span>
+        <img src="./images/coast/pexels-photo-533851.jpeg" alt="popup">
+      </div>
+
   <!-- coasts -->
    <p class="title">Bamburi Images</p>
   <div class="main">

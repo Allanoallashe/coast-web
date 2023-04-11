@@ -92,10 +92,22 @@ document.querySelectorAll('.closer a').forEach(close => {
 
 poper.addEventListener('mousedown', () => {
   display.style.marginLeft = "0%";
-  display.style.transition="all 0.6s ease-in-out";
+  display.style.transition="all 0.3s linear";
 });
 zip.addEventListener('mousedown', () => {
   display.style.marginLeft = "-100%";
-  display.style.transition="all 0.5s ease-in-out";
+  display.style.transition="all 0.3s linear";
 });
+
+
+document.querySelectorAll('.main img').forEach(Image => {
+  Image.onclick = () => {
+    document.querySelector('.popup-image').style.display = "block";
+    document.querySelector('.popup-image img').src = Image.getAttribute('src');
+  }
+});
+document.querySelector('.popup-image span').onclick = () => {
+  document.querySelector('.popup-image').style.display = "none";
+}
+
 
