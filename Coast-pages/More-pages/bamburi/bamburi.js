@@ -61,10 +61,7 @@ list.addEventListener('mouseleave', function (mouseleave) {
     Drop.style.color="#fff";
 })
 
-
-// $(document).ready(function(){$("img").click(function(){this.requestFullscreen()})});
-
-
+// map
 
 const map = document.getElementById('mapi');
 const bright = document.getElementById('sun');
@@ -79,16 +76,11 @@ bright.addEventListener('click', () => {
 })
 
 
-
+// sidebar-header
 const zip = document.getElementById('zip');
 const poper = document.getElementById('pope')
 const display = document.getElementById('display');
 const lister = document.getElementById('lister');
-document.querySelectorAll('.closer a').forEach(close => {
-  li.onclick = () => {
-      display.style.marginLeft="100%";
-    }
-});
 
 poper.addEventListener('mousedown', () => {
   display.style.marginLeft = "0%";
@@ -98,8 +90,14 @@ zip.addEventListener('mousedown', () => {
   display.style.marginLeft = "-100%";
   display.style.transition="all 0.3s linear";
 });
+lister.addEventListener('click', () => {
+  display.style.marginLeft = "-100%";
+  display.style.transition = "all 0.3s linear";
+  Menu.style.marginTop="0%";
+});
 
 
+// images display full screen
 document.querySelectorAll('.main img').forEach(Image => {
   Image.onclick = () => {
     document.querySelector('.popup-image').style.display = "block";
@@ -110,4 +108,27 @@ document.querySelector('.popup-image span').onclick = () => {
   document.querySelector('.popup-image').style.display = "none";
 }
 
+// sidebar-narlinks
+document.getElementById('nero1').onclick = () => {
+  document.querySelector('.more1').style.display="none";
+}
+document.getElementById('nero2').onclick = () => {
+  document.querySelector('.more1').style.display="none";
+}
+document.getElementById('nero3').onclick = () => {
+  document.querySelector('.more1').style.display="none";
+}
+document.getElementById('nero4').onclick = () => {
+  document.querySelector('.more1').style.display="none";
+}
+document.getElementById('nero5').onclick = () => {
+  document.querySelector('.more1').style.display="none";
+}
+document.getElementById('nero6').onclick = () => {
+  document.querySelector('.more1').style.display="none";
+}
+
+document.getElementById('ex').onclick = () => {
+  document.querySelector('.more1').style.display="none";
+}
 

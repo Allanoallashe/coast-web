@@ -46,16 +46,33 @@
     </div>
   </header>
 
+    <!-- header display -->
   <div id="display">
         <div class="closer">
               <i id="zip" class="fa-solid fa-xmark"></i>
             </div>
-       <li class="erase"><a href="#">Images</a></li>
-       <li class="erase"><a href="#map">Map</a></li>
-       <li class="erase"><a href="#title">Restaurants</a></li>
-       <li id="lister"><a id="drop"><i class="fa fa-caret-down"></i> More</a></li>
+       <li><a href="#">Images</a></li>
+       <li><a href="#map">Map</a></li>
+       <li><a href="#title">Restaurants</a></li>
+       <li><a id="lister"><i class="fa fa-caret-down"></i> More</a></li>
   </div>
 
+     <!-- more popper -->
+     <div class="more1" id="more1">
+          <ul id="browse-two">
+            <div class="closing">
+              <i id="ex" class="fa-solid fa-xmark"></i>
+            </div>
+            <li id="nero1"><a href="">Malindi</a></li>
+            <li id="nero2"><a href="../lamu/lamu.php">Lamu</a></li>
+            <li id="nero3"><a href="../kilifi/kilifi.php">Kilifi</a></li>
+            <li id="nero4"><a href="../nyali/nyali.php">Nyali</a></li>
+            <li id="nero5"><a href="../diani/diani.php">Diani</a></li>
+            <li id="nero6"><a href="../Mombasa/mombasa.php">Mombasa</a></li>
+          </ul>
+      </div>
+
+     <!-- marque -->
   <div class='marque'>
     <marquee width="98%"  direction="left" height="100%" behavior="scroll" scrollamount="5" loop="100000">The coastal regions i.e. the coast of Kenya, are very nice places to visit especially during the holidays. The beaches have very nice aesthetic beauty. Register to get started and book your hotels prier🥳.Accomodations are there in plenty&#128150;  &#128519; 🥳</marquee>
   </div>

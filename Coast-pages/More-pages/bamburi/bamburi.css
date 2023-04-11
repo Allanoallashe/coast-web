@@ -22,7 +22,7 @@ body{
   top: 0;
   right: 0;
   left: 0;
-  border-bottom: rgb(0, 165, 165) dotted 1px;
+  border-bottom: rgb(0, 87, 87) dotted 1px;
   z-index: 100;
 }
 .active{
@@ -218,6 +218,11 @@ nav ol:hover{
   font-size: 25px;
   margin-right: 5px;
 }
+#cross:hover{
+  color: #caffed;
+  transform: scale(1.02);
+  transition: all linear 0.15s;
+}
 
 
 /* marquee */
@@ -248,6 +253,7 @@ marquee{
   display: flex;
   column-gap: 20px;
   row-gap: 8px;
+  padding: 10px 6px 10px 6px;
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
@@ -298,19 +304,18 @@ marquee{
 }
 
 /* images media query */
-}
-  @media only screen and (max-width:540px){
+ @media only screen and (max-width:540px){
   .images,
   .images img{
     width: 430px;
     height: 320px;
- }
-  .active{
-  display: flex;
   }
-.nav ul{
+.active{
+  display: flex;
+ }
+ .nav ul{
     display: none;
-}
+ }
   .dot{
   height: 12px;
   width: 12px;
@@ -323,10 +328,10 @@ marquee{
   align-items: center;
   justify-content: center;
 
-}
+ }
  .active{
   display: flex;
- }
+  }
   .social__icon-link i{
   color: #fff;
   font-size: 12px;
@@ -350,14 +355,14 @@ marquee{
   text-decoration: none;
   font-size: 14px;
  }
-}
+  }
 
 @media only screen and (min-width:541px)  and (max-width:620px){
   .images,
   .images img{
     height: 320px;
     width: 500px;
-  }
+ }
   .nav ul{
     display: none;
   }
@@ -365,10 +370,10 @@ marquee{
   color: #fff;
   font-size: 14px;
   margin-bottom: 10px;
-}
-.active{
+ }
+ .active{
   display: flex;
-}
+ }
  .website__rights{
    display: flex;
    align-items: center;
@@ -392,7 +397,7 @@ marquee{
   text-decoration: none;
   font-size: 14px;
  } 
-}
+ }
   
 
 
@@ -470,8 +475,7 @@ marquee{
   .dot{
   height: 15px;
   width: 15px;
-  margin-right: 4px;
-  margin-left: 4px;
+  margin: 0 4px 0 4px;
   border: #fff solid 2px;
   border-radius: 50%;
   background-color: transparent;
@@ -480,7 +484,7 @@ marquee{
   justify-content: center;
     }
     .dot strong{
-   font-size: 12px;
+    font-size: 12px;
    }
 }
 
@@ -492,7 +496,7 @@ marquee{
   .images img{
     width: 430px;
   }
-}
+ }
 
 @media only screen and (min-width:1081px) and (max-width:1169px){
   .main{
@@ -502,7 +506,7 @@ marquee{
   .images img{
     width: 500px;
   }
-}
+ }
 
 @media only screen and (min-width:1261px) and (max-width:1350px) {
   .images,
@@ -744,7 +748,7 @@ marquee{
     align-items: center;
     justify-content: space-evenly;
     background-color:#060152;
-    height: 440px;
+    height: 450px;
     width: 100%;
     padding-bottom: 20px;
    }
@@ -831,7 +835,85 @@ marquee{
     transform: translate(-50%, -50%);
     border-radius: 5px;
     object-fit: cover;
-    max-width:650px;
-    width: 90%;
+    max-width:750px;
+    width: 96%;
     height: auto;
+   }
+
+    /* more popper */
+    #more1{
+      display: flex;
+      position: fixed;
+      top: 71px;
+      left: 0;
+      z-index: 400;
+     /* margin-left: -100%; */
+      align-items: center;
+      justify-content: center;
+      background-color:#060152;
+      height: 450px;
+      width: 100%;
+      padding-bottom: 20px;
+    }
+    #more1 ul{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 80%;
+      /* background-color: rgb(60, 255, 0); */
+      height: 440px;
+      margin-top: 28px;
+      padding: 10px;
+      width: 90%;
+    }
+    #more1 li{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 40px;
+      width: 90%;
+    }
+ 
+ #more1 li a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+    font-size: 26px;
+    font-weight: bolder;
+    color: #060152;
+    height: 40px;
+    width: 100%;
+    background-color: #e8e8e8;
+    box-shadow: inset #060152 -1px 2px 8px ;
+}
+
+  #more1 li a:hover{
+    cursor: pointer;
+    background-color: #caffed;
+    transition: all 0.15s ease-in-out;
+    transform: scale(1.02);
+    outline: none;
+   }
+  .closer{
+    display: flex;
+    margin-top: -25px;
+    align-items: center;
+    justify-content: flex-end;
+    width:95%;
+   }
+  .closing i{
+      font-size: 30px;
+      margin-left: 10px;
+      color: #f5f5f5;
+   }
+  .closing{
+    width: 95%;
+   }
+  .closing i:hover{
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.02);
+    cursor: pointer;
+    color: #caffed;
    }
