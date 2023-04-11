@@ -15,7 +15,7 @@
   <header class="head">
     <div class="nav">
       <ul>
-        <li class="active"><a href="#"><i class="fa-sharp fa-solid fa-industry fa-beat"></i> Bamburi</a></li>
+        <li class="active"><a href="./bamburi.php"><i class="fa-sharp fa-solid fa-industry fa-beat"></i> Bamburi</a></li>
         <li><a href="#">Images</a></li>
         <li><a href="#map">Map</a></li>
         <li><a href="#title">Restaurants</a></li>
