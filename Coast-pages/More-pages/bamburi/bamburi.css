@@ -25,6 +25,60 @@ body{
   border-bottom: rgb(0, 165, 165) dotted 1px;
   z-index: 100;
 }
+.active{
+  height: 40px;
+  width: 40px;
+  margin-left: -10px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.active i{
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+.active i:hover{
+  color: #caffed;
+  transition: all 0.15s ease-in-out;
+}
+.nav ol{
+  height: 40px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+  list-style: none;
+  white-space: nowrap;
+  width: 150px;
+}
+.nav ol a{
+  width: 150px;
+  display: flex;
+  height: 40px;
+  color: white;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.nav ol a:hover{
+  background-color: #caffed;
+  height: 40px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border-radius: 2px;
+  color: #060152;
+}
+nav ol:hover{
+  background-color: #caffed;
+  height: 40px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border-radius: 2px;
+}
 .nav ul{
   display: flex;
   align-items: center;
@@ -244,14 +298,18 @@ marquee{
 }
 
 /* images media query */
-
-  @media only screen and (max-width:540px)
- {
+  @media only screen and (max-width:540px){
   .images,
   .images img{
     width: 430px;
     height: 320px;
+ }
+  .active{
+  display: flex;
   }
+.nav ul{
+    display: none;
+}
   .dot{
   height: 12px;
   width: 12px;
@@ -263,11 +321,21 @@ marquee{
   display: flex;
   align-items: center;
   justify-content: center;
-    }
+
+}
+ .active{
+  display: flex;
+ }
   .social__icon-link i{
   color: #fff;
   font-size: 12px;
   margin-bottom: 10px;
+ }
+ .nav ol{
+  display: contents;
+ }
+ marquee{
+  font-size: 15px;
  }
  .dot strong{
   font-size: 10px;
@@ -289,10 +357,16 @@ marquee{
     height: 320px;
     width: 500px;
   }
+  .nav ul{
+    display: none;
+  }
   .social__icon-link i{
   color: #fff;
   font-size: 14px;
   margin-bottom: 10px;
+}
+.active{
+  display: flex;
 }
  .website__rights{
    display: flex;
@@ -305,6 +379,12 @@ marquee{
  .text{
   font-size: 13px;
   white-space: nowrap;
+ }
+ .nav ol{
+  display: contents;
+ }
+ marquee{
+  font-size: 15px;
  }
  #footer__logo i{
   color: #fff;
@@ -321,6 +401,18 @@ marquee{
     height: 330px;
     width: 550px;
   }
+  .nav ol{
+    display: contents;
+  }
+  .nav ul{
+    display: none;
+  }
+  .active{
+  display: flex;
+ }
+  marquee{
+  font-size: 16px;
+ }
   .social__icon-link i{
   color: #fff;
   font-size: 17px;
@@ -343,10 +435,27 @@ marquee{
  }
 }
 
+@media only screen and (min-width:784px) and (max-width:849px){
+  marquee{
+  font-size: 17px;
+ }
+ .nav ul{
+    display: none;
+  }
+  .nav ol{
+    display: contents;
+  }
+  .active{
+  display: flex;
+  }
+}
 @media only screen and (min-width:850px) and (max-width:900px){
   .main{
     column-gap: 30px;
   }
+  marquee{
+  font-size: 17px;
+ }
 }
 
 @media only screen and (min-width:901px) and (max-width:980px){
@@ -618,3 +727,67 @@ marquee{
   filter: brightness(1.05);
   border-radius: 5px;
 }
+
+
+
+ /* sidebar display*/
+
+   #display{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 71px;
+    left: 0;
+    z-index: 500;
+    margin-left: -100%;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:#060152;
+    height: 440px;
+    width: 100%;
+    padding-bottom: 20px;
+   }
+   #display li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 80%;
+   } 
+   #display li a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+    font-size: 26px;
+    font-weight: bolder;
+    color: #060152;
+    height: 40px;
+    width: 100%;
+    background-color: #e8e8e8;
+    box-shadow: inset #060152 -1px 2px 8px ;
+   }
+   #display li a:hover{
+    cursor: pointer;
+    background-color: #caffed;
+    transition: all 0.15s ease-in-out;
+    transform: scale(1.02);
+    outline: none;
+   }
+   .closer{
+    display: flex;
+    margin-top: -25px;
+    align-items: center;
+    justify-content: flex-end;
+    width:95%;
+   }
+   .closer i{
+      font-size: 30px;
+      color: #f5f5f5;
+   }
+   .closer i:hover{
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.02);
+    cursor: pointer;
+    color: #caffed;
+   }

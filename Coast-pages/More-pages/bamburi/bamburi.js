@@ -77,3 +77,25 @@ dark.addEventListener('click', () => {
 bright.addEventListener('click', () => {
   map.style.filter="invert(0%)";
 })
+
+
+
+const zip = document.getElementById('zip');
+const poper = document.getElementById('pope')
+const display = document.getElementById('display');
+const lister = document.getElementById('lister');
+document.querySelectorAll('.closer a').forEach(close => {
+  li.onclick = () => {
+      display.style.marginLeft="100%";
+    }
+});
+
+poper.addEventListener('mousedown', () => {
+  display.style.marginLeft = "0%";
+  display.style.transition="all 0.6s ease-in-out";
+});
+zip.addEventListener('mousedown', () => {
+  display.style.marginLeft = "-100%";
+  display.style.transition="all 0.5s ease-in-out";
+});
+

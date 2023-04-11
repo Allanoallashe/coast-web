@@ -14,12 +14,19 @@
   
   <header class="head">
     <div class="nav">
+      <ol>
+        <a href="./bamburi.php">
+        <i class="fa-sharp fa-solid fa-industry fa-beat"></i> Bamburi</a>
+     </ol>
+      <main class="active">
+        <a href="#"><i id="pope" class="fa-solid fa-bars"></i></a>
+      </main>
       <ul>
-        <li class="active"><a href="./bamburi.php"><i class="fa-sharp fa-solid fa-industry fa-beat"></i> Bamburi</a></li>
+        <li><a href="./bamburi.php"><i class="fa-sharp fa-solid fa-industry fa-beat"></i> Bamburi</a></li>
         <li><a href="#">Images</a></li>
         <li><a href="#map">Map</a></li>
         <li><a href="#title">Restaurants</a></li>
-        <li id="list"><a id="drop" href="#"><i class="fa fa-caret-down"></i> More</a>
+        <li id="list"><a id="drop"><i class="fa fa-caret-down"></i> More</a>
          <div id="more">
           <ul id="browse1">
             <div class="close">
@@ -38,6 +45,16 @@
       <button><a href="#">Book Hotel</a></button>
     </div>
   </header>
+
+  <div id="display">
+        <div class="closer">
+              <i id="zip" class="fa-solid fa-xmark"></i>
+            </div>
+       <li class="erase"><a href="#">Images</a></li>
+       <li class="erase"><a href="#map">Map</a></li>
+       <li class="erase"><a href="#title">Restaurants</a></li>
+       <li id="lister"><a id="drop"><i class="fa fa-caret-down"></i> More</a></li>
+  </div>
 
   <div class='marque'>
     <marquee width="98%"  direction="left" height="100%" behavior="scroll" scrollamount="5" loop="100000">The coastal regions i.e. the coast of Kenya, are very nice places to visit especially during the holidays. The beaches have very nice aesthetic beauty. Register to get started and book your hotels prier🥳.Accomodations are there in plenty&#128150;  &#128519; 🥳</marquee>
