@@ -51,10 +51,10 @@
         <div class="closer">
               <i id="zip" class="fa-solid fa-xmark"></i>
             </div>
-       <li><a href="#">Images</a></li>
-       <li><a href="#map">Map</a></li>
-       <li><a href="#title">Restaurants</a></li>
-       <li><a id="lister"><i class="fa fa-caret-down"></i> More</a></li>
+       <li><a class="swipe1">Images</a></li>
+       <li><a class="swipe2" href="#map">Map</a></li>
+       <li><a class="swipe3"href="#title">Restaurants</a></li>
+       <li><a id="lister"><i class="fa fa-caret-down"></i> More Locations</a></li>
   </div>
 
      <!-- more popper -->
@@ -63,7 +63,7 @@
             <div class="closing">
               <i id="ex" class="fa-solid fa-xmark"></i>
             </div>
-            <li id="nero1"><a href="">Malindi</a></li>
+            <li id="nero1"><a href="../malindi/malindi.php">Malindi</a></li>
             <li id="nero2"><a href="../lamu/lamu.php">Lamu</a></li>
             <li id="nero3"><a href="../kilifi/kilifi.php">Kilifi</a></li>
             <li id="nero4"><a href="../nyali/nyali.php">Nyali</a></li>

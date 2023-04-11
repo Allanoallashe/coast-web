@@ -93,8 +93,22 @@ zip.addEventListener('mousedown', () => {
 lister.addEventListener('click', () => {
   display.style.marginLeft = "-100%";
   display.style.transition = "all 0.3s linear";
-  Menu.style.marginTop="0%";
+  document.querySelector('.more1').style.marginLeft="0%"
+  document.querySelector('.more1').style.transition="all 0.3s linear"
 });
+
+document.querySelector('.swipe3').onclick = () => {
+  display.style.marginLeft = "-100%";
+  display.style.transition = "all 0.3s linear";
+}
+document.querySelector('.swipe2').onclick = () => {
+  display.style.marginLeft = "-100%";
+  display.style.transition = "all 0.3s linear";
+}
+document.querySelector('.swipe1').onclick = () => {
+  display.style.marginLeft = "-100%";
+  display.style.transition = "all 0.3s linear";
+}
 
 
 // images display full screen
@@ -110,25 +124,32 @@ document.querySelector('.popup-image span').onclick = () => {
 
 // sidebar-narlinks
 document.getElementById('nero1').onclick = () => {
-  document.querySelector('.more1').style.display="none";
+  document.querySelector('.more1').style.marginLeft = "100%";
+  document.querySelector('.more1').style.transition="all linear 0.3s";
 }
 document.getElementById('nero2').onclick = () => {
-  document.querySelector('.more1').style.display="none";
+  document.querySelector('.more1').style.marginLeft = "100%";
+  document.querySelector('.more1').style.transition="all linear 0.3s";
 }
 document.getElementById('nero3').onclick = () => {
-  document.querySelector('.more1').style.display="none";
+  document.querySelector('.more1').style.marginLeft = "100%";
+  document.querySelector('.more1').style.transition="all linear 0.3s";
 }
 document.getElementById('nero4').onclick = () => {
-  document.querySelector('.more1').style.display="none";
+  document.querySelector('.more1').style.marginLeft = "100%";
+  document.querySelector('.more1').style.transition="all linear 0.3s";
 }
 document.getElementById('nero5').onclick = () => {
-  document.querySelector('.more1').style.display="none";
+  document.querySelector('.more1').style.marginLeft = "100%";
+  document.querySelector('.more1').style.transition="all linear 0.3s";
 }
 document.getElementById('nero6').onclick = () => {
-  document.querySelector('.more1').style.display="none";
+  document.querySelector('.more1').style.marginLeft = "100%";
+  document.querySelector('.more1').style.transition="all linear 0.3s";
 }
 
 document.getElementById('ex').onclick = () => {
-  document.querySelector('.more1').style.display="none";
+  document.querySelector('.more1').style.marginLeft="100%";
+  document.querySelector('.more1').style.transition="all linear 0.3s";
 }
 
