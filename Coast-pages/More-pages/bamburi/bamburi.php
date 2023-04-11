@@ -17,6 +17,7 @@
       <ul>
         <li class="active"><a href="#"><i class="fa-sharp fa-solid fa-industry fa-beat"></i> Bamburi</a></li>
         <li><a href="#">Images</a></li>
+        <li><a href="#map">Map</a></li>
         <li><a href="#title">Restaurants</a></li>
         <li id="list"><a id="drop" href="#"><i class="fa fa-caret-down"></i> More</a>
          <div id="more">
@@ -43,12 +44,24 @@
   </div>
 
   <!-- coasts -->
-        <p class="title">Bamburi Images</p>
+   <p class="title">Bamburi Images</p>
   <div class="main">
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b12.jpg" alt="Theme">
+        <img src="./images/coast/b1.jpg" alt="Theme">
+      </div>
+    </div>
+
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/coast/b10.jpg" alt="Theme">
+      </div>
+    </div>
+
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/coast/b11.jpg" alt="Theme">
       </div>
     </div>
 
@@ -60,19 +73,13 @@
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b12.jpg" alt="Theme">
+        <img src="./images/coast/b13.jpg" alt="Theme">
       </div>
     </div>
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b12.jpg" alt="Theme">
-      </div>
-    </div>
-
-    <div class="img-container">
-      <div class="images">
-        <img src="./images/coast/b12.jpg" alt="Theme">
+        <img src="./images/coast/b14.jpg" alt="Theme">
       </div>
     </div>
 
@@ -84,13 +91,27 @@
 
     <div class="img-container">
       <div class="images">
+        <img src="./images/coast/b16.jpg" alt="Theme">
+      </div>
+    </div>
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/coast/b17.jpg" alt="Theme">
+      </div>
+    </div>
+    <div class="img-container">
+      <div class="images">
         <img src="./images/coast/b18.jpg" alt="Theme">
       </div>
     </div>
-
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b21.jpg" alt="Theme">
+        <img src="./images/coast/b19.jpg" alt="Theme">
+      </div>
+    </div>
+    <div class="img-container">
+      <div class="images">
+        <img src="./images/coast/b20.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
@@ -100,57 +121,37 @@
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b21.jpg" alt="Theme">
+        <img src="./images/coast/b22.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b21.jpg" alt="Theme">
+        <img src="./images/coast/b23.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b21.jpg" alt="Theme">
+        <img src="./images/coast/b24.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b21.jpg" alt="Theme">
+        <img src="./images/coast/b9.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b21.jpg" alt="Theme">
+        <img src="./images/coast/b2.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b21.jpg" alt="Theme">
-      </div>
-    </div>
-    <div class="img-container">
-      <div class="images">
-        <img src="./images/coast/b21.jpg" alt="Theme">
-      </div>
-    </div>
-    <div class="img-container">
-      <div class="images">
-        <img src="./images/coast/b21.jpg" alt="Theme">
-      </div>
-    </div>
-    <div class="img-container">
-      <div class="images">
-        <img src="./images/coast/b21.jpg" alt="Theme">
-      </div>
-    </div>
-    <div class="img-container">
-      <div class="images">
-        <img src="./images/coast/b21.jpg" alt="Theme">
+        <img src="./images/coast/b5.jpg" alt="Theme">
       </div>
     </div>
     <div id='title' class="img-container">
       <div class="images">
-        <img src="./images/coast/b21.jpg" alt="Theme">
+        <img src="./images/coast/b3.jpg" alt="Theme">
       </div>
     </div>
 
@@ -158,117 +159,127 @@
 
 
   <!-- hotels -->
-    <p id="title1" class="title1">Bamburi Restaurants</p>
+     <p id="title1" class="title1">Bamburi Restaurants</p>
    <div class="main">
-
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b12.jpg" alt="Theme">
+        <img src="./images/hotels/h0.jpg" alt="Theme">
       </div>
     </div>
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b12.jpg" alt="Theme">
+        <img src="./images/hotels/h1.jpg" alt="Theme">
       </div>
     </div>
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b12.jpg" alt="Theme">
+        <img src="./images/hotels/h10.jpg" alt="Theme">
       </div>
     </div>
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b12.jpg" alt="Theme">
+        <img src="./images/hotels/h11.jpg" alt="Theme">
       </div>
     </div>
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b12.jpg" alt="Theme">
+        <img src="./images/hotels/h12.jpg" alt="Theme">
       </div>
     </div>
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b15.jpg" alt="Theme">
+        <img src="./images/hotels/h13.jpg" alt="Theme">
       </div>
     </div>
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b18.jpg" alt="Theme">
+        <img src="./images/hotels/h14.jpg" alt="Theme">
       </div>
     </div>
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b21.jpg" alt="Theme">
+        <img src="./images/hotels/h15.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b21.jpg" alt="Theme">
+        <img src="./images/hotels/h16.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b21.jpg" alt="Theme">
+        <img src="./images/hotels/h17.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b21.jpg" alt="Theme">
+        <img src="./images/hotels/h18.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b21.jpg" alt="Theme">
+        <img src="./images/hotels/h19.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b21.jpg" alt="Theme">
+        <img src="./images/hotels/h21.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b21.jpg" alt="Theme">
+        <img src="./images/hotels/h4.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b21.jpg" alt="Theme">
+        <img src="./images/hotels/h6.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b21.jpg" alt="Theme">
+        <img src="./images/hotels/h2.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b21.jpg" alt="Theme">
+        <img src="./images/hotels/h5.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b21.jpg" alt="Theme">
+        <img src="./images/hotels/h9.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b21.jpg" alt="Theme">
+        <img src="./images/hotels/h8.jpg" alt="Theme">
       </div>
     </div>
-    <div class="img-container">
+    <div id="map" class="img-container">
       <div class="images">
-        <img src="./images/coast/b21.jpg" alt="Theme">
+        <img src="./images/hotels/h7.jpg" alt="Theme">
       </div>
     </div>
+  </div>
 
+  <div class="map">
+    <div class="map-description">
+     <p>Bamburi Map</p>
+      <span>
+        <i id="moon" class="fa-solid fa-moon"></i>
+        <i id="sun" class="fa-solid fa-sun"></i>
+      </span>
+    </div>
+    <iframe id="mapi" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29427.81536696512!2d39.69158414288419!3d-4.001119350506963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18400dc9042093c7%3A0x9576d364a78e35d1!2sBamburi%2C%20Mombasa!5e0!3m2!1sen!2ske!4v1681199544874!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
   </div>
 
 <!-- footer -->

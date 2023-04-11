@@ -63,3 +63,17 @@ list.addEventListener('mouseleave', function (mouseleave) {
 
 
 // $(document).ready(function(){$("img").click(function(){this.requestFullscreen()})});
+
+
+
+const map = document.getElementById('mapi');
+const bright = document.getElementById('sun');
+const dark = document.getElementById('moon');
+
+
+dark.addEventListener('click', () => {
+  map.style.filter= 'invert(100%)';
+})
+bright.addEventListener('click', () => {
+  map.style.filter="invert(0%)";
+})
