@@ -8,21 +8,21 @@
   <title>Allashe@DianiPage.com</title>
   <script src="https://kit.fontawesome.com/9acafcca7d.js" crossorigin="anonymous"></script>
     <link rel="icon" type='xtype/images' href="./images/coast/pexels-photo-533851.jpeg">
-    <link rel="stylesheet" href="./kilifi.css">
+    <link rel="stylesheet" href="./lamu.css">
 </head>
 <body>
   
   <header class="head">
     <div class="nav">
       <ol>
-        <a href="./kilifi.php">
-        <i class="fa-solid fa-fish-fins fa-beat"></i> Kilifi</a>
+        <a href="./lamu.php">
+        <i class="fa-solid fa-fish-fins fa-beat"></i> Lamu</a>
      </ol>
       <main class="active">
         <a><i id="pope" class="fa-solid fa-bars"></i></a>
       </main>
       <ul>
-        <li><a href="./kilifi.php"><i class="fa-solid fa-fish-fins fa-beat"></i> Kilifi</a></li>
+        <li><a href="./lamu.php"><i class="fa-solid fa-fish-fins fa-beat"></i> Lamu</a></li>
         <li><a href="#">Images</a></li>
         <li><a href="#map">Map</a></li>
         <li><a href="#title">Restaurants</a></li>
@@ -33,7 +33,7 @@
               <i id="cross" class="fa-solid fa-xmark"></i>
             </div>
             <li class="item1"><a href="../malindi/malindi.php">Malindi</a></li>
-            <li class="item2"><a href="../lamu/lamu.php">Lamu</a></li>
+            <li class="item2"><a href="../kilifi/kilifi.php">Kilifi</a></li>
             <li class="item3"><a href="../diani/diani.php">Diani</a></li>
             <li class="item4"><a href="../nyali/nyali.php">Nyali</a></li>
             <li class="item5"><a href="../bamburi/bamburi.php">Bamburi</a></li>
@@ -64,7 +64,7 @@
               <i id="ex" class="fa-solid fa-xmark"></i>
             </div>
             <li id="nero1"><a href="../malindi/malindi.php">Malindi</a></li>
-            <li id="nero2"><a href="../lamu/lamu.php">Lamu</a></li>
+            <li id="nero2"><a href="../kilifi/kilifi.php">Kilifi</a></li>
             <li id="nero3"><a href="../diani/diani.php">Diani</a></li>
             <li id="nero4"><a href="../nyali/nyali.php">Nyali</a></li>
             <li id="nero5"><a href="../bamburi/bamburi.php">Bamburi</a></li>
@@ -84,7 +84,7 @@
       </div>
 
   <!-- coasts -->
-   <p class="title">Kilifi Images</p>
+   <p class="title">Lamu Images</p>
   <div class="main">
 
     <div class="img-container">
@@ -199,7 +199,7 @@
 
 
   <!-- hotels -->
-     <p id="title1" class="title1">Kilifi Restaurants</p>
+     <p id="title1" class="title1">Lamu Restaurants</p>
    <div class="main">
     <div class="img-container">
       <div class="images">
