@@ -8,7 +8,7 @@
   <title>Allashe@DianiPage.com</title>
   <script src="https://kit.fontawesome.com/9acafcca7d.js" crossorigin="anonymous"></script>
     <link rel="icon" type='xtype/images' href="./images/coast/pexels-photo-533851.jpeg">
-    <link rel="stylesheet" href="./lamu.css">
+    <link rel="stylesheet" href="./malindi.css">
 </head>
 <body>
   
