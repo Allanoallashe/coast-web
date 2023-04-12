@@ -1,7 +1,5 @@
 
 
-
-
 const Drop = document.getElementById('drop');
 const item1 = document.querySelector('.item1');
 const item2 = document.querySelector('.item2');
@@ -63,5 +61,95 @@ list.addEventListener('mouseleave', function (mouseleave) {
     Drop.style.color="#fff";
 })
 
+// map
 
-// $(document).ready(function(){$("img").click(function(){this.requestFullscreen()})});
+const map = document.getElementById('mapi');
+const bright = document.getElementById('sun');
+const dark = document.getElementById('moon');
+
+
+dark.addEventListener('click', () => {
+  map.style.filter= 'invert(100%)';
+})
+bright.addEventListener('click', () => {
+  map.style.filter="invert(0%)";
+})
+
+
+// sidebar-header
+const zip = document.getElementById('zip');
+const poper = document.getElementById('pope')
+const display = document.getElementById('display');
+const lister = document.getElementById('lister');
+
+poper.addEventListener('mousedown', () => {
+  display.style.marginLeft = "0%";
+  display.style.transition="all 0.3s linear";
+});
+zip.addEventListener('mousedown', () => {
+  display.style.marginLeft = "-100%";
+  display.style.transition="all 0.3s linear";
+});
+lister.addEventListener('click', () => {
+  display.style.marginLeft = "-100%";
+  display.style.transition = "all 0.3s linear";
+  document.querySelector('.more1').style.marginLeft="0%"
+  document.querySelector('.more1').style.transition="all 0.3s linear"
+});
+
+document.querySelector('.swipe3').onclick = () => {
+  display.style.marginLeft = "-100%";
+  display.style.transition = "all 0.3s linear";
+}
+document.querySelector('.swipe2').onclick = () => {
+  display.style.marginLeft = "-100%";
+  display.style.transition = "all 0.3s linear";
+}
+document.querySelector('.swipe1').onclick = () => {
+  display.style.marginLeft = "-100%";
+  display.style.transition = "all 0.3s linear";
+}
+
+
+// images display full screen
+document.querySelectorAll('.main img').forEach(Image => {
+  Image.onclick = () => {
+    document.querySelector('.popup-image').style.display = "block";
+    document.querySelector('.popup-image img').src = Image.getAttribute('src');
+  }
+});
+document.querySelector('.popup-image span').onclick = () => {
+  document.querySelector('.popup-image').style.display = "none";
+}
+
+// sidebar-narlinks
+document.getElementById('nero1').onclick = () => {
+  document.querySelector('.more1').style.marginLeft = "100%";
+  document.querySelector('.more1').style.transition="all linear 0.3s";
+}
+document.getElementById('nero2').onclick = () => {
+  document.querySelector('.more1').style.marginLeft = "100%";
+  document.querySelector('.more1').style.transition="all linear 0.3s";
+}
+document.getElementById('nero3').onclick = () => {
+  document.querySelector('.more1').style.marginLeft = "100%";
+  document.querySelector('.more1').style.transition="all linear 0.3s";
+}
+document.getElementById('nero4').onclick = () => {
+  document.querySelector('.more1').style.marginLeft = "100%";
+  document.querySelector('.more1').style.transition="all linear 0.3s";
+}
+document.getElementById('nero5').onclick = () => {
+  document.querySelector('.more1').style.marginLeft = "100%";
+  document.querySelector('.more1').style.transition="all linear 0.3s";
+}
+document.getElementById('nero6').onclick = () => {
+  document.querySelector('.more1').style.marginLeft = "100%";
+  document.querySelector('.more1').style.transition="all linear 0.3s";
+}
+
+document.getElementById('ex').onclick = () => {
+  document.querySelector('.more1').style.marginLeft="100%";
+  document.querySelector('.more1').style.transition="all linear 0.3s";
+}
+

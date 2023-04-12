@@ -89,109 +89,109 @@
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/k1.jpg" alt="Theme">
+        <img src="./images/coast/L1.jpg" alt="Theme">
       </div>
     </div>
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/k10.jpg" alt="Theme">
+        <img src="./images/coast/L10.jpg" alt="Theme">
       </div>
     </div>
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/k11.jpg" alt="Theme">
+        <img src="./images/coast/L11.jpg" alt="Theme">
       </div>
     </div>
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/k13.jpg" alt="Theme">
+        <img src="./images/coast/L12.jpg" alt="Theme">
       </div>
     </div>
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/k14.jpg" alt="Theme">
+        <img src="./images/coast/L13.jpg" alt="Theme">
       </div>
     </div>
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/k15.jpg" alt="Theme">
+        <img src="./images/coast/L14.jpg" alt="Theme">
       </div>
     </div>
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/k16.jpg" alt="Theme">
+        <img src="./images/coast/L15.jpg" alt="Theme">
       </div>
     </div>
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/k17.jpg" alt="Theme">
+        <img src="./images/coast/L16.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/k18.jpg" alt="Theme">
+        <img src="./images/coast/L17.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/k19.jpg" alt="Theme">
+        <img src="./images/coast/L18.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/k2.jpg" alt="Theme">
+        <img src="./images/coast/L19.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/k20.jpg" alt="Theme">
+        <img src="./images/coast/L20.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/k21.jpg" alt="Theme">
+        <img src="./images/coast/L2.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/k3.jpg" alt="Theme">
+        <img src="./images/coast/L21.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/k5.jpg" alt="Theme">
+        <img src="./images/coast/L3.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/k6.jpg" alt="Theme">
+        <img src="./images/coast/L4.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/k7.jpg" alt="Theme">
+        <img src="./images/coast/L5.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/k8.jpg" alt="Theme">
+        <img src="./images/coast/L6.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/k9.jpg" alt="Theme">
+        <img src="./images/coast/L8.jpg" alt="Theme">
       </div>
     </div>
     <div id='title' class="img-container">
       <div class="images">
-        <img src="./images/coast/L21.jpg" alt="Theme">
+        <img src="./images/coast/L9.jpg" alt="Theme">
       </div>
     </div>
 
@@ -221,7 +221,7 @@
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/hotels/h0.jpg" alt="Theme">
+        <img src="./images/hotels/h11.jpg" alt="Theme">
       </div>
     </div>
 
@@ -312,13 +312,13 @@
 
   <div class="map">
     <div class="map-description">
-     <p>Kilifi Map</p>
+     <p>Lamu Map</p>
       <span>
         <i id="moon" class="fa-solid fa-moon"></i>
         <i id="sun" class="fa-solid fa-sun"></i>
       </span>
     </div>
-   <iframe id="mapi" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d84947.61810843235!2d39.81980968302734!3d-3.582371038473623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x183fddc8d6d8d8cb%3A0x7c817a3788f20bdb!2sKilifi%20Bay%20Beach%20Resort!5e0!3m2!1sen!2ske!4v1681285528619!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   <iframe id="mapi" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7973.384828288841!2d40.89775900419923!3d-2.2681793897741382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1817193e959723d9%3A0xb9894b314f651fd6!2sLamu%20Fort!5e0!3m2!1sen!2ske!4v1681287625501!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
 
 <!-- footer -->
@@ -350,6 +350,6 @@
       </div>
     </footer>
 
-    <script src="./kilifi.js" type="text/javascript"></script>
+    <script src="./lamu.js" type="text/javascript"></script>
 </body>
 </html>
