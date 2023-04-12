@@ -350,6 +350,6 @@
       </div>
     </footer>
 
-    <script src="./diani.js" type="text/javascript"></script>
+    <script src="./kilifi.js" type="text/javascript"></script>
 </body>
 </html>
