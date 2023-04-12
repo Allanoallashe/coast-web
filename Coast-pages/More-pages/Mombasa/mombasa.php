@@ -15,14 +15,14 @@
   <header class="head">
     <div class="nav">
       <ol>
-        <a href="./malindi.php">
+        <a href="./mombasa.php">
         <i class="fa-solid fa-ship fa-beat"></i> Mombasa</a>
      </ol>
       <main class="active">
         <a><i id="pope" class="fa-solid fa-bars"></i></a>
       </main>
       <ul>
-        <li><a href="./malindi.php"><i class="fa-solid fa-ship fa-beat"></i> Mombasa</a></li>
+        <li><a href="./mombasa.php"><i class="fa-solid fa-ship fa-beat"></i> Mombasa</a></li>
         <li><a href="#">Images</a></li>
         <li><a href="#map">Map</a></li>
         <li><a href="#title">Restaurants</a></li>
@@ -89,109 +89,109 @@
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/m1.jpg" alt="Theme">
+        <img src="./images/The-Coast/C1.jpg" alt="Theme">
       </div>
     </div>
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/m10.jpg" alt="Theme">
+        <img src="./images/The-Coast/C10.jpg" alt="Theme">
       </div>
     </div>
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/m11.jpg" alt="Theme">
+        <img src="./images/The-Coast/C11.jpg" alt="Theme">
       </div>
     </div>
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/m12.jpg" alt="Theme">
+        <img src="./images/The-Coast/C12.jpg" alt="Theme">
       </div>
     </div>
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/m13.jpg" alt="Theme">
+        <img src="./images/The-Coast/C13.jpg" alt="Theme">
       </div>
     </div>
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/m14.jpg" alt="Theme">
+        <img src="./images/The-Coast/C14.jpg" alt="Theme">
       </div>
     </div>
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/m15.jpg" alt="Theme">
+        <img src="./images/The-Coast/C15.jpg" alt="Theme">
       </div>
     </div>
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/m16.jpg" alt="Theme">
+        <img src="./images/The-Coast/C16.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/m17.jpg" alt="Theme">
+        <img src="./images/The-Coast/C17.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/m18.jpg" alt="Theme">
+        <img src="./images/The-Coast/C18.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/m19.jpg" alt="Theme">
+        <img src="./images/The-Coast/C19.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/m2.jpg" alt="Theme">
+        <img src="./images/The-Coast/C20.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/m20.jpg" alt="Theme">
+        <img src="./images/The-Coast/C21.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/m9.jpg" alt="Theme">
+        <img src="./images/The-Coast/C2.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/m21.jpg" alt="Theme">
+        <img src="./images/The-Coast/C3.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/m3.jpg" alt="Theme">
+        <img src="./images/The-Coast/C4.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/m4.jpg" alt="Theme">
+        <img src="./images/The-Coast/C5.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/m5.jpg" alt="Theme">
+        <img src="./images/The-Coast/C6.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/m6.jpg" alt="Theme">
+        <img src="./images/The-Coast/C8.jpg" alt="Theme">
       </div>
     </div>
     <div id='title' class="img-container">
       <div class="images">
-        <img src="./images/coast/m8.jpg" alt="Theme">
+        <img src="./images/The-Coast/C9.jpg" alt="Theme">
       </div>
     </div>
 
@@ -203,7 +203,7 @@
    <div class="main">
     <div class="img-container">
       <div class="images">
-        <img src="./images/hotels/h20.jpg" alt="Theme">
+        <img src="./images/The-Coast/C7.jpg" alt="Theme">
       </div>
     </div>
 
@@ -270,12 +270,12 @@
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/hotels/h11 copy.jpg" alt="Theme">
+        <img src="./images/hotels/h4.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/hotels/h16 copy.jpg" alt="Theme">
+        <img src="./images/hotels/h16.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
@@ -290,17 +290,17 @@
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/hotels/h5.jpg" alt="Theme">
+        <img src="./images/hotels/h20.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/hotels/h10 copy.jpg" alt="Theme">
+        <img src="./images/hotels/h22.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/hotels/h12 copy.jpg" alt="Theme">
+        <img src="./images/hotels/h21.jpg" alt="Theme">
       </div>
     </div>
     <div id="map" class="img-container">
@@ -318,7 +318,7 @@
         <i id="sun" class="fa-solid fa-sun"></i>
       </span>
     </div>
-   <iframe id="mapi" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52583.280192500264!2d40.07338048204937!3d-3.228165004831058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18158fb59755771f%3A0x6fee2fe87bfc1f56!2sGolden%20Beach!5e0!3m2!1sen!2ske!4v1681290808043!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   <iframe id="mapi" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.9292920119337!2d39.71337433777095!3d-4.032627789429623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18401211fdaaaaab%3A0xdb11c5881b1f74fc!2sMombasa%20Public%20Beach!5e0!3m2!1sen!2ske!4v1681293606006!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
 
 <!-- footer -->
@@ -350,6 +350,6 @@
       </div>
     </footer>
 
-    <script src="./mombasa.js" type="text/javascript"></script>
+    <script src="./coast.js" type="text/javascript"></script>
 </body>
 </html>
