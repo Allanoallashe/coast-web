@@ -37,7 +37,7 @@
             <li class="item3"><a href="../diani/diani.php">Diani</a></li>
             <li class="item4"><a href="../nyali/nyali.php">Nyali</a></li>
             <li class="item5"><a href="../bamburi/bamburi.php">Bamburi</a></li>
-            <li class="item6"><a href="../Mombasa/mombasa.php">Mombasa</a></li>
+            <li class="item6"><a href="../malindi/malindi.php">Malindi</a></li>
           </ul>
       </div>
       </li>
@@ -68,7 +68,7 @@
             <li id="nero3"><a href="../diani/diani.php">Diani</a></li>
             <li id="nero4"><a href="../nyali/nyali.php">Nyali</a></li>
             <li id="nero5"><a href="../bamburi/bamburi.php">Bamburi</a></li>
-            <li id="nero6"><a href="../Mombasa/mombasa.php">Mombasa</a></li>
+            <li id="nero6"><a href="../malindi/malindi.php">Malindi</a></li>
           </ul>
       </div>
 
