@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Allashe@BamburiPage.com</title>
+  <title>Allashe@DianiPage.com</title>
   <script src="https://kit.fontawesome.com/9acafcca7d.js" crossorigin="anonymous"></script>
     <link rel="icon" type='xtype/images' href="./images/coast/pexels-photo-533851.jpeg">
     <link rel="stylesheet" href="./diani.css">
@@ -51,7 +51,7 @@
         <div class="closer">
               <i id="zip" class="fa-solid fa-xmark"></i>
             </div>
-       <li><a class="swipe1">Images</a></li>
+       <li><a href="#" class="swipe1">Images</a></li>
        <li><a class="swipe2" href="#map">Map</a></li>
        <li><a class="swipe3"href="#title">Restaurants</a></li>
        <li><a id="lister"><i class="fa fa-caret-down"></i> More Locations</a></li>
@@ -74,7 +74,7 @@
 
      <!-- marque -->
   <div class='marque'>
-    <marquee width="98%"  direction="left" height="100%" behavior="scroll" scrollamount="5" loop="100000">The coastal regions i.e. the coast of Kenya, are very nice places to visit especially during the holidays. The beaches have very nice aesthetic beauty. Register to get started and book your hotels prier🥳.Accomodations are there in plenty&#128150;  &#128519; 🥳</marquee>
+    <marquee width="98%"  direction="left" height="100%" behavior="scroll" scrollamount="5" loop="100000">The coastal regions i.e. the coast of Kenya, are very nice places to visit especially during the holidays. The beaches have very nice aesthetic beauty. Register to get started and book your hotels prier🥳.Accomodations are there in plenty&#128150;  &#128519;. Welcome to the Coast of Kenya🥳</marquee>
   </div>
 
       <!-- popup image -->
@@ -89,109 +89,109 @@
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b1.jpg" alt="Theme">
+        <img src="./images/coast/d1.jpg" alt="Theme">
       </div>
     </div>
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b10.jpg" alt="Theme">
+        <img src="./images/coast/d10.jpg" alt="Theme">
       </div>
     </div>
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b11.jpg" alt="Theme">
+        <img src="./images/coast/d11.jpg" alt="Theme">
       </div>
     </div>
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b12.jpg" alt="Theme">
+        <img src="./images/coast/d12.jpg" alt="Theme">
       </div>
     </div>
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b13.jpg" alt="Theme">
+        <img src="./images/coast/d13.jpg" alt="Theme">
       </div>
     </div>
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b14.jpg" alt="Theme">
+        <img src="./images/coast/d14.jpg" alt="Theme">
       </div>
     </div>
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b15.jpg" alt="Theme">
+        <img src="./images/coast/d15.jpg" alt="Theme">
       </div>
     </div>
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b16.jpg" alt="Theme">
+        <img src="./images/coast/d16.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b17.jpg" alt="Theme">
+        <img src="./images/coast/d17.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b18.jpg" alt="Theme">
+        <img src="./images/coast/d18.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b19.jpg" alt="Theme">
+        <img src="./images/coast/d2.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b20.jpg" alt="Theme">
+        <img src="./images/coast/d3.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b21.jpg" alt="Theme">
+        <img src="./images/coast/d4.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b22.jpg" alt="Theme">
+        <img src="./images/coast/d5.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b23.jpg" alt="Theme">
+        <img src="./images/coast/d6.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b24.jpg" alt="Theme">
+        <img src="./images/coast/d7.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b9.jpg" alt="Theme">
+        <img src="./images/coast/d8.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b2.jpg" alt="Theme">
+        <img src="./images/coast/d9.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/b5.jpg" alt="Theme">
+        <img src="./images/coast/C23.jpg" alt="Theme">
       </div>
     </div>
     <div id='title' class="img-container">
       <div class="images">
-        <img src="./images/coast/b3.jpg" alt="Theme">
+        <img src="./images/coast/C24.jpg" alt="Theme">
       </div>
     </div>
 
@@ -203,7 +203,7 @@
    <div class="main">
     <div class="img-container">
       <div class="images">
-        <img src="./images/hotels/h0.jpg" alt="Theme">
+        <img src="./images/hotels/h20.jpg" alt="Theme">
       </div>
     </div>
 
@@ -270,7 +270,7 @@
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/hotels/h21.jpg" alt="Theme">
+        <img src="./images/hotels/h3.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
@@ -318,8 +318,7 @@
         <i id="sun" class="fa-solid fa-sun"></i>
       </span>
     </div>
-    <iframe id="mapi" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29427.81536696512!2d39.69158414288419!3d-4.001119350506963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18400dc9042093c7%3A0x9576d364a78e35d1!2sBamburi%2C%20Mombasa!5e0!3m2!1sen!2ske!4v1681199544874!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
+   <iframe id="mapi" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25016.456583204!2d39.57726214033499!3d-4.27391094819404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1840463f2a0b107d%3A0xafa0063ab0f439ad!2sDiani%20Beach!5e0!3m2!1sen!2ske!4v1681283718977!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
 
 <!-- footer -->
