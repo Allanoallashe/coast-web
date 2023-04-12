@@ -861,6 +861,11 @@ marquee{
     height: auto;
    }
 
+   /* main active */
+   #pope:hover{
+   cursor: pointer;
+   }
+
     /* more popper */
     #more1{
       display: flex;

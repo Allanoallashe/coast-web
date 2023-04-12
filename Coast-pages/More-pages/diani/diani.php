@@ -15,14 +15,14 @@
   <header class="head">
     <div class="nav">
       <ol>
-        <a href="./bamburi.php">
-        <i class="fa-sharp fa-solid fa-industry fa-beat"></i> Diani</a>
+        <a href="./diani.php">
+        <i class="fa-solid fa-fish-fins fa-beat"></i> Diani</a>
      </ol>
       <main class="active">
-        <a href="#"><i id="pope" class="fa-solid fa-bars"></i></a>
+        <a><i id="pope" class="fa-solid fa-bars"></i></a>
       </main>
       <ul>
-        <li><a href="./bamburi.php"><i class="fa-sharp fa-solid fa-industry fa-beat"></i> Diani</a></li>
+        <li><a><i class="fa-solid fa-fish-fins fa-beat"></i> Diani</a></li>
         <li><a href="#">Images</a></li>
         <li><a href="#map">Map</a></li>
         <li><a href="#title">Restaurants</a></li>
@@ -351,6 +351,6 @@
       </div>
     </footer>
 
-    <script src="./bamburi.js" type="text/javascript"></script>
+    <script src="./diani.js" type="text/javascript"></script>
 </body>
 </html>
