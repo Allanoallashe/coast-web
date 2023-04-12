@@ -15,14 +15,14 @@
   <header class="head">
     <div class="nav">
       <ol>
-        <a href="./diani.php">
+        <a href="./kilifi.php">
         <i class="fa-solid fa-ship fa-beat"></i> Kilifi</a>
      </ol>
       <main class="active">
         <a><i id="pope" class="fa-solid fa-bars"></i></a>
       </main>
       <ul>
-        <li><a><i class="fa-solid fa-ship fa-beat"></i> Kilifi</a></li>
+        <li><a href="./kilifi.php"><i class="fa-solid fa-ship fa-beat"></i> Kilifi</a></li>
         <li><a href="#">Images</a></li>
         <li><a href="#map">Map</a></li>
         <li><a href="#title">Restaurants</a></li>
@@ -89,109 +89,109 @@
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/d1.jpg" alt="Theme">
+        <img src="./images/coast/k1.jpg" alt="Theme">
       </div>
     </div>
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/d10.jpg" alt="Theme">
+        <img src="./images/coast/k10.jpg" alt="Theme">
       </div>
     </div>
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/d11.jpg" alt="Theme">
+        <img src="./images/coast/k11.jpg" alt="Theme">
       </div>
     </div>
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/d12.jpg" alt="Theme">
+        <img src="./images/coast/k13.jpg" alt="Theme">
       </div>
     </div>
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/d13.jpg" alt="Theme">
+        <img src="./images/coast/k14.jpg" alt="Theme">
       </div>
     </div>
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/d14.jpg" alt="Theme">
+        <img src="./images/coast/k15.jpg" alt="Theme">
       </div>
     </div>
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/d15.jpg" alt="Theme">
+        <img src="./images/coast/k16.jpg" alt="Theme">
       </div>
     </div>
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/d16.jpg" alt="Theme">
+        <img src="./images/coast/k17.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/d17.jpg" alt="Theme">
+        <img src="./images/coast/k18.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/d18.jpg" alt="Theme">
+        <img src="./images/coast/k19.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/d2.jpg" alt="Theme">
+        <img src="./images/coast/k2.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/d3.jpg" alt="Theme">
+        <img src="./images/coast/k20.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/d4.jpg" alt="Theme">
+        <img src="./images/coast/k21.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/d5.jpg" alt="Theme">
+        <img src="./images/coast/k3.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/d6.jpg" alt="Theme">
+        <img src="./images/coast/k5.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/d7.jpg" alt="Theme">
+        <img src="./images/coast/k6.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/d8.jpg" alt="Theme">
+        <img src="./images/coast/k7.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/d9.jpg" alt="Theme">
+        <img src="./images/coast/k8.jpg" alt="Theme">
       </div>
     </div>
     <div class="img-container">
       <div class="images">
-        <img src="./images/coast/C23.jpg" alt="Theme">
+        <img src="./images/coast/k9.jpg" alt="Theme">
       </div>
     </div>
     <div id='title' class="img-container">
       <div class="images">
-        <img src="./images/coast/C24.jpg" alt="Theme">
+        <img src="./images/coast/L21.jpg" alt="Theme">
       </div>
     </div>
 
@@ -221,7 +221,7 @@
 
     <div class="img-container">
       <div class="images">
-        <img src="./images/hotels/h11.jpg" alt="Theme">
+        <img src="./images/hotels/h0.jpg" alt="Theme">
       </div>
     </div>
 
@@ -318,7 +318,7 @@
         <i id="sun" class="fa-solid fa-sun"></i>
       </span>
     </div>
-   <iframe id="mapi" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25016.456583204!2d39.57726214033499!3d-4.27391094819404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1840463f2a0b107d%3A0xafa0063ab0f439ad!2sDiani%20Beach!5e0!3m2!1sen!2ske!4v1681283718977!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   <iframe id="mapi" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d84947.61810843235!2d39.81980968302734!3d-3.582371038473623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x183fddc8d6d8d8cb%3A0x7c817a3788f20bdb!2sKilifi%20Bay%20Beach%20Resort!5e0!3m2!1sen!2ske!4v1681285528619!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
 
 <!-- footer -->
