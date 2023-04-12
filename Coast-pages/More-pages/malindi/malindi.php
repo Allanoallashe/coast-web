@@ -350,6 +350,6 @@
       </div>
     </footer>
 
-    <script src="./lamu.js" type="text/javascript"></script>
+    <script src="./malindi.js" type="text/javascript"></script>
 </body>
 </html>
