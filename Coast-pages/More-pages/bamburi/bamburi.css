@@ -750,7 +750,7 @@ marquee{
   width: 90%;
   height: 70vh;
   filter:contrast(90%);
-  filter: brightness(1.05);
+  filter: brightness(1.05) rgba(0,0,0,1.1);
   border-radius: 5px;
 }
 
