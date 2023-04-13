@@ -8,8 +8,8 @@ body{
   background-image:url(images/hh.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #eb9950;
-  height: 665px;
+  max-height: 1385px;
+  height: 100vh;
   background-position: 100%;
 }
 
@@ -290,14 +290,6 @@ marquee{
     bottom: 0;
     left: 0;
     right: 0;
-  }
-  body{
-    background-image:url(images/hh.jpg);
-    background-position: top;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    max-width: 640px;
   }
   #blink{
     color: #02001b;

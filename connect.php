@@ -156,6 +156,7 @@
     </div>
   </main>
 
+  <!-- footer -->
   <footer class="bottom2">
       <div class="footer__logo2">
                 <a href="#" id="footer__logo2">
