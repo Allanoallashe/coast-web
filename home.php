@@ -26,7 +26,16 @@
         <li><a href="connect.php">Register</a></li>
         <li><a href="#">Services</a></li>
       </ul>
+      <i id="pope" class="fa-solid fa-bars"></i>
   </header>      
+
+    <ul class="view">
+        <div><span>&times;</span></div>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="connect.php">Register</a></li>
+        <li><a href="#">Services</a></li>
+      </ul>
 
   <div class="marquee">
     <marquee width="98%" direction="left" height="100%" behavior="scroll" scrollamount="5" loop="10000">The coastal regions i.e. the coast of Kenya are very nice places to visit especially during the holidays. The beaches have very nice aesthetic beauty. Register to get started and book your hotels prier🥳.Accomodations are there in plenty&#128150;  &#128519; 🥳</marquee>
@@ -39,8 +48,8 @@
         <a href="connect.php"><button>Register</button></a>
     </div>
 
-    <div class="blink">
-      <p>welcome to the beautiful Coasts 🥳</p>
+    <div id="blink" class="blink">
+      <p>welcome to the beautiful Coasts &#128166;</p>
     </div>
 
     <footer id="bottom" class="bottom">
@@ -69,6 +78,6 @@
           </a>
       </div>
     </footer>
-    <!-- <script src='index.js' type='text/javascript'></script> -->
+    <script src='home.js' type='text/javascript'></script>
 </body>
 </html>

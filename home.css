@@ -162,6 +162,70 @@ marquee{
   font-size: 18px;
 }
 
+  /* drop down */
+    .view{
+      background-color: #060152;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      position: fixed;
+      justify-content: space-evenly;
+      align-items: center;
+      right: 0;
+      left: 0;
+      top: 0;
+      z-index: 5000;
+      height: 33vh;
+      padding-bottom: 20px;
+      margin-left: -100%;
+    }
+    .view  div{
+      display: flex;
+      height: 30px;
+      width: 90%;
+      color: #fff;
+      font-size: 30px;
+      font-weight: bolder;
+      align-items: center;
+      justify-content: flex-end;
+    }
+    .view span{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 30px;
+      width: 30px;
+    }
+    .view span:hover{
+      cursor: pointer;
+      color: #b2ffe9;
+    }
+    .view li{
+      display: flex;
+      list-style: none;
+      height: 35px;
+      width: 80%;
+      align-items: center;
+      justify-content: center;
+    }
+    .view li a{
+      display: flex;
+      text-decoration: none;
+      height: 35px;
+      width: 100%;
+      color: #fff;
+      font-size: 18px;
+      font-weight: bolder;
+      align-items: center;
+      justify-content: center;
+    }
+    .view li a:hover{
+      background-color: #fff;
+      transition: ease-in-out all 0.15s;
+      color: #060152;
+    }
+
+
 .blink{
   animation: blink 0.6s linear infinite;
   animation-iteration-count: 100;
@@ -175,12 +239,18 @@ marquee{
   margin-top: 16%;
   text-transform: capitalize;
 }
-@keyframes blink {
+  @keyframes blink {
                   0%  {opacity: 0; transition: all 0.5s ease-in-out;}
               }
 
+  #pope{
+    display: none;
+  }
 
- @media only screen and (max-width:540px) {
+
+              /* media query */
+
+ @media only screen and (max-width:640px) {
   marquee{
     font-size: 14px;
   }
@@ -217,10 +287,41 @@ marquee{
   }
   body{
     background-image:url(images/hh.jpg);
-    background-position: center;
+    background-position: top;
     background-size: cover;
     display: flex;
     flex-direction: column;
-    width: 410px;
+    max-width: 640px;
+  }
+  #blink{
+    position: absolute;
+    top: 10%;
+    white-space: nowrap;
+    transform:translate(-50% -50%);
+    left: 16%;
+    color: #02001b;
+  }
+  .direct{
+    white-space: nowrap;
+    color: #ffff;
+  }
+  .direct button{
+    background-color: #b2ffe9;
+  }
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  header ul{
+    display: none;
+  }
+  #pope{
+    display: contents;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  header i:hover{
+    color: #f5f5f5;
   }
  }
