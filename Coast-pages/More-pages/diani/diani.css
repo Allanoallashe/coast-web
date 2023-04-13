@@ -758,7 +758,7 @@ marquee{
 
  /* sidebar display*/
 
-   #display{
+     #display{
     display: flex;
     flex-direction: column;
     position: fixed;
@@ -787,14 +787,13 @@ marquee{
     justify-content: center;
     font-size: 26px;
     font-weight: bolder;
-    color: #060152;
+    color: #ffff;
     height: 40px;
     width: 100%;
-    background-color: #e8e8e8;
-    box-shadow: inset #060152 -1px 2px 8px ;
    }
    #display li a:hover{
     cursor: pointer;
+    color: #060152;
     background-color: #caffed;
     transition: all 0.15s ease-in-out;
     transform: scale(1.02);
@@ -861,11 +860,6 @@ marquee{
     height: auto;
    }
 
-   /* main active */
-   #pope:hover{
-   cursor: pointer;
-   }
-
     /* more popper */
     #more1{
       display: flex;
@@ -907,11 +901,9 @@ marquee{
     justify-content: center;
     font-size: 26px;
     font-weight: bolder;
-    color: #060152;
+    color: #ffff;
     height: 40px;
     width: 100%;
-    background-color: #e8e8e8;
-    box-shadow: inset #060152 -1px 2px 8px ;
 }
 
   #more1 li a:hover{
@@ -920,6 +912,7 @@ marquee{
     transition: all 0.15s ease-in-out;
     transform: scale(1.02);
     outline: none;
+    color: #060152;
    }
   .closer{
     display: flex;
@@ -941,4 +934,7 @@ marquee{
     transform: scale(1.02);
     cursor: pointer;
     color: #caffed;
+   }
+   #pope:hover{
+    cursor: pointer;
    }

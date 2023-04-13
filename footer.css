@@ -3,14 +3,14 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  height: 80px;
+  height: 60px;
   position: absolute;
   right: 0;
   left: 0;
   bottom: 0;
   background-color: #060152;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  border-top: #fff dotted 1px;
+  border-top: #acacac dotted 1px;
 }
 .bottom2{
   display: flex;

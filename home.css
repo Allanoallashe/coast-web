@@ -142,14 +142,17 @@ header ul li a:hover{
 .direct button:hover:active{
   opacity: 0.4;
 }
+
+  /* marque */
 .marquee{
   background-color: #060152;
   color: #fff;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 10%;
+  position: fixed;
+  bottom: 60px;
+  left: 0;
+  right: 0;
   height: 40px;
-  border-radius: 4px;
+  border-top: 1px solid #595959;
 }
 marquee{
   margin-left: 10px;
