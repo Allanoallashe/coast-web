@@ -23,10 +23,7 @@
     <ul class="list-two">
         <li><a href="#">About</a></li>
         <li><a href="#">Contact</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Company</a></li>
         <li><a href="connect.php">Register</a></li>
-        <li><a href="#">Groups</a></li>
         <li><a href="#">Services</a></li>
       </ul>
   </header>      
@@ -46,13 +43,13 @@
       <p>welcome to the beautiful Coasts 🥳</p>
     </div>
 
-    <footer class="bottom">
+    <footer id="bottom" class="bottom">
       <div class="footer__logo">
                 <a href="#" id="footer__logo">
                   <i class="fas fa-gem">ALLANITY</i></a>
         </div>
-      <p class="website__rights">
-              <span class="dot">C</span> @allashe.com 2023. All rights reserved.
+      <p  id="web-rights" class="website__rights">
+              <span id="dot" class="dot">C</span> @allashe.com 2023. All rights reserved.
       </p>
       <div class="social__icons">
           <a href="/" class="social__icon-link" target="_blank">
@@ -72,6 +69,6 @@
           </a>
       </div>
     </footer>
-    <script src='index.js' type='text/javascript'></script>
+    <!-- <script src='index.js' type='text/javascript'></script> -->
 </body>
 </html>

@@ -163,11 +163,12 @@ marquee{
 }
 
 .blink{
-  animation: blink 0.5s linear infinite;
+  animation: blink 0.6s linear infinite;
   animation-iteration-count: 100;
   font-size: 20px;
   color: #fff;
   font-weight: bold;
+  filter: brightness(2.5);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -177,3 +178,49 @@ marquee{
 @keyframes blink {
                   0%  {opacity: 0; transition: all 0.5s ease-in-out;}
               }
+
+
+ @media only screen and (max-width:540px) {
+  marquee{
+    font-size: 14px;
+  }
+  .marquee{
+    height: 35px;
+    width: 100%;
+    bottom: 51px;
+  }
+  #footer__logo i{
+    font-size: 14px;
+  }
+  #dot{
+    height: 12px;
+    width: 12px;
+    font-size: 10px;
+    border-width: 1px;
+    margin: 0 2px 0 2px;
+  }
+  #web-rights{
+    font-size: 12px;
+    white-space: nowrap;
+    margin-left: 2px;
+  }
+  .social__icon-link i{
+      font-size: 14px;
+      margin-bottom: 10px;
+  }
+  #bottom{
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  body{
+    background-image:url(images/hh.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    width: 410px;
+  }
+ }
