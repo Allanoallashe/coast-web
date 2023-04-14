@@ -37,10 +37,14 @@
         <li><a href="#">Services</a></li>
       </ul>
 
+
+      <!-- marquee -->
   <div class="marquee">
     <marquee width="98%" direction="left" height="100%" behavior="scroll" scrollamount="5" loop="10000">The coastal regions i.e. the coast of Kenya are very nice places to visit especially during the holidays. The beaches have very nice aesthetic beauty. Register to get started and book your hotels prier🥳.Accomodations are there in plenty&#128150;  &#128519; 🥳</marquee>
   </div>
 
+
+  <!-- sign in page -->
     <div class="direct">
         <p>Already have an Account?</p>
         <a href="./Coast-pages/More-pages/Mombasa/mombasa.php"><button>Sign In</button></a>
@@ -48,6 +52,8 @@
         <a href="connect.php"><button>Register</button></a>
     </div>
 
+
+    <!-- blinker -->
     <div id="blink" class="blink">
       <p>welcome to the beautiful Coasts &#128166;</p>
     </div>

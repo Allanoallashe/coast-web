@@ -57,17 +57,18 @@ header ul li a:hover{
   justify-content: center;
   position: relative;
   height: 40px;
-  width: 100px;
+  width: 150px;
   font-size: 18px;
   font-weight: bold;
   color: #060152;
   outline: none;
-  margin-left: 20px;
+  margin-left: 30px;
+  margin-right: 16px;
 }
 .btn1{
   white-space: nowrap;
   height: 40px;
-  width: 100px;
+  width: 140px;
   background-color: #fff;
   border:#060152 solid 1px;
   cursor: pointer;
@@ -102,6 +103,7 @@ header ul li a:hover{
   align-items: center;
   justify-content: center;
   height: 40px;
+  width: 140px;
   position: relative;
   z-index: 1000;
   text-decoration: none;
@@ -122,7 +124,7 @@ header ul li a:hover{
   padding: 30px;
   font-size: 20px;
   font-weight: bold;
-  color: #060152;
+  color: rgb(45, 255, 255);
 }
 .direct button{
   height: 40px;
@@ -130,10 +132,10 @@ header ul li a:hover{
   color: #060152;
   cursor: pointer;
   font-size: 16px;
-  width: 120px;
+  width: 180px;
   font-weight: bold;
   border: #060152 solid 1px;
-  border-radius: 2px;
+  border-radius: 20px;
 }
 .direct button:hover{
   background-color: #060152;
@@ -149,18 +151,18 @@ header ul li a:hover{
   background-color: #060152;
   color: #fff;
   position: fixed;
-  bottom: 60px;
+  bottom: 48px;
   left: 0;
   right: 0;
   height: 40px;
-  border-top: 1px solid #595959;
+  border-top: #636363 dotted 1px;
 }
 marquee{
   margin-left: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 18px;
+  font-size: 17px;
 }
 
   /* drop down */
@@ -226,12 +228,10 @@ marquee{
       color: #060152;
     }
 
-
 .blink{
   animation: blink 0.6s linear infinite;
   animation-iteration-count: 100;
   font-size: 20px;
-  color: #02001b;
   position: fixed;
   top:22%;
   left: 0;
@@ -244,9 +244,10 @@ marquee{
   align-items: center;
   justify-content: center;
   text-transform: capitalize;
+  color: #02001a;
 }
   @keyframes blink {
-                  0%  {opacity: 0; transition: all 0.5s ease-in-out;}
+                  50%  {opacity: 0; transition: all 0.5s ease-in-out;}
               }
 
   #pope{
@@ -263,7 +264,7 @@ marquee{
   .marquee{
     height: 35px;
     width: 100%;
-    bottom: 51px;
+    bottom: 48px;
   }
   #footer__logo i{
     font-size: 14px;
@@ -291,15 +292,8 @@ marquee{
     left: 0;
     right: 0;
   }
-  #blink{
-    color: #02001b;
-  }
   .direct{
     white-space: nowrap;
-    color: #ffff;
-  }
-  .direct button{
-    background-color: #b2ffe9;
   }
   header{
     display: flex;
@@ -326,7 +320,7 @@ marquee{
   .marquee{
     height: 35px;
     width: 100%;
-    bottom: 51px;
+    bottom: 48px;
   }
   #footer__logo i{
     font-size: 16px;
@@ -358,5 +352,10 @@ marquee{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+  }
+ }
+ @media only screen and (min-width:1440px){
+  .direct{
+    color: #ffff;
   }
  }

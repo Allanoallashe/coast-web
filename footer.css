@@ -10,7 +10,7 @@
   bottom: 0;
   background-color: #060152;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  border-top: #acacac dotted 1px;
+  border-top: none;
 }
 .bottom2{
   display: flex;
