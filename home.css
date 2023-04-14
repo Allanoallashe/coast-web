@@ -11,6 +11,8 @@ body{
   max-height: 1385px;
   height: 100vh;
   background-position: 100%;
+  width: 100%;
+  max-width: 98vw;
 }
 
 header{
@@ -73,6 +75,7 @@ header ul li a:hover{
   border:#060152 solid 1px;
   cursor: pointer;
   position: relative;
+  border-radius: 2px;
 }
 .btn1 a:hover,
 .btn1:hover{
@@ -103,13 +106,14 @@ header ul li a:hover{
   align-items: center;
   justify-content: center;
   height: 40px;
+  border-radius: 2px;
   width: 140px;
   position: relative;
   z-index: 1000;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
 }
-
+    /* direct  */
 .direct{
   display: flex;
   flex-direction: column;
@@ -117,6 +121,9 @@ header ul li a:hover{
   justify-content: space-evenly;
   height: 200px;
   position: absolute;
+  background-color: #060152;
+  width: 300px;
+  border-radius: 10px;
   top: 50%;
   left: 50%;
   white-space: nowrap;
@@ -124,7 +131,7 @@ header ul li a:hover{
   padding: 30px;
   font-size: 20px;
   font-weight: bold;
-  color: rgb(45, 255, 255);
+  color: #ffff;
 }
 .direct button{
   height: 40px;
@@ -138,7 +145,7 @@ header ul li a:hover{
   border-radius: 20px;
 }
 .direct button:hover{
-  background-color: #060152;
+  background-color:  #ffbb00;
   color: #fff;
   transition: 0.2s all ease-in-out;
 }
@@ -244,7 +251,8 @@ marquee{
   align-items: center;
   justify-content: center;
   text-transform: capitalize;
-  color: #02001a;
+  /* color: #02001a; */
+  color: #ffff;
 }
   @keyframes blink {
                   50%  {opacity: 0; transition: all 0.5s ease-in-out;}
@@ -269,12 +277,8 @@ marquee{
   #footer__logo i{
     font-size: 14px;
   }
-  #dot{
-    height: 12px;
-    width: 12px;
-    font-size: 10px;
-    border-width: 1px;
-    margin: 0 2px 0 2px;
+  #web-rights #dot{
+    font-size: 16px;
   }
   #web-rights{
     font-size: 12px;
@@ -325,13 +329,7 @@ marquee{
   #footer__logo i{
     font-size: 16px;
   }
-  #dot{
-    height: 14px;
-    width: 14px;
-    font-size: 10px;
-    border-width: 1.5px;
-    margin: 0 4px 0 4px;
-  }
+  
   #web-rights{
     font-size: 13px;
     white-space: nowrap;
@@ -353,9 +351,12 @@ marquee{
     align-items: center;
     justify-content: space-evenly;
   }
+  .blink{
+    color: #02001f;
+  }
  }
- @media only screen and (min-width:1440px){
-  .direct{
-    color: #ffff;
+ @media only screen and (min-width:841px){
+  .blink{
+    color: #02001f;
   }
  }

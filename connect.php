@@ -14,6 +14,7 @@
   <script src="https://kit.fontawesome.com/9acafcca7d.js" crossorigin="anonymous"></script>
 </head>
 <body>
+     <!-- nav bar -->
   <header>
     <div id="nav" class="main">
       <div class="home">
@@ -21,69 +22,21 @@
           <li class="active"><a href="home.php"><i class="fa fa-home"></i> Home</a></li>
         </ul>
       </div>
-      <ul class="list-two">
-        <li class="active"><a href="home.php"><i class="fa fa-home"></i> Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Company</a></li>
-        <li><a href="connect.php">Register</a></li>
-        <li><a href="#">Groups</a></li>
-        <li><a href="#">Services</a></li>
-      </ul>
-
-
-      <div class="locations">
-
-        <div id="drop-down"><a href="#"><i class="fa fa-caret-down"></i>locations</a></div>
-
-        <div id="sub-menu" class="sub-menu">
-          <ul id="browse">
-            <li><a href="./Coast-pages/More-pages/Mombasa/mombasa.php" target="">Mombasa</a></li>
-            <li><a href="./Coast-pages/More-pages/malindi/malindi.php">Malindi</a></li>
-            <li><a href="./Coast-pages/More-pages/lamu/lamu.php">Lamu</a></li>
-            <li><a href="./Coast-pages/More-pages/kilifi/kilifi.php">Kilifi</a></li>
-            <li><a href="./Coast-pages/More-pages/nyali/nyali.php">Nyali</a></li>
-            <li><a href="./Coast-pages/More-pages/diani/diani.php">Diani</a></li>
-            <li><a href="./Coast-pages/More-pages/bamburi/bamburi.php">Bamburi</a></li>
-          </ul>
-        </div>
-      </div>
-
-      <div id="close">
-        <i id="menu" class="fa-solid fa-bars"></i>
-        <i id="cross" class="fa-solid fa-xmark"></i>
-      </div>
-
     </div>
   </header>
 
 
-   <ul id="list" class="list-one">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Company</a></li>
-        <li ><a href="connect.php">Register</a></li>
-        <li><a href="#">Groups</a></li>
-        <li><a href="#">Services</a></li>
-      </ul>
-
+         <!-- coast text -->
    <div class="title">
       <h1>THE COAST</h1>
     </div>
-    <div id='fun' class="button">
-      <a id="fun1" href="#" class="btn">VISIT THE COAST</a>
-      <a id="fun2" href="#" class="btn">BOOK HOTEL</a>
-      <a  href="#" class="btn">LEARN MORE</a>
-    </div>
 
+       <!-- registration form -->
   <main class="register">
     <div class="reg-container">
         <h3>&#128166; Register and explore the Coast  &#128166;</h3>
         <br>
-      <form action="register.php" method="post">
-        <!-- <script>alert('Welcome to Registration Page! click Ok to Proceed')</script> -->
+       <form action="register.php" method="post">
         <div class="input1">
         <label for="first-name" id="first-name">First Name:</label>
         <input title="first name" type="text" name="first-name" autocomplete="on" required autofocus  >
@@ -134,7 +87,7 @@
         
         <div class="selections">
         <label for="locations">Location:</label>
-        <select name="locations" id="locations" autocomplete="on" required autofocus >
+        <select title="choose location" name="locations" id="locations" autocomplete="on" required autofocus >
           <option selected hidden>Choose location</option>
           <option value="Nairobi">Nairobi</option>
           <option value="Kisumu">Kisumu</option>
@@ -163,7 +116,7 @@
                   <i class="fas fa-gem">ALLANITY</i></a>
         </div>
       <p class="website__rights2">
-              <span class="dot2">C</span> @allashe.com 2023. All rights reserved.
+              <span class="dot2">&copy;</span> @allashe.com 2023. All rights reserved.
       </p>
       <div class="social__icons2">
           <a href="/" class="social__icon-link2" target="_blank">

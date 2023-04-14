@@ -8,10 +8,12 @@ body{
   background-image:url(images/pexels-photo-533975.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #eb9950;
+  /* background-color: #eb9950; */
+  background-color: #fff;
   max-height: 1400px;
   height: 105vh;
-  width: 90vw;
+  max-width: 30vw;
+  width: 100%;
 }
 header{
   height: 100px;
@@ -39,8 +41,10 @@ ul li a:hover{
 }
 
 ul li.active a{
- background-color: #fff;
+  background-color: #fff;
   color:  #060152;
+  border-radius: 2px;
+  height: 30px;
 }
 
 
@@ -159,10 +163,6 @@ ul li.active a{
   cursor: pointer;
   font-size: 25px;
 }
-.home{
-  display: none;
-}
-
 
 .register{
   position: absolute;
@@ -213,95 +213,3 @@ ul li.active a{
 
 
 /* media query */
-
-@media only screen and (max-width:1089px) {
-      .home{
-        display: contents;
-      }
-      #nav{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-      }
-      .list-two{
-        display: none;
-      }
-      .active{
-        display: contents;
-      }
-      body{
-        width: 60vw;
-      }
-}
- @media only screen and (min-width:1090px) {
-      .sub-menu{
-        margin-top: -600px;
-      }
-      #list{
-        margin-top: -600px;
-        display: none;
-      }
-      #close i{
-       display: none;
-      }
-}
-
-
-
-@media  screen and (max-width:479px){
-.title h1{
-    font-size: 20px;
-  }
-  .btn{
-  padding: 5px 6px;
-  font-size: 12px;
-}
-.reg-container{
-  transform: scale(0.65);
-  width:450px;
-}
-.sub-menu{
-  margin-top: -600px;
-}
-body{
-  position: fixed;
-  width: 60vw;
-}
-.footer__logo2 i{
-   font-size: 14px;
-}
-.dot2{
-  height: 12px;
-  width: 12px;
-  font-size: 10px;
-}
-.website__rights2{
-  font-size: 10px;
-}
-}
-
-@media only screen and (min-width:480px) and (max-width:720px){
-  .title h1{
-    font-size: 40px;
-  }
-  .btn{
-  padding: 5px 10px;
-  color: #0c0666;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: bold;
-  margin-right: 5px;
-}
-.reg-container{
-  transform: scale(0.81);
-}
-} 
-
-@media only screen and (min-width:721px) and (max-width:1079px){
-  .title h1{
-    font-size: 60px;
-  }
-  .reg-container{
-  transform: scale(0.95);
-}
-}

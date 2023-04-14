@@ -63,13 +63,12 @@
   color: #060152;
   font-size: 17px;
 }
-.dot {
+#web-rights .dot {
   height: 18px;
   width: 18px;
   margin-right: 4px;
-  border: #fff solid 2px;
   border-radius: 50%;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: bolder;
   background-color: transparent;
   display: flex;
@@ -77,16 +76,14 @@
   justify-content: center;
 }
 .dot2 {
-  font-size: 14px;
+  font-size: 20px;
   font-weight: bolder;
   height: 18px;
   width: 18px;
   background-color: transparent;
-  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: #060152 solid 2px;
 }
 #footer__logo{
   color: #fff;
