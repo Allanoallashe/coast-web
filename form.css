@@ -16,7 +16,10 @@ form{
 input{
   height: 30px;
   outline: none;
+  border-radius: 2px;
+  border: none;
   color:#030030;
+  background-color: #fff;
   font-weight: bold;
   font-size: 14px;
 }
@@ -114,7 +117,10 @@ input{
   margin-left: 24px;
   outline: none;
   height: 30px;
+  border: none;
+  border-radius: 2px;
    color: #030030;
+   background-color: #fff;
   font-size: 14px;
   font-weight: bold;
  }

@@ -299,7 +299,26 @@ marquee{
     font-weight: bold;
     border-radius: 15px;
     border: none;
-    background-color: #ecfaf5;
+    background-color: #fff;
+  }
+  .pro2{
+    position: relative;
+  }
+  .toggle{
+    position: absolute;
+    top: 49%;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 30px;
+    width: 30px;
+    color: #02001f;
+    cursor: pointer;
+  }
+  .toggle i:last-child{
+     display: none;
   }
   .proceed button{
     width: 100px;

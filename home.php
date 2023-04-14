@@ -62,6 +62,10 @@
             <div class="pro2">
                 <label for="email">Enter your Password</label>
                  <input title="password" type="password" name="password" minlength="6" inputmode="numeric" maxlength="14" size="14" autocomplete="on" required autofocus id="password">
+                 <div class="toggle">
+                  <i id="hide" class="fa-solid fa-eye-slash"></i>
+                  <i id="view" class="fa-solid fa-eye"></i>
+                  </div>
             </div>
             <button id="submit" type="submit" onclick="window.open('./Coast-pages/More-pages/Mombasa/mombasa.php')">Sign In</button>
             <!-- <button id="submit" type="submit" onclick="window.location='./Coast-pages/More-pages/Mombasa/mombasa.php'">Sign In</button> -->
