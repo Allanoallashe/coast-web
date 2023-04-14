@@ -10,7 +10,9 @@
   font-size: 25px;
   border-bottom: dotted 1px #D7F8FF;
 }
-
+form{
+  z-index: 2;
+}
 input{
   height: 30px;
   outline: none;
@@ -157,7 +159,7 @@ input{
   font-size: 16px;
   background-color: yellow;
   border: solid 1px yellow;
-  border-radius: 3px;
+  border-radius: 4px;
 }
 .sub-btn:hover{
   cursor: pointer;

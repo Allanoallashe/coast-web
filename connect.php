@@ -18,23 +18,20 @@
   <header>
     <div id="nav" class="main">
       <div class="home">
-        <ul>
-          <li class="active"><a href="home.php"><i class="fa fa-home"></i> Home</a></li>
-        </ul>
+        <button class='btn2'>
+          <a href="home.php"><i class="fa fa-home"></i> Home</a>
+          </button>
+      </div>
+      <div class="title">
+        <h1>THE COAST</h1>
       </div>
     </div>
   </header>
 
-
-         <!-- coast text -->
-   <div class="title">
-      <h1>THE COAST</h1>
-    </div>
-
        <!-- registration form -->
   <main class="register">
     <div class="reg-container">
-        <h3>&#128166; Register and explore the Coast  &#128166;</h3>
+        <h3 id="h3">&#128166; Register and explore the Coast  &#128166;</h3>
         <br>
        <form action="register.php" method="post">
         <div class="input1">

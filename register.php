@@ -23,7 +23,7 @@ $conn = mysqli_connect('localhost', 'root', '' );
 
     $results = mysqli_query($conn, $query);
     if($results){
-      header('location:connect.php');
+      header('location:Coast-pages/More-pages/Mombasa/mombasa.php');
     }
 
 

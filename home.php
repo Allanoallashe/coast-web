@@ -47,16 +47,31 @@
   <!-- sign in page -->
     <div class="direct">
         <p>Already have an Account?</p>
-        <a href="./Coast-pages/More-pages/Mombasa/mombasa.php"><button>Sign In</button></a>
+        <a id="sign"><button>Sign In</button></a>
         <p>Don't have an Account?</p>
         <a href="connect.php"><button>Register</button></a>
     </div>
-
-
+     
+    <!-- sign in -->
+        <div class="proceed">
+          <form action="#" method="post">
+            <div class="pro1">
+                <label for="email2">Enter your email</label>
+                <input title="Enter your Email" type="email" name="email2" required autofocus autocomplete="on">
+            </div>
+            <div class="pro2">
+                <label for="email">Enter your Password</label>
+                 <input title="password" type="password" name="password" minlength="6" inputmode="numeric" maxlength="14" size="14" autocomplete="on" required autofocus id="password">
+            </div>
+            <button id="submit" type="submit" onclick="window.open('./Coast-pages/More-pages/Mombasa/mombasa.php')">Sign In</button>
+          </form>
+        </div>
     <!-- blinker -->
     <div id="blink" class="blink">
       <p>welcome to the beautiful Coasts &#128166;</p>
     </div>
+
+    <!-- footer -->
 
     <footer id="bottom" class="bottom">
       <div class="footer__logo">

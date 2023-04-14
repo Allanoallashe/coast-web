@@ -8,7 +8,7 @@ body{
   background-image:url(images/hh.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  max-height: 1385px;
+  /* max-height: 1385px; */
   height: 100vh;
   background-position: 100%;
   width: 100%;
@@ -254,6 +254,72 @@ marquee{
   /* color: #02001a; */
   color: #ffff;
 }
+
+  .proceed{
+    display: flex;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top:32%;
+    left: 0;
+    height: 262px;
+    right: 0;
+  }
+  .proceed form{
+    background-color: #060152;
+    width: 358px;
+    height: 262px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #ffff;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .pro1,
+  .pro2{
+    flex-direction: column;
+    display: flex;
+    height: 75px;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+  }
+  .pro1 input,
+  .pro2 input{
+    height: 30px;
+    outline: none;
+    padding-left:15px ;
+    width: 100%;
+    margin: 5px 0 0 0;
+    color: #060152;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 15px;
+    border: none;
+    background-color: #ecfaf5;
+  }
+  .proceed button{
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    color: #02001f;
+    font-size: 14px;
+    filter: brightness(0.9);
+    font-weight: bold;
+    cursor: pointer;
+    background-color: yellow;
+  }
+  .proceed button:hover{
+    transform: scale(1.03);
+
+  }
+
+
   @keyframes blink {
                   50%  {opacity: 0; transition: all 0.5s ease-in-out;}
               }

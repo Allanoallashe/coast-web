@@ -16,3 +16,14 @@ document.querySelectorAll('.view li').forEach(li => {
        document.querySelector('.view').style.transition="all linear 0.3s";
   }
 });
+
+
+
+document.querySelector('#sign').onclick = () => {
+  document.querySelector('.proceed').style.display="flex";
+  document.querySelector('.proceed').style.zIndex="1";
+}
+
+
+
+

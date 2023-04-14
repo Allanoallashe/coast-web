@@ -21,7 +21,8 @@
   right: 0;
   left: 0;
   bottom: 0;
-  background-color: #eb9950;
+  border-top: 1px dotted #d6d6d6;
+  background-color: #060152;
   margin-top: 10px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -31,7 +32,7 @@
   font-size: 24px;
 }
 .social__icon-link2{
-  color: #060152;
+  color: #fff;
   font-size: 24px;
 }
 .social__icon-link:hover,
@@ -60,7 +61,7 @@
   align-items: center;
   height: 30px;
   justify-content: center;
-  color: #060152;
+  color: #fff;
   font-size: 17px;
 }
 #web-rights .dot {
@@ -94,7 +95,7 @@
   font-size: 20px;
 }
 #footer__logo2{
-  color: #060152;
+  color: #fff;
   display: flex;
   align-items: center;
   cursor: pointer;
