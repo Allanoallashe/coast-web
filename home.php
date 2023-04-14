@@ -64,6 +64,7 @@
                  <input title="password" type="password" name="password" minlength="6" inputmode="numeric" maxlength="14" size="14" autocomplete="on" required autofocus id="password">
             </div>
             <button id="submit" type="submit" onclick="window.open('./Coast-pages/More-pages/Mombasa/mombasa.php')">Sign In</button>
+            <!-- <button id="submit" type="submit" onclick="window.location='./Coast-pages/More-pages/Mombasa/mombasa.php'">Sign In</button> -->
           </form>
         </div>
     <!-- blinker -->

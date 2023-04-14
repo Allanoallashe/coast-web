@@ -21,7 +21,7 @@ document.querySelectorAll('.view li').forEach(li => {
 
 document.querySelector('#sign').onclick = () => {
   document.querySelector('.proceed').style.display="flex";
-  document.querySelector('.proceed').style.zIndex="1";
+  document.querySelector('.proceed').style.zIndex="2";
 }
 
 
